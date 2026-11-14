@@ -1,0 +1,260 @@
+<SYSTEM>Tracker: Skribly Tracker, the issue tracker with a REST API for agents</SYSTEM>
+
+# Skribly Tracker
+
+> The issue tracker of the Skribly ecosystem - workspaces, projects, issues, workflows, roles, boards, comments and time logs, with a REST API designed for coding agents.
+
+**Skribly Tracker** plans the work that the rest of Skribly carries out: projects, issues with keys like `AGENT-12`, Kanban boards, comments and time logs. It runs in the browser, and its REST API is designed for coding agents as much as for people. ![The Kanban board of a sample project with four columns: To do, In progress, Review and Done](/_astro/tracker-board.ByjEJGOM_Z1Ji1yG.webp) ## Concepts [Section titled “Concepts”](#concepts) | Concept | What it is | | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | | **Workspace** | The top level that holds projects and people | | **Project** | A set of issues with a short key such as `AGENT` or `WEB`, its own workflow, labels and members | | **Issue** | A unit of work with a key made of the project key and a number, like `AGENT-12`. It has a type, status, priority, labels, assignee, reporter, estimate, due date, parent and subtasks. | | **Issue type** | `task`, `bug` or `feature` | | **Priority** | `lowest`, `low`, `medium`, `high` or `urgent` | | **Status** | A column of the project’s workflow. *To do, In progress, Review, Done* by default. | | **Status category** | Each status belongs to `todo`, `in_progress` or `done`. “Open” means not done. | | **Comment** | Markdown text on an issue | | **Time entry** | Hours logged on an issue with a date, a comment and an activity: `development`, `review`, `testing`, `design`, `meeting` or `other` | | **Watcher** | A person who follows an issue without being assigned | | **Attachment** | A file on an issue, up to 10 MB by default | | **Activity log** | Every change to an issue, with who made it and when | ## Workflow [Section titled “Workflow”](#workflow) Each project has its own workflow in **Project → Settings → Workflow**. Admins can rename, reorder and add statuses, and give each one a category. Any status of the issue’s project can be set; there are no fixed transitions. ## Roles [Section titled “Roles”](#roles) | Role | What it can do | | ---------- | ------------------------------------------------------------------------- | | **Admin** | Everything, plus projects, workflows, people and webhooks | | **Member** | Create and work on issues: edit, comment, assign, change status, log time | | **Viewer** | Read only | API tokens act with their owner’s role, and can be made read-only on top of it. See [Personal access tokens](/tracker/tokens/). ## Views [Section titled “Views”](#views) | View | What it shows | | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | | **Dashboard** | Your open issues, watched issues, projects and recent activity | | **Board** | A Kanban board with drag and drop between the columns of the project’s workflow. With a keyboard, open an issue and change its status there. | | **List** | Filters, search and sorting, shared with the API | | **Issue** | Markdown description, subtasks, comments, time log, attachments and history | | **Profile** | Language, theme and API tokens | The interface is in Polish and English, with light and dark themes that follow the system and switch from the top bar, and an accessibility panel on every page for text size, contrast, fonts and motion. WCAG 2.2 AA is the target. ## Connect the other tools [Section titled “Connect the other tools”](#connect-the-other-tools) ### Skribly Agent [Section titled “Skribly Agent”](#skribly-agent) Skribly Tracker is the default tracker of Skribly Agent. Add a Skribly Tracker account with the address and a read-write token. Tasks assigned to you appear in the app, which can comment, change status, assign and log time. See [Personal access tokens](/tracker/tokens/). ### agent-skills [Section titled “agent-skills”](#agent-skills) The `task` skill reads this tracker like any other. Put the address and token in `~/.config/agent-skills/credentials.env`: 
+```bash
+SKRIBLY_TRACKER_URL=http://localhost:8100
+SKRIBLY_TRACKER_TOKEN=...
+```
+ Then run `agent-skills tasks check`, and `/task AGENT-12` in your agent. See [Trackers](/skills/trackers/#skribly-tracker). ## Built for agents [Section titled “Built for agents”](#built-for-agents) * The REST API maps one call to one method of Skribly Agent’s tracker client, and to the agent-skills `task` skill. See the [mapping](/tracker/rest-api/#skribly-agent-mapping). * Issue keys are case-insensitive and a leading `#` is ignored, so an agent can paste what it reads. * Descriptions and comments are Markdown, returned exactly as written. * `updated_since` lets a client poll for changes cheaply. * Signed [webhooks](/tracker/webhooks/) tell any service when issues change. ## Read next [Section titled “Read next”](#read-next) * [Self-hosting with Docker](/tracker/self-hosting/) * [Configuration](/tracker/configuration/) * [Personal access tokens](/tracker/tokens/) * [REST API guide](/tracker/rest-api/) and the generated [API reference](/tracker/api/) * [Webhooks and signing](/tracker/webhooks/)
+
+# Configuration
+
+> The environment variables that configure Skribly Tracker - application, database, queue, mail and the Tracker's own limits.
+
+Skribly Tracker reads its settings from `.env`. Start from `.env.example`. In Docker Compose, the stack sets the database host and the queue itself, so you rarely need more than the variables marked below. ## Tracker [Section titled “Tracker”](#tracker) | Variable | Default | What it does | | ------------------------- | ------- | ----------------------------------------------------------------------------------------- | | `TRACKER_PORT` | `8100` | Host port of the nginx container | | `TRACKER_ADMIN_PASSWORD` | empty | Password of the administrator account the seeder creates. Required for a production seed. | | `TRACKER_MAX_UPLOAD_KB` | `10240` | Largest attachment, in kilobytes | | `TRACKER_WEBHOOK_TIMEOUT` | `5` | Seconds a webhook delivery may take before it is abandoned | | `TRACKER_VERSION` | `0.1.0` | Version shown in the interface and in the webhook `User-Agent` | ## Application [Section titled “Application”](#application) | Variable | Default | What it does | | --------------------- | ----------------------- | -------------------------------------------------------------------------------------------------- | | `APP_NAME` | `Skribly Tracker` | Name in the interface and in e-mails | | `APP_ENV` | `local` | `production` for a real install; also decides whether development packages are installed in Docker | | `APP_KEY` | empty | Encryption key; the entrypoint generates it on first boot | | `APP_DEBUG` | `true` | Set to `false` in production | | `APP_URL` | `http://localhost:8100` | Public address; used in issue and attachment URLs in the API | | `APP_TIMEZONE` | `Europe/Warsaw` | Time zone of timestamps in the API and webhooks | | `APP_LOCALE` | `en` | Default interface language, `en` or `pl`; people choose their own on the profile page | | `APP_FALLBACK_LOCALE` | `en` | Language used when a translation is missing | ## Database [Section titled “Database”](#database) | Variable | Default | What it does | | ----------------------------------------------------- | ------------------- | ------------------------------------------------------------------------------------------ | | `DB_CONNECTION` | `mysql` | `mysql` or `sqlite` | | `DB_HOST`, `DB_PORT` | `127.0.0.1`, `3306` | Docker Compose sets the host to `mysql` | | `DB_DATABASE` | `skryba_tracker` | The database name keeps the former product name, so existing data directories keep working | | `DB_USERNAME`, `DB_PASSWORD` | example values | Change them for any shared install | | `MYSQL_USER`, `MYSQL_PASSWORD`, `MYSQL_ROOT_PASSWORD` | example values | Used by the MySQL container on its first start | ## Queue, cache, sessions and logs [Section titled “Queue, cache, sessions and logs”](#queue-cache-sessions-and-logs) | Variable | Default | What it does | | ------------------ | ---------- | ----------------------------------------------------- | | `QUEUE_CONNECTION` | `database` | Webhook deliveries are queued jobs; a worker must run | | `CACHE_STORE` | `file` | | | `SESSION_DRIVER` | `file` | | | `SESSION_LIFETIME` | `120` | Minutes until a browser session expires | | `LOG_CHANNEL` | `stack` | Docker Compose logs to `stderr` | | `LOG_LEVEL` | `debug` | Use `warning` or higher in production | ## Mail [Section titled “Mail”](#mail) | Variable | Default | What it does | | ------------------- | -------------------- | ------------------------------------------------------------ | | `MAIL_MAILER` | `log` | Mail is written to the log until you configure a real mailer | | `MAIL_FROM_ADDRESS` | `tracker@skribly.pl` | Sender address; set your own | | `MAIL_FROM_NAME` | `${APP_NAME}` | Sender name | ## Development [Section titled “Development”](#development) | Variable | What it does | | ------------------ | ------------------------------------------------------------------------------------------------------------ | | `VITE_DEV_SERVER` | `true` serves assets from the Vite container with hot reload | | `DB_WAIT_ATTEMPTS` | How many times the entrypoint retries the database at two-second intervals before giving up; `60` by default | ## Clients [Section titled “Clients”](#clients) Clients of the Tracker read two variables of their own. Skribly Agent passes them to every agent session, and agent-skills reads them from the environment or its credentials file: | Variable | Example | | ----------------------- | ------------------------------------------- | | `SKRIBLY_TRACKER_URL` | `http://localhost:8100` | | `SKRIBLY_TRACKER_TOKEN` | A [personal access token](/tracker/tokens/) | The former names `SKRYBA_TRACKER_URL` and `SKRYBA_TRACKER_TOKEN` keep working as fallbacks.
+
+# REST API guide
+
+> How to use the Skribly Tracker REST API v1 - authentication, conventions, the issue object, filters, curl examples for every common task, and the mapping to Skribly Agent's tracker client.
+
+The base URL is `http://localhost:8100/api/v1` on the Docker stack; every path below is relative to it. JSON in, JSON out. Every operation, parameter and schema is in the generated [API reference](/tracker/api/), built from the OpenAPI 3.1 description of the API. 
+```bash
+export TRACKER=http://localhost:8100/api/v1
+export TOKEN='1|…'
+curl -H "Authorization: Bearer $TOKEN" -H "Accept: application/json" "$TRACKER/me"
+```
+ Create the token as described in [Personal access tokens](/tracker/tokens/). ## Authentication [Section titled “Authentication”](#authentication) Create a personal access token in your profile and send it as a bearer token. A token acts with its owner’s role: viewers can only read, members and admins can change issues, and webhooks are for admins. Endpoints that change data also need the token’s `write` ability. ## Conventions [Section titled “Conventions”](#conventions) * **Issue keys** look like `WEB-12`. They are case-insensitive, a leading `#` is ignored, and the numeric `id` works too. * **Options** are objects `{ "id": "…", "name": "…" }`: `type` (`task`, `bug`, `feature`), `priority` (`lowest`, `low`, `medium`, `high`, `urgent`) and time `activity` (`development`, `review`, `testing`, `design`, `meeting`, `other`). Status ids are numbers, sent as strings in `transitions`; a status may also be given by name, like `"Review"`. * **Status category** is `todo`, `in_progress` or `done`. `status=open` means “not done”. * **Markdown**: `description` and comment `body` are Markdown, returned as written. The web interface renders them with raw HTML escaped. * **Dates**: ISO 8601 with an offset for timestamps; `YYYY-MM-DD` for `due_date` and the `date` of a time entry. * **Pagination**: list endpoints return `data`, `links` and `meta { current_page, last_page, per_page, total }`. `per_page` is 1-100 (25 by default), `page` starts at 1. * **Rate limit**: 240 requests a minute per user. ## Errors [Section titled “Errors”](#errors) 
+```json
+{ "message": "The title field is required.", "errors": { "title": ["The title field is required."] } }
+```
+ | Status | Meaning | | ------ | --------------------------------------------------------- | | `401` | No token, or a bad, revoked or expired one | | `403` | The owner’s role or the token’s ability does not allow it | | `404` | No such issue, project or resource | | `422` | Validation failed; `errors` names the fields | | `429` | More than 240 requests a minute | ## The issue object [Section titled “The issue object”](#the-issue-object) 
+```json
+{
+  "id": 13,
+  "key": "AGENT-1",
+  "number": 1,
+  "title": "Skribly Tracker as the default tracker",
+  "description": "Add a `skribly` TrackerClient…",
+  "type": { "id": "feature", "name": "Feature" },
+  "status": { "id": 6, "name": "In progress", "category": "in_progress" },
+  "priority": { "id": "urgent", "name": "Urgent" },
+  "labels": ["trackers"],
+  "assignee": { "id": 1, "name": "Ada Example", "email": "ada@example.com" },
+  "reporter": { "id": 1, "name": "Ada Example", "email": "ada@example.com" },
+  "project": { "id": 2, "key": "AGENT", "name": "Skribly Agent" },
+  "parent": null,
+  "subtasks": [{ "key": "AGENT-4", "title": "…", "status": "To do" }],
+  "estimate_hours": 8,
+  "spent_hours": 1.5,
+  "due_date": "2026-11-03",
+  "url": "http://localhost:8100/issues/AGENT-1",
+  "created_at": "2026-10-03T09:12:00+01:00",
+  "updated_at": "2026-10-29T20:10:36+01:00",
+  "closed_at": null,
+  "comments": [
+    { "id": 6, "author": { "id": 5, "name": "Skribly Agent" }, "body": "Started on the adapter.",
+      "created_at": "…", "updated_at": "…" }
+  ],
+  "attachments": [
+    { "id": 3, "name": "screen.png", "size": 48213, "type": "image/png",
+      "url": "http://localhost:8100/api/v1/attachments/3" }
+  ]
+}
+```
+ `comments` and `attachments` come only with `GET /issues/{key}`. `labels` are names. Attachment URLs need the same bearer token. ## Endpoints [Section titled “Endpoints”](#endpoints) | Method | Path | Purpose | | --------- | ---------------------------- | --------------------------------------------------------- | | GET | `/me` | The token’s owner and abilities | | GET | `/users` | People an issue can be assigned to | | GET | `/projects` | Active projects with `open_issues` | | GET | `/projects/{key}` | A project with its statuses, labels, types and priorities | | GET | `/projects/{key}/meta` | What can be chosen when creating an issue | | GET | `/issues` | A filtered, paginated list | | POST | `/issues` | Create (write) | | GET | `/issues/{key}` | One issue with comments and attachments | | PATCH | `/issues/{key}` | Change some fields (write) | | DELETE | `/issues/{key}` | Delete (admin or reporter; write) | | GET | `/issues/{key}/transitions` | The statuses of its project, with `current` marked | | POST | `/issues/{key}/transitions` | Change the status (write) | | POST | `/issues/{key}/assign` | Assign or unassign (write) | | GET | `/issues/{key}/comments` | Comments, oldest first | | POST | `/issues/{key}/comments` | Add a Markdown comment (write) | | GET | `/issues/{key}/time-entries` | Logged time | | POST | `/issues/{key}/time-entries` | Log time (write) | | POST | `/issues/{key}/attachments` | Upload a file in the multipart field `file` (write) | | GET | `/attachments/{id}` | Download a file | | GET | `/time-activities` | Activities for time entries | | GET | `/search` | Text search; an exact key comes first | | GET, POST | `/webhooks` | List or add webhooks (admin; write) | | DELETE | `/webhooks/{id}` | Remove a webhook (admin; write) | ## List and filter issues [Section titled “List and filter issues”](#list-and-filter-issues) 
+```bash
+curl -H "Authorization: Bearer $TOKEN" "$TRACKER/issues?assignee=me&status=open&sort=-updated&per_page=100"
+curl -H "Authorization: Bearer $TOKEN" "$TRACKER/issues?updated_since=2026-10-29T12:00:00Z&status=all"
+```
+ | Parameter | Values | | ---------------------- | ------------------------------------------------------------------------------------------------------------- | | `assignee` | `me`, `none`, a user id or an e-mail | | `reporter`, `watching` | `me` | | `status` | `open` (not done), `closed`, `all`, a status id or a name | | `project` | A key, or several separated by commas (`WEB,AGENT`) | | `type`, `priority` | An option id, or several separated by commas | | `label` | A label name | | `q` | Text in the title or description, or an exact key | | `updated_since` | An ISO 8601 timestamp, for polling | | `sort` | `-updated` (default), `updated`, `-created`, `created`, `-priority`, `priority`, `key`, `-key`, `due`, `-due` | | `per_page`, `page` | Pagination | ## Create an issue [Section titled “Create an issue”](#create-an-issue) 
+```bash
+curl -X POST -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" "$TRACKER/issues" -d '{
+  "project": "WEB",
+  "title": "Saved filters in the sidebar",
+  "description": "Save the list filters under a name.\n\n- [ ] UI\n- [ ] API",
+  "type": "feature",
+  "priority": "medium",
+  "labels": ["ui"],
+  "assignee": "me",
+  "status": "To do",
+  "parent": "WEB-5",
+  "estimate_hours": 4,
+  "due_date": "2026-11-30"
+}'
+# 201 {"data": {"key": "WEB-9", …}}
+```
+ Only `project` and `title` are required. Unknown label names are created in the project. The new issue gets the next number of its project. ## Update an issue [Section titled “Update an issue”](#update-an-issue) 
+```bash
+curl -X PATCH -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" \
+  "$TRACKER/issues/WEB-9" -d '{"priority": "high", "labels": ["ui", "api"], "due_date": null}'
+```
+ It accepts the same fields as create, except `project`. Only the fields present change, and each change is written to the issue’s history. ## Change the status [Section titled “Change the status”](#change-the-status) 
+```bash
+curl -H "Authorization: Bearer $TOKEN" "$TRACKER/issues/WEB-3/transitions"
+# {"data":[{"id":"1","name":"To do","category":"todo","current":false},
+#          {"id":"2","name":"In progress","category":"in_progress","current":false},
+#          {"id":"3","name":"Review","category":"in_progress","current":true},
+#          {"id":"4","name":"Done","category":"done","current":false}]}
+
+
+curl -X POST -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" \
+  "$TRACKER/issues/WEB-3/transitions" -d '{"status": "Done"}'      # or {"status": "4"}
+```
+ ## Assign [Section titled “Assign”](#assign) 
+```bash
+curl -X POST -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" \
+  "$TRACKER/issues/WEB-3/assign" -d '{"assignee": "me"}'     # "me", a user id, an e-mail, or null to unassign
+```
+ ## Comment [Section titled “Comment”](#comment) 
+```bash
+curl -X POST -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" \
+  "$TRACKER/issues/WEB-3/comments" -d '{"body": "## Done\n- LCP 1.6 s\n\n## How to check\n1. `npm run build`"}'
+```
+ ## Log time [Section titled “Log time”](#log-time) 
+```bash
+curl -H "Authorization: Bearer $TOKEN" "$TRACKER/time-activities"
+curl -X POST -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" \
+  "$TRACKER/issues/WEB-3/time-entries" -d '{"hours": 1.5, "comment": "Profiling", "date": "2026-10-29", "activity": "development"}'
+```
+ `hours` is required, more than 0 and at most 24. `date` defaults to today and `activity` to `development`. ## Attachments [Section titled “Attachments”](#attachments) 
+```bash
+curl -X POST -H "Authorization: Bearer $TOKEN" -F "file=@screen.png" "$TRACKER/issues/WEB-3/attachments"
+curl -H "Authorization: Bearer $TOKEN" -o screen.png "$TRACKER/attachments/3"
+```
+ ## Search [Section titled “Search”](#search) 
+```bash
+curl -H "Authorization: Bearer $TOKEN" "$TRACKER/search?q=login&project=WEB&limit=20"
+curl -H "Authorization: Bearer $TOKEN" "$TRACKER/search?q=web-3"   # the exact key comes first
+```
+ Search covers all statuses; pass `status=open` to narrow it. ## Projects and create metadata [Section titled “Projects and create metadata”](#projects-and-create-metadata) 
+```bash
+curl -H "Authorization: Bearer $TOKEN" "$TRACKER/projects"
+curl -H "Authorization: Bearer $TOKEN" "$TRACKER/projects/WEB/meta"
+# {"data":{"types":[{"id":"task","name":"Task"},…],"priorities":[…,{"id":"medium","name":"Medium","current":true},…],
+#          "labels":[{"id":"1","name":"backend"},…],"statuses":[…],"members":[{"id":"1","name":"Ada Example"},…]}}
+```
+ ## Skribly Agent mapping [Section titled “Skribly Agent mapping”](#skribly-agent-mapping) The API is shaped after Skribly Agent’s `TrackerClient`, so a client maps one method to one call. `@skribly/core` names its client methods after the same operations. | TrackerClient | Call | Notes | | --------------------- | -------------------------------------------------------------------- | ----------------------------- | | `whoami()` | `GET /me` | Returns `data.name` | | `mine()` | `GET /issues?assignee=me&status=open&sort=-updated&per_page=100` | | | `get(key)` | `GET /issues/{key}` | Comments included | | `comment(key, md)` | `POST /issues/{key}/comments {body}` | Markdown as is | | `statuses(key)` | `GET /issues/{key}/transitions` | Already `{id, name, current}` | | `setStatus(key, id)` | `POST /issues/{key}/transitions {status: id}` | | | `assign(key, to)` | `POST /issues/{key}/assign {assignee}` | `"me"`, `null` or an id | | `projects()` | `GET /projects` | `{id: key, key, name}` | | `createMeta(project)` | `GET /projects/{key}/meta` | Types, priorities, labels | | `create(input)` | `POST /issues {project, title, description, type, priority, labels}` | | | `logTime(key, entry)` | `POST /issues/{key}/time-entries {hours, comment, date, activity}` | | | `activities()` | `GET /time-activities` | | | `search(q, project)` | `GET /search?q=&project=` | | ## OpenAPI [Section titled “OpenAPI”](#openapi) The OpenAPI 3.1 description is the source of the [API reference](/tracker/api/). `@skribly/core` keeps a copy and tests its client and schemas against it, so the contract, the client and these docs cannot drift apart silently.
+
+# Self-hosting with Docker
+
+> Run Skribly Tracker on your own machine or server with Docker Compose, or without Docker, and keep its data across restarts.
+
+The Tracker ships with a Docker Compose stack: the app (PHP-FPM), nginx, MySQL 8.4, Vite for assets, and a queue worker that delivers webhooks. ## Start with Docker [Section titled “Start with Docker”](#start-with-docker) 1. Clone the repository and create the environment file: 
+   ```bash
+   git clone https://github.com/skribly/tracker.git skribly-tracker
+   cd skribly-tracker
+   cp .env.example .env
+   ```
+ 2. Set a password for the administrator account before the first boot. Open `.env` and fill in `TRACKER_ADMIN_PASSWORD`; the line above it names the administrator’s e-mail address. 3. Build and start the stack: 
+   ```bash
+   docker compose up -d --build
+   ```
+ 4. Open `http://localhost:8100` and sign in as the administrator. On the first boot the entrypoint generates the application key, waits for the database, runs the migrations and seeds a demo workspace with three projects, their issues, comments and time entries. Later restarts keep your data: seeding only runs while the database is empty. Caution Without `TRACKER_ADMIN_PASSWORD`, a local install uses a demo password, and a production install (`APP_ENV=production`) refuses to seed. Never expose a demo install to the internet. ## Services [Section titled “Services”](#services) | Service | Address | Notes | | --------------- | ------------------------------ | ----------------------------------------------------- | | Tracker (nginx) | `http://localhost:8100` | Change with `TRACKER_PORT` | | Vite | `http://localhost:5174` | Builds on save; `VITE_DEV_SERVER=true` for hot reload | | MySQL 8.4 | Inside the Docker network only | Data in a named volume | | Queue worker | No port | Delivers webhooks: 3 tries, then gives up | nginx exposes a `/health` endpoint used by the container healthcheck. Uploaded files live in a named `app-storage` volume, so they survive rebuilds. ## Everyday commands [Section titled “Everyday commands”](#everyday-commands) 
+```bash
+docker compose logs -f app queue                 # follow the app and the webhook worker
+docker compose exec app php artisan tracker:token you@example.com "Skribly Agent"
+docker compose exec app php artisan migrate      # after pulling a new version
+docker compose down                              # stop; data stays in the volumes
+docker compose down -v                           # stop and delete all data
+```
+ ## Without Docker [Section titled “Without Docker”](#without-docker) You need PHP 8.4, Composer and Node.js 22. 
+```bash
+cp .env.example .env          # set DB_* or DB_CONNECTION=sqlite
+composer install && npm install && npm run build
+php artisan key:generate
+php artisan migrate --seed
+php artisan serve
+php artisan queue:work        # in a second terminal, for webhooks
+```
+ ## Running it for a team [Section titled “Running it for a team”](#running-it-for-a-team) * Set `APP_ENV=production`, `APP_DEBUG=false` and `APP_URL` to the public address. * Put the Tracker behind HTTPS. Tokens travel in the `Authorization` header. * Change the database passwords in `.env` from the example values. * Keep the queue worker running, or webhooks are never delivered. * Back up the database volume and the storage volume. All settings are listed in [Configuration](/tracker/configuration/). ## Upgrading [Section titled “Upgrading”](#upgrading) 
+```bash
+git pull
+docker compose up -d --build
+docker compose exec app php artisan migrate --force
+```
+ Every push to `main` of the Tracker repository publishes a GitHub Release with notes grouped from the commits. See the [changelog](/changelog/).
+
+# Personal access tokens
+
+> Create, scope, use and revoke the personal access tokens that authenticate scripts, Skribly Agent and agent-skills against the Skribly Tracker API.
+
+Every request to the REST API carries a personal access token as a bearer token. A token belongs to one person and acts with that person’s role. ## Create a token [Section titled “Create a token”](#create-a-token) In the browser: **Profile and API tokens → API tokens** (`/profile#tokens`). 1. Enter a name that says where the token is used, for example “Skribly Agent” or “CI”. 2. Choose the abilities: * **Read and write**: abilities `read` and `write`. Needed by Skribly Agent and to post comments from agent-skills. * **Read only**: ability `read`. Enough to fetch issues. 3. Optionally set an expiry date. 4. Copy the token. **It is shown once.** From the command line on the server: 
+```bash
+docker compose exec app php artisan tracker:token you@example.com "Skribly Agent"
+docker compose exec app php artisan tracker:token you@example.com ci --read-only
+```
+ A token looks like `1|` followed by 40 characters. ## What a token may do [Section titled “What a token may do”](#what-a-token-may-do) A token can never do more than its owner: | Owner’s role | With `read` | With `read` and `write` | | ------------ | ---------------------------------- | -------------------------------------------------------------------------------------- | | Viewer | Read everything the viewer can see | Same as read only | | Member | Read | Create and change issues, comment, assign, change status, log time, upload attachments | | Admin | Read | Everything a member can do, plus webhooks | Endpoints that change data need the `write` ability. Deleting an issue also needs the owner to be an admin or the issue’s reporter. A request that the token’s ability or the owner’s role does not allow gets `403`. ## Use a token [Section titled “Use a token”](#use-a-token) 
+```bash
+export TRACKER=http://localhost:8100/api/v1
+export TOKEN='1|…'
+curl -H "Authorization: Bearer $TOKEN" -H "Accept: application/json" "$TRACKER/me"
+```
+ `GET /me` returns the owner and the token’s abilities: 
+```json
+{ "data": { "id": 1, "name": "Ada Example", "email": "ada@example.com", "role": "admin", "locale": "en", "abilities": ["read", "write"] } }
+```
+ | Client | Where the token goes | | --------------- | --------------------------------------------------------------------------------------------- | | Skribly Agent | **Settings → Task trackers → Add tracker → Skribly Tracker**, URL and a read-write token | | agent-skills | `SKRIBLY_TRACKER_URL` and `SKRIBLY_TRACKER_TOKEN` in `~/.config/agent-skills/credentials.env` | | `@skribly/core` | `createTrackerClient({ baseUrl, token })`; see [How apps connect](/core/connecting/) | | Your scripts | The `Authorization: Bearer` header | ## Keep tokens safe [Section titled “Keep tokens safe”](#keep-tokens-safe) * Never commit a token, paste it in a chat or put it in `.tasks/`. * Give each tool its own token, so you can revoke one without breaking the others. * Use read-only tokens wherever nothing needs to change. * Use an expiry date for tokens on shared machines and in CI. * Revoke a token on the profile page as soon as you suspect it leaked. Requests without a token, or with a revoked or expired one, get `401`. More than 240 requests a minute per user get `429`. ## Planned [Section titled “Planned”](#planned) Short-lived tokens for apps and agents, limited to chosen projects and actions and shown as a visible bot, are planned for the whole ecosystem. See [Ecosystem architecture](/overview/architecture/#planned-building-blocks).
+
+# Webhooks and signing
+
+> Receive Skribly Tracker events as signed JSON webhooks - the events, the payload, the headers, retries, and how to verify the HMAC-SHA256 signature.
+
+A webhook sends a signed JSON `POST` to your URL when something happens to an issue. Admins add webhooks in **Settings → Webhooks** or through the API. ## Events [Section titled “Events”](#events) | Event | When | `data` | | ----------------- | ----------------------------------------- | ------------------------------------------------------------------------- | | `issue.created` | An issue is created | `{ issue }`, the full [issue object](/tracker/rest-api/#the-issue-object) | | `issue.updated` | Fields, the status or the assignee change | `{ issue }` | | `issue.deleted` | An issue is deleted | `{ issue: { key, title }, actor }` | | `comment.created` | A comment is added | `{ issue, comment: { id, author, body } }` | A webhook can listen to some events and to one project, or to everything. ## Add a webhook [Section titled “Add a webhook”](#add-a-webhook) 
+```bash
+curl -X POST -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" "$TRACKER/webhooks" \
+  -d '{"url": "https://example.com/hooks/skribly", "events": ["issue.updated", "comment.created"], "project": "WEB"}'
+# 201 … "secret": "…"   (shown once)
+```
+ The response holds the signing secret. **It is shown once**, so store it where your receiver can read it. `GET /webhooks` lists webhooks and `DELETE /webhooks/{id}` removes one; both need an admin token with the `write` ability. ## The request [Section titled “The request”](#the-request) 
+```http
+POST /hooks/skribly
+Content-Type: application/json
+User-Agent: SkriblyTracker/0.1.0
+X-Skribly-Event: issue.updated
+X-Skribly-Signature: sha256=<hex HMAC-SHA256 of the raw body with the webhook secret>
+X-Skryba-Event: issue.updated
+X-Skryba-Signature: sha256=<same value>
+
+
+{"id":"<uuid>","event":"issue.updated","sent_at":"2026-10-29T20:10:36+01:00","data":{"issue":{…}}}
+```
+ | Field | Meaning | | --------- | -------------------------------------------------------- | | `id` | A UUID per delivery; use it to drop duplicates | | `event` | The event name, the same as the `X-Skribly-Event` header | | `sent_at` | ISO 8601 timestamp with an offset | | `data` | The event’s data, as in the table above | New receivers should read `X-Skribly-Signature` and `X-Skribly-Event`. The `X-Skryba-*` pair carries the same values and stays for receivers written before the rename. ## Delivery and retries [Section titled “Delivery and retries”](#delivery-and-retries) Deliveries are queued and sent by the queue worker: | | | | ------- | --------------------------------------------- | | Tries | 3 | | Backoff | 10 seconds, then 60 seconds | | Timeout | 5 seconds per try (`TRACKER_WEBHOOK_TIMEOUT`) | | Success | Any `2xx` answer | Answer quickly with `2xx` and do the work afterwards. If the queue worker is not running, nothing is delivered. ## Verify the signature [Section titled “Verify the signature”](#verify-the-signature) The signature is `sha256=` followed by the lowercase hex HMAC-SHA256 of the **raw request body**, keyed with the webhook secret. Compute it over the bytes you received, never over a re-serialised object, and compare in constant time. ### Node.js, no dependencies [Section titled “Node.js, no dependencies”](#nodejs-no-dependencies) 
+```js
+import { createHmac, timingSafeEqual } from 'node:crypto'
+
+
+export function verify(rawBody, signatureHeader, secret) {
+  const expected = 'sha256=' + createHmac('sha256', secret).update(rawBody).digest('hex')
+  const given = String(signatureHeader ?? '')
+  return given.length === expected.length && timingSafeEqual(Buffer.from(given), Buffer.from(expected))
+}
+```
+ ### With `@skribly/core` [Section titled “With @skribly/core”](#with-skriblycore) 
+```ts
+import { parseWebhookBody, verifyWebhookRequest } from '@skribly/core/webhooks'
+
+
+if (verifyWebhookRequest(rawBody, request.headers, secret)) {
+  const delivery = parseWebhookBody(rawBody)
+  if (delivery.event === 'issue.updated') console.log(delivery.data.issue.key)
+}
+```
+ `verifyWebhookRequest` reads either header pair, and `parseWebhookBody` validates the payload against the shared [contract](/core/contracts/). ### PHP [Section titled “PHP”](#php) 
+```php
+$expected = 'sha256=' . hash_hmac('sha256', file_get_contents('php://input'), $secret);
+$valid = hash_equals($expected, $_SERVER['HTTP_X_SKRIBLY_SIGNATURE'] ?? '');
+```
+ ### Python [Section titled “Python”](#python) 
+```python
+import hashlib, hmac
+
+
+def verify(raw_body: bytes, signature: str, secret: str) -> bool:
+    expected = "sha256=" + hmac.new(secret.encode(), raw_body, hashlib.sha256).hexdigest()
+    return hmac.compare_digest(expected, signature or "")
+```
+ ## Planned [Section titled “Planned”](#planned) Sending events in the shared CloudEvents envelope, which `@skribly/core` already defines, and signing in the Standard Webhooks style, with a timestamp in the signature and secret rotation, are planned. Receivers that use `verifyWebhookRequest` and `parseAnyWebhookBody` from `@skribly/core` already read both formats. See [Events](/core/events/).

@@ -1,0 +1,181 @@
+<SYSTEM>Core: the shared Core package: contracts, events and connecting</SYSTEM>
+
+# Core packages
+
+> @skribly/core, the shared code of the Skribly apps: Tracker API contracts and client, identity and scopes, the event envelope, app manifests, the project profile, webhook signing, problem errors, environment config, logging, translations and presets.
+
+`@skribly/core` is the shared code of the Skribly apps. It holds the Tracker API contracts and client, identity and scopes, the event catalogue, the app registry, notifications, the audit log, the project profile, webhook signing, Hono helpers, problem errors, environment config, logging, translations and the shared TypeScript, lint and design token presets. Apps never import each other; what they send each other is defined once, here. | | | | ------------ | --------------------------------------------------------------- | | Version | 0.2.0 | | Runtime | Node.js 26; the root entry also runs in browsers | | Validation | Zod 4 | | Distribution | A private package installed from Git, not from the npm registry | ## Install [Section titled “Install”](#install) Apps install it over SSH from the private repository: 
+```json
+{ "dependencies": { "@skribly/core": "git+ssh://git@github.com/skribly/core.git#semver:^0.2.0" } }
+```
+ `dist` is not committed; the `prepare` script builds it during the install. While working locally, an app in a sibling folder can use `file:../skriblyCore`, which is a symlink and runs no build. ## Entry points [Section titled “Entry points”](#entry-points) | Import | Contents | Runs in a browser | | ----------------------------------------------- | -------------------------------------------------------------------------------------------- | ----------------- | | `@skribly/core` | Everything marked yes below | Yes | | `@skribly/core/contracts` | Zod schemas and types of the Tracker API v1, webhook payloads, `toIso8601`, `normalizeInput` | Yes | | `@skribly/core/client` | `createTrackerClient` | Yes | | `@skribly/core/problem` | RFC 9457 errors and `validate` | Yes | | `@skribly/core/env` | `defineEnv` and the shared env schemas | Yes | | `@skribly/core/i18n` | `createTranslator`, `preferredLocale` | Yes | | `@skribly/core/i18n/node` | `loadLanguageLines`, `parsePhpLanguageFile` | No | | `@skribly/core/identity` | Users, organisations, memberships, personal tokens, scopes and `hasScope` | Yes | | `@skribly/core/events` | The CloudEvents 1.0 envelope, the event catalogue, `createEvent`, `parseEvent` | Yes | | `@skribly/core/registry` | App manifests, `createRegistry`, `fetchManifest` | Yes | | `@skribly/core/notifications` | The notification schema and its mapping to the `@skribly/ui` tones | Yes | | `@skribly/core/audit` | The audit log entry schema and `diffForAudit` | Yes | | `@skribly/core/project` | The project profile of `.skribly/project.json` | Yes | | `@skribly/core/schema/project.schema.json` | The project profile as JSON Schema | | | `@skribly/core/http` | Hono 4 helpers: problem errors, bearer auth, request ids, the manifest route | Needs `hono` | | `@skribly/core/webhooks` | Signing, verifying and building deliveries and signed events | No | | `@skribly/core/logger` | `createLogger` | No | | `@skribly/core/tokens.css` | Tailwind 4 design tokens | Yes | | `@skribly/core/tsconfig/{base,node,react}.json` | TypeScript presets | | | `@skribly/core/oxlint/{base,react}.json` | oxlint presets | | The root entry stays browser-safe, so a React client bundle can import contracts from it. Node-only modules have their own entry points. The ecosystem modules (identity, events, registry, notifications, audit, project and http) are reachable only through their own entry points, so their names never clash with the Tracker contracts. Their fields are camel case; the Tracker contracts keep the snake case the API sends. ## Identity and scopes [Section titled “Identity and scopes”](#identity-and-scopes) 
+```ts
+import { hasScope } from '@skribly/core/identity'
+
+
+hasScope(token.scopes, 'tracker.issues:write')
+```
+ A scope is `<app>.<resource>:<action>`, such as `tracker.issues:read`. The action is `read`, `write` or `admin`, and a higher one covers the lower ones. A granted scope may use wildcards, such as `tracker.*:write` or `*:read`; a required scope never does. A membership has the role `owner`, `admin`, `member` or `viewer`, and `scopesForRole` gives each role its default scopes. These are shared definitions. Skribly Tracker’s tokens today have the `read` and `write` abilities described in [Personal access tokens](/tracker/tokens/). ## Registry [Section titled “Registry”](#registry) Each app can describe itself with a manifest (its id, name, version, addresses, capabilities, the events it emits and consumes, and links) and serve it at `/api/manifest`. `fetchManifest` reads one, and `createRegistry` answers which app has a capability, which apps emit or consume an event, and where an app’s API lives. ## Project profile [Section titled “Project profile”](#project-profile) `.skribly/project.json` describes how a project is built and worked on: the stack, the package manager, the commands, the commit conventions and, optionally, the Skribly Tracker project. `parseProjectProfile` and `stringifyProjectProfile` read and write it, and `schema/project.schema.json` is the same profile as JSON Schema. agent-skills writes and reads this file with its [`project`](/skills/catalog/#workflow) skill. ## Notifications and audit log [Section titled “Notifications and audit log”](#notifications-and-audit-log) `NotificationSchema` has a `tone` of `success`, `info`, `warning` or `error`, a `title`, an optional `body` and `url`, and `readAt`; `toUiTone` and `fromUiTone` map the tone to and from the `@skribly/ui` message tones. `AuditEntrySchema` records who did what to which target, with the outcome and the changes, and `diffForAudit(before, after)` builds the changes. ## Problem errors [Section titled “Problem errors”](#problem-errors) 
+```ts
+import { createProblem, ProblemError } from '@skribly/core/problem'
+
+
+throw new ProblemError(createProblem({ status: 401, detail: t('tracker.errors.unauthenticated') }))
+```
+ `error.toResponse()` gives a standard `Response` with `application/problem+json`, ready to return from a Hono handler. A problem keeps `message` and `errors` next to the RFC 9457 members, so existing clients keep reading them. `problemFromBody` reads both the old and the new shape. ## Environment [Section titled “Environment”](#environment) 
+```ts
+import { defineEnv, trackerEnvSchema } from '@skribly/core'
+
+
+const env = defineEnv(trackerEnvSchema)
+```
+ An empty `KEY=` line counts as unset. A failure throws `EnvError`, which names the variables and never their values. `trackerClientEnvSchema` reads `SKRIBLY_TRACKER_URL` and `SKRIBLY_TRACKER_TOKEN`, the variables Skribly Agent passes to its sessions. ## Logging [Section titled “Logging”](#logging) 
+```ts
+import { createLogger } from '@skribly/core/logger'
+
+
+const logger = createLogger({ name: 'tracker', level: env.LOG_LEVEL })
+```
+ Writes JSON through pino. Tokens, passwords, secrets, cookies and auth headers are redacted. ## Translations [Section titled “Translations”](#translations) 
+```ts
+import { createTranslator } from '@skribly/core'
+import { loadLanguageLines } from '@skribly/core/i18n/node'
+
+
+const translator = createTranslator({ lines: await loadLanguageLines('lang'), locale: 'pl' })
+
+
+translator.t('tracker.board.moved', { key: 'WEB-1', status: 'Done' })
+translator.choice('tracker.list.results', 7)
+```
+ `loadLanguageLines` reads an app’s `lang` folder, both `.php` arrays (parsed, never run) and `.json` groups. Placeholders, `|` plurals, `{0}` and `[2,*]` ranges, the Polish plural rule and the fallback locale are supported. ## Presets [Section titled “Presets”](#presets) 
+```json
+{ "extends": "@skribly/core/tsconfig/node.json" }
+```
+ 
+```json
+{ "extends": ["./node_modules/@skribly/core/oxlint/base.json"] }
+```
+ 
+```css
+@import "tailwindcss";
+@import "@skribly/core/tokens.css";
+```
+ `tsconfig/react.json` needs `vite` in the app for its `vite/client` types. The tokens leave out the font link, so an app adds its own. The full design system lives in [`@skribly/ui`](/ui/). ## Read next [Section titled “Read next”](#read-next) * [Contracts](/core/contracts/): the schemas and the Tracker client. * [Events](/core/events/): today’s webhook payloads and the shared event envelope. * [How apps connect](/core/connecting/): which app talks to which, and with what.
+
+# How apps connect
+
+> Which Skribly app talks to which, over what, and with which credentials - and how to connect your own service to Skribly Tracker.
+
+Apps never import each other. They talk over HTTP, and the shapes of what they send are defined once in `@skribly/core`. ## The connections [Section titled “The connections”](#the-connections) | From | To | Over | Credentials | | ------------------ | --------------------------------------- | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | | Skribly Agent | Skribly Tracker | REST API v1 | A read-write [personal access token](/tracker/tokens/), stored encrypted with the system keychain | | Skribly Agent | Jira, Redmine, GitHub, GitLab, Linear | Each tracker’s own API | That tracker’s token, stored the same way | | Skribly Agent | agent sessions | Environment variables | `SKRIBLY_TRACKER_URL`, `SKRIBLY_TRACKER_TOKEN` and the variables agent-skills expects for other trackers | | Skribly Agent | agent-skills | `git clone`, `skills.json`, the agent-skills CLI | None for a repository you can read | | agent-skills | the project | `.skribly/project.json` in the schema of `@skribly/core`, and `.skribly/lessons.md` | None | | agent-skills | Skribly Tracker and five other trackers | REST APIs, read-only unless you post a comment | Environment or `~/.config/agent-skills/credentials.env` | | Skribly Tracker | any service | [Signed webhooks](/tracker/webhooks/) | A per-webhook secret | | Scripts and agents | Skribly Agent | The local control API on `127.0.0.1`, the `skribly` CLI and `skribly mcp` | A random token in `~/.skribly/control.json`, new on every start | ## A task from start to finish [Section titled “A task from start to finish”](#a-task-from-start-to-finish) 1. You create `WEB-12` in Skribly Tracker. 2. Skribly Agent lists it under **Tasks** through `GET /issues?assignee=me&status=open`. 3. **Start with an agent** writes `.skribly/tasks/WEB-12/TASK.md` and `STATE.md`, creates a branch and starts an agent with `SKRIBLY_TRACKER_URL` and `SKRIBLY_TRACKER_TOKEN` in its environment. 4. Inside the session, the agent-skills `task` skill can refresh the task with `agent-skills tasks fetch WEB-12`, which prints only what changed. 5. The agent works, runs the checks and commits after your OK, with no AI trailers. 6. Skribly Agent posts a comment, sets the status and logs time through the API. 7. Each change makes the Tracker send `comment.created` and `issue.updated` webhooks to any service that listens. ## Connect your own service [Section titled “Connect your own service”](#connect-your-own-service) To read or change issues, use the REST API with a token, or `@skribly/core` in Node.js and browsers: 
+```ts
+import { createTrackerClient, defineEnv, trackerClientEnvSchema } from '@skribly/core'
+
+
+const env = defineEnv(trackerClientEnvSchema)
+const tracker = createTrackerClient({ baseUrl: env.SKRIBLY_TRACKER_URL, token: env.SKRIBLY_TRACKER_TOKEN })
+
+
+for (const issue of (await tracker.mine()).data) console.log(issue.key, issue.title)
+```
+ To react to changes, add a webhook and verify each delivery: 
+```ts
+import { parseWebhookBody, verifyWebhookRequest } from '@skribly/core/webhooks'
+
+
+app.post('/hooks/skribly', async (c) => {
+  const raw = await c.req.text()
+  if (!verifyWebhookRequest(raw, c.req.raw.headers, process.env.WEBHOOK_SECRET!)) return c.body(null, 401)
+  const delivery = parseWebhookBody(raw)
+  queueMicrotask(() => handle(delivery))
+  return c.body(null, 204)
+})
+```
+ Without `@skribly/core`, any language works: see the verification snippets in [Webhooks and signing](/tracker/webhooks/#verify-the-signature). ## Planned [Section titled “Planned”](#planned) * **One sign-in.** One account per person with organisations and roles, and apps signing in through OAuth 2.1. * **Scoped app tokens.** Short-lived tokens for apps and agents, limited to chosen projects and actions. The scope format is defined in [`@skribly/core`](/core/#identity-and-scopes); no app issues such tokens yet. * **One event stream.** The envelope is defined; apps sending it is planned. See [Events](/core/events/#the-shared-event-envelope). * **An MCP server in the Tracker**, so any agent can use it without custom code. * **Skribly Agent and agent-skills on `@skribly/core`.** Both talk to the Tracker today with their own clients that follow the same API; moving them onto the shared package is planned. See [Ecosystem architecture](/overview/architecture/#planned-building-blocks) for the whole list.
+
+# Contracts and the Tracker client
+
+> The Zod schemas of the Skribly Tracker API v1 in @skribly/core, input normalisation and validation, and the typed Tracker client with its error types.
+
+The contracts are Zod 4 schemas of everything the Tracker API v1 sends and accepts. Schemas are named `<Thing>Schema`, with a matching type. Every field name is the one the API sends, snake case included. ## Schemas [Section titled “Schemas”](#schemas) | Group | Schemas | | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | | Enumerations | `IssueTypeSchema`, `PrioritySchema`, `RoleSchema`, `StatusCategorySchema`, `TimeActivitySchema`, `TokenAbilitySchema`, `LocaleSchema`, `IssueSortSchema`, `WebhookEventSchema` | | People | `PersonSchema`, `UserRefSchema`, `UserSchema`, `MeSchema` | | Projects | `ProjectSchema`, `ProjectLabelSchema`, `StatusSchema`, `TransitionSchema`, `CreateMetaSchema`, `WorkspaceRefSchema` | | Issues | `IssueSchema`, `IssueStatusSchema`, `IssueProjectSchema`, `IssueParentSchema`, `SubtaskSchema`, `IssuePageSchema` | | Work on issues | `CommentSchema`, `AttachmentSchema`, `TimeEntrySchema`, `TimeActivityOptionSchema` | | Webhooks | `WebhookSchema`, `CreatedWebhookSchema`, `WebhookDeliverySchema` | | Pagination | `PaginationMetaSchema`, `PaginationLinksSchema` | | Inputs | `CreateIssueInputSchema`, `UpdateIssueInputSchema`, `SetStatusInputSchema`, `AssignInputSchema`, `CommentInputSchema`, `LogTimeInputSchema`, `CreateWebhookInputSchema`, `IssueListQuerySchema`, `SearchQuerySchema` | The value lists behind the enumerations are exported too: | Constant | Values | | ------------------- | -------------------------------------------------------------------- | | `ISSUE_TYPES` | `task`, `bug`, `feature` | | `PRIORITIES` | `lowest`, `low`, `medium`, `high`, `urgent` | | `ROLES` | `admin`, `member`, `viewer` | | `STATUS_CATEGORIES` | `todo`, `in_progress`, `done` | | `TIME_ACTIVITIES` | `development`, `review`, `testing`, `design`, `meeting`, `other` | | `TOKEN_ABILITIES` | `read`, `write` | | `LOCALES` | `en`, `pl` | | `WEBHOOK_EVENTS` | `issue.created`, `issue.updated`, `issue.deleted`, `comment.created` | Defaults: priority `medium`, time activity `development`, sort `-updated`, 25 items per page. ## Validating input on a server [Section titled “Validating input on a server”](#validating-input-on-a-server) 
+```ts
+import { CreateIssueInputSchema, normalizeInput } from '@skribly/core'
+import { validate } from '@skribly/core/problem'
+
+
+const input = validate(CreateIssueInputSchema, normalizeInput(await request.json()))
+```
+ `normalizeInput` trims strings and turns empty strings into `null`, as the released Tracker does. `validate` throws a `ProblemError` with status 422 whose messages read like the Tracker’s own. Pass `{ translate }` so a line such as `tracker.errors.bad_date` is translated. `toIso8601` formats timestamps with an offset, the way the API sends them. ## The Tracker client [Section titled “The Tracker client”](#the-tracker-client) 
+```ts
+import { createTrackerClient, ProblemError } from '@skribly/core'
+
+
+const tracker = createTrackerClient({ baseUrl: 'http://localhost:8100', token })
+
+
+const me = await tracker.whoami()
+const page = await tracker.mine()
+await tracker.setStatus('WEB-3', 'Done')
+```
+ Methods are named after the `operationId`s of the Tracker’s OpenAPI description, plus `mine()`. They are the operations listed in the [API reference](/tracker/api/), for example `getIssue`, `createIssue`, `updateIssue`, `comment`, `assign`, `logTime` and `search`. They return the content of `data`, except: * `listIssues` and `mine`, which return the whole page with `links` and `meta`; * `downloadAttachment`, which returns the raw `Response`. Every answer is checked against the schemas, so a client never works with data outside the contract. ## Errors [Section titled “Errors”](#errors) | Failure | Error | | ------------------------------------------------ | -------------------------------------------------------------------------- | | A non-2xx answer with a Tracker or RFC 9457 body | `ProblemError` with `status`, `message` and `errors` | | An answer outside the contract, or not JSON | `TrackerContractError`; turn the check off with `validateResponses: false` | | A network failure or timeout | The error `fetch` raises; the default timeout is 20 seconds | 
+```ts
+try {
+  await tracker.getIssue('WEB-404')
+} catch (error) {
+  if (error instanceof ProblemError && error.status === 404) console.log('No such issue')
+  else throw error
+}
+```
+ ## Kept in step with the API [Section titled “Kept in step with the API”](#kept-in-step-with-the-api) `@skribly/core` keeps a copy of the Tracker’s OpenAPI description and language files in its tests. The tests check the client and the schemas against the OpenAPI file, and the language parser and webhook signatures against output from the released Tracker. This site builds its [API reference](/tracker/api/) from the same file, and its build fails when the copy drifts.
+
+# Events
+
+> The events Skribly apps send today as signed webhooks, how @skribly/core builds and verifies them, and the shared CloudEvents envelope it defines.
+
+## Today: Tracker webhook deliveries [Section titled “Today: Tracker webhook deliveries”](#today-tracker-webhook-deliveries) Skribly Tracker sends four events as [signed webhooks](/tracker/webhooks/). Their payloads are defined once in `@skribly/core`, as `WebhookDeliverySchema`, a union keyed by `event`: 
+```ts
+type WebhookDelivery =
+  | { id: string; event: 'issue.created'; sent_at: string; data: { issue: Issue } }
+  | { id: string; event: 'issue.updated'; sent_at: string; data: { issue: Issue } }
+  | { id: string; event: 'issue.deleted'; sent_at: string; data: { issue: { key: string; title: string }; actor: string | null } }
+  | { id: string; event: 'comment.created'; sent_at: string; data: { issue: Issue; comment: { id: number; author: string | null; body: string } } }
+```
+ `id` is a UUID per delivery and `sent_at` an ISO 8601 timestamp with an offset. ## Building and verifying deliveries [Section titled “Building and verifying deliveries”](#building-and-verifying-deliveries) 
+```ts
+import { buildWebhookRequest, parseWebhookBody, verifyWebhookRequest } from '@skribly/core/webhooks'
+
+
+const { body, headers } = buildWebhookRequest({ event: 'issue.updated', data: { issue }, secret, timeZone: 'Europe/Warsaw' })
+await fetch(hook.url, { method: 'POST', headers, body })
+
+
+if (verifyWebhookRequest(rawBody, request.headers, secret)) {
+  const delivery = parseWebhookBody(rawBody)
+}
+```
+ | Export | What it does | | ------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- | | `buildWebhookRequest` | The body, byte for byte as the released Tracker encodes it, and the headers: `X-Skribly-Event`, `X-Skribly-Signature` and the older `X-Skryba-*` pair | | `signWebhookBody` | `sha256=<hex HMAC-SHA256 of the raw body>` | | `verifyWebhookSignature`, `verifyWebhookRequest` | Constant-time check of a body against a signature or a request’s headers | | `webhookEventOf` | The event name from either header | | `parseWebhookBody` | Parses and validates a delivery | | `WEBHOOK_DELIVERY_POLICY` | 3 tries, a 10 and 60 second backoff, and a 5 second timeout | Verify against the raw body, never a re-serialised object. Queueing the deliveries belongs to the app that sends them. ## The shared event envelope [Section titled “The shared event envelope”](#the-shared-event-envelope) `@skribly/core` 0.2.0 defines one envelope for every event in the ecosystem, in the [CloudEvents 1.0](https://github.com/cloudevents/spec/blob/v1.0.2/cloudevents/spec.md) format, with dot-delimited types named `<app>.<noun>.<verb>`. 
+```ts
+import { createEvent, parseEvent } from '@skribly/core/events'
+
+
+const event = createEvent({
+  type: 'agent.session.finished',
+  source: 'https://agent.example.com',
+  subject: 'session-42',
+  data: { sessionId: 'session-42', outcome: 'completed', durationSeconds: 310, finishedAt: new Date().toISOString() }
+})
+```
+ Every event has `specversion`, `id`, `source`, `type`, `time`, an optional `subject` and `data`. `createEvent` fills in the id and an ISO 8601 time with an offset, and checks the data against the catalogue: | Type | Data | | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ | | `tracker.issue.created`, `tracker.issue.updated` | `{ issue }`, as in today’s deliveries | | `tracker.issue.deleted` | `{ issue: { key, title }, actor }` | | `tracker.comment.created` | `{ issue, comment }` | | `agent.session.started` | `sessionId`, `startedAt`, and optionally `projectId`, `issueKey`, `model` and `userId` | | `agent.session.finished` | `sessionId`, `outcome` (`completed`, `failed` or `cancelled`), `durationSeconds`, `finishedAt`, and optionally `summary` | | `skills.task.completed` | `taskId`, `skill`, `outcome` (`success`, `failure` or `skipped`), and optionally `summary` and `durationSeconds` | | `time.entry.created` | `{ entry }` with `minutes`, `activity`, `date` and the issue key | `eventFromWebhookDelivery` lifts a delivery of today’s format into an envelope, and `CloudEventSchema` reads any envelope, including types this package does not know yet. ### Sending an event as a webhook [Section titled “Sending an event as a webhook”](#sending-an-event-as-a-webhook) 
+```ts
+import { buildEventRequest, parseAnyWebhookBody, verifyWebhookRequest } from '@skribly/core/webhooks'
+
+
+const { body, headers } = buildEventRequest({ event, secret })
+await fetch(hook.url, { method: 'POST', headers, body })
+
+
+if (verifyWebhookRequest(rawBody, request.headers, secret)) {
+  const event = parseAnyWebhookBody(rawBody, 'https://tracker.example.com')
+}
+```
+ The body is sent as `application/cloudevents+json` and signed with the same `X-Skribly-Signature` as today’s deliveries. `parseAnyWebhookBody` reads both formats and always returns an envelope, so a receiver built on it keeps working when an app moves to the new format. ## Planned [Section titled “Planned”](#planned) * Apps sending the envelope: the Tracker for its issue and comment events, Skribly Agent for its sessions. * Signing in the Standard Webhooks style, with a timestamp in the signature and secret rotation. * One stream that feeds webhooks, an inbox, activity feeds, the audit log and search.

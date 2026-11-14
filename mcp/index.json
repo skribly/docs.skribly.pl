@@ -1,0 +1,1599 @@
+{
+  "generated": "at build",
+  "pages": [
+    {
+      "path": "/",
+      "title": "Skribly documentation",
+      "description": "How to install and use Skribly Agent, agent-skills and Skribly Tracker, and how the shared Core and UI packages tie them together.",
+      "product": "overview",
+      "lang": "en",
+      "headings": [
+        "The tools",
+        "Where to go next"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/accessibility/",
+      "title": "Accessibility",
+      "description": "The accessibility target of Skribly and of this documentation site, what was checked, the known limits, and how to report a barrier.",
+      "product": "overview",
+      "lang": "en",
+      "headings": [
+        "This site",
+        "The apps",
+        "Report a barrier"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/accessibility/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/agent/",
+      "title": "Skribly Agent",
+      "description": "A desktop IDE built around AI coding agents, not around files. What it does, what it needs and where to read more.",
+      "product": "agent",
+      "lang": "en",
+      "headings": [
+        "In short",
+        "Facts",
+        "Requirements",
+        "Read next"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/agent/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/agent/accessibility/",
+      "title": "Accessibility in Skribly Agent",
+      "description": "Reading preferences in Skribly Agent - interface text size, high contrast, reduced motion, underlined links and a strong focus indicator - plus keyboard use and themes.",
+      "product": "agent",
+      "lang": "en",
+      "headings": [
+        "Keyboard",
+        "Themes and contrast",
+        "Checking your own project"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/agent/accessibility/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/agent/agents/",
+      "title": "Supported agents",
+      "description": "The 13 coding agents Skribly Agent detects and runs, how to install each one, and what each supports in panes, chat, resume, MCP and the shared browser.",
+      "product": "agent",
+      "lang": "en",
+      "headings": [
+        "Install commands",
+        "What each agent supports",
+        "Custom agents",
+        "Skills for each agent"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/agent/agents/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/agent/audits/",
+      "title": "Audit rules",
+      "description": "What the Audits view of Skribly Agent looks for - how the score works, the secret, code pattern and SEO rules, dependency checks, accessibility checks and how findings go to an agent.",
+      "product": "agent",
+      "lang": "en",
+      "headings": [
+        "How the score works",
+        "Secrets",
+        "Risky code patterns",
+        "Dependencies",
+        "Accessibility",
+        "SEO",
+        "Send findings to an agent",
+        "Read next"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/agent/audits/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/agent/cli/",
+      "title": "The skribly command",
+      "description": "Control panes and agents of Skribly Agent from outside the window with the skribly command - commands, exit codes, recipes for reviewers and parallel worktrees, and safety.",
+      "product": "agent",
+      "lang": "en",
+      "headings": [
+        "How it works",
+        "Turn it on",
+        "Commands",
+        "Recipes",
+        "A reviewer next to the implementer",
+        "Parallel worktrees",
+        "Wait, then react",
+        "Wait for a shell command",
+        "Safety",
+        "Read next"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/agent/cli/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/agent/data-and-network/",
+      "title": "Data and network",
+      "description": "What Skribly Agent, Skribly Tracker and agent-skills store, which destinations they connect to, which ports Skribly Agent opens and how the apps protect you.",
+      "product": "agent",
+      "lang": "en",
+      "headings": [
+        "What Skribly Agent stores",
+        "Where Skribly Agent connects",
+        "Ports",
+        "How the app protects you",
+        "Skribly Tracker",
+        "agent-skills",
+        "Read next"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/agent/data-and-network/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/agent/features/",
+      "title": "Features",
+      "description": "Everything around the agents in Skribly Agent - the editor, git and commits, tasks and trackers, pipelines, skills, audits, the preview browser, Docker, integrations and the CLI.",
+      "product": "agent",
+      "lang": "en",
+      "headings": [
+        "Dashboard",
+        "A real IDE around the agents",
+        "Code and git",
+        "Tasks and trackers",
+        "Pipelines",
+        "Skills",
+        "Audits",
+        "Browser",
+        "Docker",
+        "Claude and Cursor integrations",
+        "Themes, day and night",
+        "CLI and MCP"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/agent/features/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/agent/install/",
+      "title": "Install Skribly Agent",
+      "description": "Install Skribly Agent on macOS, Windows or Linux, get past the warnings for unsigned builds and take the first steps.",
+      "product": "agent",
+      "lang": "en",
+      "headings": [
+        "Pick your file",
+        "Install",
+        "Install an agent",
+        "First steps"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/agent/install/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/agent/settings/",
+      "title": "Settings",
+      "description": "What each section of Settings in Skribly Agent controls, from appearance and accessibility to trackers, agents, sessions, the browser, Docker and updates.",
+      "product": "agent",
+      "lang": "en",
+      "headings": [
+        "Projects in detail",
+        "Tracker accounts",
+        "Data directory"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/agent/settings/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/agent/shortcuts/",
+      "title": "Keyboard shortcuts",
+      "description": "Every keyboard shortcut of Skribly Agent - the Ctrl+B pane prefix, the command palette, view switching and editor shortcuts.",
+      "product": "agent",
+      "lang": "en",
+      "headings": [
+        "Global",
+        "Panes: the `Ctrl+B` prefix",
+        "Editor and git",
+        "Chat and the agent panel",
+        "Tour"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/agent/shortcuts/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/agent/terminals/",
+      "title": "Terminals and sessions",
+      "description": "Starting agent sessions in Skribly Agent - terminal and chat mode, the agent panel, resume after restart, SSH machines, broadcast and hand-off.",
+      "product": "agent",
+      "lang": "en",
+      "headings": [
+        "New session",
+        "Chat mode",
+        "Agent panel",
+        "Resume after restart",
+        "SSH machines",
+        "Broadcast",
+        "Handing off work"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/agent/terminals/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/agent/token-saving/",
+      "title": "Token saving",
+      "description": "How agent-skills keeps the text that goes through the model small - loading on demand, scripts for mechanical work, asking before expensive actions, cheap restarts and working rules - with measured numbers.",
+      "product": "agent",
+      "lang": "en",
+      "headings": [
+        "Load on demand",
+        "Scripts do the mechanical work",
+        "Ask before expensive actions",
+        "Sessions that restart cheaply",
+        "Working rules",
+        "Read next"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/agent/token-saving/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/agent/troubleshooting/",
+      "title": "Troubleshooting",
+      "description": "Fixes for the most common Skribly Agent problems - agent detection, terminals, unsigned builds, Linux sandboxing, trackers, worktrees, hooks and audits.",
+      "product": "agent",
+      "lang": "en",
+      "headings": [
+        "An agent is not detected",
+        "Claude Code only in the VS Code extension",
+        "A terminal does not open",
+        "`Ctrl+B` does not reach the program in the terminal",
+        "An agent shows the wrong state",
+        "macOS: \"can't be opened\" or \"is damaged\"",
+        "Windows: SmartScreen",
+        "Linux: AppImage and sandbox",
+        "The browser port is in use",
+        "A tracker returns 401 or 403",
+        "Git refuses to remove a worktree",
+        "The task branch was not created",
+        "The hook without AI trailers does nothing",
+        "The Agent button for commits is disabled",
+        "A WCAG or SEO audit says the page did not load within 30 seconds",
+        "Skills do not download",
+        "Still stuck"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/agent/troubleshooting/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/agent/updates/",
+      "title": "Updates",
+      "description": "How Skribly Agent updates itself on macOS, Windows and Linux, how versions are numbered, which files each release has, and what happened to the former name.",
+      "product": "agent",
+      "lang": "en",
+      "headings": [
+        "How auto-update works",
+        "Versions",
+        "Release files",
+        "Upgrading from the former name"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/agent/updates/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/agent/workspaces/",
+      "title": "Workspaces and panes",
+      "description": "How the Agents view of Skribly Agent is organised - workspaces, tabs, splits and panes - and how agent states and notifications work.",
+      "product": "agent",
+      "lang": "en",
+      "headings": [
+        "Layout model",
+        "Workspace sidebar",
+        "Pane header",
+        "Agent states",
+        "Why this state?",
+        "Notifications",
+        "Worktrees for agents"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/agent/workspaces/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/authors/",
+      "title": "Authors",
+      "description": "Skribly is built by Dawid Olko, Piotr Smoła, Konrad Pluta, Michał Pilecki and Mateusz Olko, five developers from Rzeszów, Poland.",
+      "product": "overview",
+      "lang": "en",
+      "headings": [
+        "The team",
+        "How we work",
+        "Contact"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/authors/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/changelog/",
+      "title": "Changelog",
+      "description": "What changed in Skribly Agent, Skribly Tracker, agent-skills and this documentation, in plain words, newest first.",
+      "product": "overview",
+      "lang": "en",
+      "headings": [
+        "November 2026",
+        "Documentation, 14 November: pages moved from skribly.pl",
+        "Documentation, 11 November: search on the home page",
+        "Documentation, 11 November: one page layout",
+        "Documentation, 11 November: licences and language switch",
+        "agent-skills 0.2.13 and 0.2.14, 11 November",
+        "Documentation, 11 November: figures brought up to date",
+        "Documentation, 11 November: Polish version",
+        "Documentation, 8 November: one look with the other sites",
+        "Documentation, 8 November",
+        "agent-skills 0.2.11, 8 November",
+        "agent-skills 0.2.10, 8 November",
+        "Skribly Agent 1.0.37, 6 November",
+        "Skribly Agent 1.0.32, 6 November",
+        "Skribly Tracker 0.1.20, 6 November",
+        "Skribly Agent 1.0.30, 4 November",
+        "Skribly Tracker 0.1.16, 4 November",
+        "agent-skills 0.2.5, 4 November",
+        "October 2026",
+        "Skribly Agent 1.0.27, 29 October",
+        "Skribly Agent 1.0.26",
+        "Skribly Agent 1.0.23",
+        "Skribly Agent 1.0.19",
+        "Skribly Agent 1.0.15",
+        "Skribly Agent 1.0.7",
+        "Skribly Agent 1.0.4",
+        "Skribly Tracker 0.1.9",
+        "Skribly Tracker 0.1.8",
+        "Skribly Tracker 0.1.7",
+        "Skribly Tracker 0.1.5",
+        "Skribly Tracker 0.1.3",
+        "Skribly Tracker 0.1.2",
+        "agent-skills 0.2.2",
+        "agent-skills 0.2.0",
+        "agent-skills 0.1.0",
+        "Shared packages",
+        "`@skribly/core` 0.2.0",
+        "`@skribly/core` 0.1.0",
+        "`@skribly/ui`, first version"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/changelog/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/core/",
+      "title": "Core packages",
+      "description": "@skribly/core, the shared code of the Skribly apps: Tracker API contracts and client, identity and scopes, the event envelope, app manifests, the project profile, webhook signing, problem errors, environment config, logging, translations and presets.",
+      "product": "core",
+      "lang": "en",
+      "headings": [
+        "Install",
+        "Entry points",
+        "Identity and scopes",
+        "Registry",
+        "Project profile",
+        "Notifications and audit log",
+        "Problem errors",
+        "Environment",
+        "Logging",
+        "Translations",
+        "Presets",
+        "Read next"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/core/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/core/connecting/",
+      "title": "How apps connect",
+      "description": "Which Skribly app talks to which, over what, and with which credentials - and how to connect your own service to Skribly Tracker.",
+      "product": "core",
+      "lang": "en",
+      "headings": [
+        "The connections",
+        "A task from start to finish",
+        "Connect your own service",
+        "Planned"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/core/connecting/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/core/contracts/",
+      "title": "Contracts and the Tracker client",
+      "description": "The Zod schemas of the Skribly Tracker API v1 in @skribly/core, input normalisation and validation, and the typed Tracker client with its error types.",
+      "product": "core",
+      "lang": "en",
+      "headings": [
+        "Schemas",
+        "Validating input on a server",
+        "The Tracker client",
+        "Errors",
+        "Kept in step with the API"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/core/contracts/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/core/events/",
+      "title": "Events",
+      "description": "The events Skribly apps send today as signed webhooks, how @skribly/core builds and verifies them, and the shared CloudEvents envelope it defines.",
+      "product": "core",
+      "lang": "en",
+      "headings": [
+        "Today: Tracker webhook deliveries",
+        "Building and verifying deliveries",
+        "The shared event envelope",
+        "Sending an event as a webhook",
+        "Planned"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/core/events/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/faq/",
+      "title": "FAQ",
+      "description": "Short answers to common questions about Skribly - what it costs, where the code is, which agents and trackers it supports, and what leaves your machine.",
+      "product": "overview",
+      "lang": "en",
+      "headings": [
+        "What is Skribly?",
+        "Is it commercial?",
+        "Where is the source code?",
+        "Do I need all the tools?",
+        "Which coding agents are supported?",
+        "Which trackers are supported?",
+        "Do I need an account?",
+        "Does anything leave my machine?",
+        "Why do commits never have `Co-Authored-By` trailers?",
+        "Why does macOS or Windows warn me when I install Skribly Agent?",
+        "Can I run agents on a server?",
+        "Does Skribly Agent keep sessions running after I quit?",
+        "Can agents read this documentation?",
+        "How do I report a bug or a security problem?"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/faq/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/getting-started/",
+      "title": "Getting started",
+      "description": "Pick the Skribly tools you need, install them and go from a tracker task to your first commit made with an agent.",
+      "product": "overview",
+      "lang": "en",
+      "headings": [
+        "What you need",
+        "The whole loop",
+        "Without the desktop app",
+        "See it in action",
+        "Next steps"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/getting-started/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/overview/architecture/",
+      "title": "Ecosystem architecture",
+      "description": "What each Skribly product does, how a task travels from the tracker to a commit, and which parts exist today and which are planned.",
+      "product": "overview",
+      "lang": "en",
+      "headings": [
+        "What makes it different",
+        "Products",
+        "The workflow",
+        "How the apps connect today",
+        "Shared packages",
+        "Planned building blocks",
+        "Open standards",
+        "Stack",
+        "Principles",
+        "Privacy and accessibility"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/overview/architecture/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/releases/train-0-3/",
+      "title": "Release train 0.3",
+      "description": "The first release train of Skribly: @skribly/core 0.3.0 and agent-skills 0.3.0, with @skribly/ui following in a later train, what each brings and how to upgrade.",
+      "product": "overview",
+      "lang": "en",
+      "headings": [
+        "Added",
+        "Core",
+        "agent-skills",
+        "Changed",
+        "Fixed",
+        "Upgrading"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/releases/train-0-3/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/security/",
+      "title": "Security",
+      "description": "How to report a security problem in any Skribly tool, and how Skribly Agent, agent-skills and Skribly Tracker handle tokens, network access and your code.",
+      "product": "overview",
+      "lang": "en",
+      "headings": [
+        "Report a vulnerability",
+        "Skribly Agent",
+        "agent-skills",
+        "Skribly Tracker",
+        "This site"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/security/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/skills/",
+      "title": "agent-skills",
+      "description": "35 portable skills that take AI coding agents from a tracker ticket to a reviewed, tested commit - cheap on tokens, safe by default, with no AI co-author trailers.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "Principles",
+        "Facts",
+        "How a skill is built",
+        "How it saves tokens",
+        "Read next"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/skills/agents/",
+      "title": "Supported agents",
+      "description": "Where agent-skills installs skills for Claude Code, Codex CLI, Cursor, Gemini CLI, OpenCode, Windsurf, GitHub Copilot and Devin, and how you call them in each. Also the per-agent files that `agent-skills agent-files` generates from `AGENTS.md`.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "Default format: `--format skills`",
+        "Classic format: `--format rules`",
+        "Known overlaps",
+        "Not fully verified",
+        "Project instruction files",
+        "Agents in Skribly Agent"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/agents/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/skills/catalog/",
+      "title": "Skills catalog",
+      "description": "All 35 skills of agent-skills, grouped by job, with what each one does, when to use it and how to call it.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "Workflow",
+        "Quality and tests",
+        "Performance",
+        "Security and accessibility",
+        "DevOps",
+        "Docs and meta",
+        "Files the skills leave behind"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/catalog/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/skills/commits/",
+      "title": "Commits without AI trailers",
+      "description": "The three independent layers agent-skills uses so commits look like yours - the skills themselves, the Claude Code attribution setting and a commit-msg hook for any tool.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "1. The skills",
+        "2. The Claude Code setting",
+        "3. The git hook, for any tool",
+        "Checking old commits"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/commits/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/skills/install/",
+      "title": "Install agent-skills",
+      "description": "Install agent-skills for one or all eight agents, at user or project scope, keep it updated and remove it cleanly.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "Requirements",
+        "Install in a minute",
+        "User scope or project scope",
+        "Choose skills and agents",
+        "Recommended setup",
+        "Connect a tracker",
+        "Update and remove",
+        "CLI reference",
+        "With Skribly Agent"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/install/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/skills/trackers/",
+      "title": "Trackers",
+      "description": "Connect agent-skills to Redmine, Jira, GitHub, GitLab, Linear or Skribly Tracker, and use the tasks commands that the task skill runs.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "Credentials",
+        "Skribly Tracker",
+        "Redmine",
+        "Jira Cloud",
+        "Jira Server / Data Center",
+        "GitHub",
+        "GitLab",
+        "Linear",
+        "Which tracker does an id mean?",
+        "Commands",
+        "Safety"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/trackers/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/skills/troubleshooting/",
+      "title": "Troubleshooting agent-skills",
+      "description": "Fixes for common agent-skills problems - agents that do not see skills, install conflicts, Windows links, tracker errors, the commit hook and optional tools.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "The agent does not see the skills",
+        "`agent-skills: command not found`",
+        "\"exists and was not installed by agent-skills\"",
+        "`sync` or `uninstall` skips a copy I edited",
+        "Links on Windows",
+        "WSL and Windows at the same time",
+        "Tracker problems",
+        "PageSpeed Insights says HTTP 429",
+        "Playwright or axe-core is missing",
+        "The commit-msg hook did not run",
+        "Does it send my code anywhere?",
+        "How do I use it in a team?"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/troubleshooting/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/tracker/",
+      "title": "Skribly Tracker",
+      "description": "The issue tracker of the Skribly ecosystem - workspaces, projects, issues, workflows, roles, boards, comments and time logs, with a REST API designed for coding agents.",
+      "product": "tracker",
+      "lang": "en",
+      "headings": [
+        "Concepts",
+        "Workflow",
+        "Roles",
+        "Views",
+        "Connect the other tools",
+        "Skribly Agent",
+        "agent-skills",
+        "Built for agents",
+        "Read next"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/tracker/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/tracker/configuration/",
+      "title": "Configuration",
+      "description": "The environment variables that configure Skribly Tracker - application, database, queue, mail and the Tracker's own limits.",
+      "product": "tracker",
+      "lang": "en",
+      "headings": [
+        "Tracker",
+        "Application",
+        "Database",
+        "Queue, cache, sessions and logs",
+        "Mail",
+        "Development",
+        "Clients"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/tracker/configuration/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/tracker/rest-api/",
+      "title": "REST API guide",
+      "description": "How to use the Skribly Tracker REST API v1 - authentication, conventions, the issue object, filters, curl examples for every common task, and the mapping to Skribly Agent's tracker client.",
+      "product": "tracker",
+      "lang": "en",
+      "headings": [
+        "Authentication",
+        "Conventions",
+        "Errors",
+        "The issue object",
+        "Endpoints",
+        "List and filter issues",
+        "Create an issue",
+        "Update an issue",
+        "Change the status",
+        "Assign",
+        "Comment",
+        "Log time",
+        "Attachments",
+        "Search",
+        "Projects and create metadata",
+        "Skribly Agent mapping",
+        "OpenAPI"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/tracker/rest-api/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/tracker/self-hosting/",
+      "title": "Self-hosting with Docker",
+      "description": "Run Skribly Tracker on your own machine or server with Docker Compose, or without Docker, and keep its data across restarts.",
+      "product": "tracker",
+      "lang": "en",
+      "headings": [
+        "Start with Docker",
+        "Services",
+        "Everyday commands",
+        "Without Docker",
+        "Running it for a team",
+        "Upgrading"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/tracker/self-hosting/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/tracker/tokens/",
+      "title": "Personal access tokens",
+      "description": "Create, scope, use and revoke the personal access tokens that authenticate scripts, Skribly Agent and agent-skills against the Skribly Tracker API.",
+      "product": "tracker",
+      "lang": "en",
+      "headings": [
+        "Create a token",
+        "What a token may do",
+        "Use a token",
+        "Keep tokens safe",
+        "Planned"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/tracker/tokens/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/tracker/webhooks/",
+      "title": "Webhooks and signing",
+      "description": "Receive Skribly Tracker events as signed JSON webhooks - the events, the payload, the headers, retries, and how to verify the HMAC-SHA256 signature.",
+      "product": "tracker",
+      "lang": "en",
+      "headings": [
+        "Events",
+        "Add a webhook",
+        "The request",
+        "Delivery and retries",
+        "Verify the signature",
+        "Node.js, no dependencies",
+        "With `@skribly/core`",
+        "PHP",
+        "Python",
+        "Planned"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/tracker/webhooks/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/ui/",
+      "title": "UI",
+      "description": "@skribly/ui, the shared look of Skribly: design tokens, plain CSS classes for any page, React components on React Aria and the Astro site kit of the Skribly sites, with light, dark and high contrast themes. Every component is live at ui.skribly.pl.",
+      "product": "ui",
+      "lang": "en",
+      "headings": [
+        "Layers",
+        "Use it",
+        "Themes",
+        "Tokens",
+        "Plain classes",
+        "Site kit",
+        "Components",
+        "Planned"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/ui/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/",
+      "title": "Dokumentacja Skribly",
+      "description": "Jak zainstalować i używać Skribly Agent, agent-skills oraz Skribly Tracker i jak wspólne pakiety Core i UI je łączą.",
+      "product": "overview",
+      "lang": "pl",
+      "headings": [
+        "Narzędzia",
+        "Co dalej"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/accessibility/",
+      "title": "Dostępność",
+      "description": "Cel dostępności Skribly i tej witryny dokumentacji, co sprawdzono, znane ograniczenia i jak zgłosić barierę.",
+      "product": "overview",
+      "lang": "pl",
+      "headings": [
+        "Ta witryna",
+        "Aplikacje",
+        "Zgłaszanie barier"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/accessibility/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/agent/",
+      "title": "Skribly Agent",
+      "description": "IDE na komputer zbudowane wokół agentów programujących AI, a nie wokół plików. Co robi, czego potrzebuje i gdzie czytać dalej.",
+      "product": "agent",
+      "lang": "pl",
+      "headings": [
+        "W skrócie",
+        "Fakty",
+        "Wymagania",
+        "Czytaj dalej"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/agent/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/agent/accessibility/",
+      "title": "Dostępność w Skribly Agent",
+      "description": "Ustawienia czytelności w Skribly Agent — rozmiar tekstu interfejsu, wysoki kontrast, ograniczenie ruchu, podkreślone linki i wyraźny wskaźnik fokusu — a także obsługa klawiatury i motywy.",
+      "product": "agent",
+      "lang": "pl",
+      "headings": [
+        "Klawiatura",
+        "Motywy i kontrast",
+        "Sprawdzanie własnego projektu"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/agent/accessibility/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/agent/agents/",
+      "title": "Obsługiwani agenci",
+      "description": "13 agentów programujących, które Skribly Agent wykrywa i uruchamia, sposób instalacji każdego z nich oraz to, co obsługują w panelach, czacie, wznawianiu, MCP i wspólnej przeglądarce.",
+      "product": "agent",
+      "lang": "pl",
+      "headings": [
+        "Polecenia instalacji",
+        "Możliwości poszczególnych agentów",
+        "Agenci niestandardowi",
+        "Skille dla poszczególnych agentów"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/agent/agents/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/agent/audits/",
+      "title": "Reguły audytów",
+      "description": "Czego szuka widok Audyty w Skribly Agent — jak działa wynik, reguły sekretów, wzorców w kodzie i SEO, sprawdzanie zależności i dostępności oraz przekazywanie znalezisk agentowi.",
+      "product": "agent",
+      "lang": "pl",
+      "headings": [
+        "Jak działa wynik",
+        "Sekrety",
+        "Ryzykowne wzorce w kodzie",
+        "Zależności",
+        "Dostępność",
+        "SEO",
+        "Wyślij znaleziska do agenta",
+        "Czytaj dalej"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/agent/audits/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/agent/cli/",
+      "title": "Polecenie skribly",
+      "description": "Steruj panelami i agentami Skribly Agent spoza okna poleceniem skribly — polecenia, kody wyjścia, przepisy na recenzenta i równoległe worktree oraz bezpieczeństwo.",
+      "product": "agent",
+      "lang": "pl",
+      "headings": [
+        "Jak to działa",
+        "Włącz",
+        "Polecenia",
+        "Przepisy",
+        "Recenzent obok wykonawcy",
+        "Równoległe worktree",
+        "Poczekaj i zareaguj",
+        "Poczekaj na polecenie powłoki",
+        "Bezpieczeństwo",
+        "Czytaj dalej"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/agent/cli/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/agent/data-and-network/",
+      "title": "Dane i sieć",
+      "description": "Co zapisują Skribly Agent, Skribly Tracker i agent-skills, z czym się łączą, jakie porty otwiera Skribly Agent i jak aplikacje Cię chronią.",
+      "product": "agent",
+      "lang": "pl",
+      "headings": [
+        "Co zapisuje Skribly Agent",
+        "Z czym łączy się Skribly Agent",
+        "Porty",
+        "Jak aplikacja Cię chroni",
+        "Skribly Tracker",
+        "agent-skills",
+        "Czytaj dalej"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/agent/data-and-network/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/agent/features/",
+      "title": "Funkcje",
+      "description": "Wszystko wokół agentów w Skribly Agent — edytor, git i commity, zadania i trackery, potoki, skille, audyty, przeglądarka podglądu, Docker, integracje i CLI.",
+      "product": "agent",
+      "lang": "pl",
+      "headings": [
+        "Pulpit",
+        "Prawdziwe IDE wokół agentów",
+        "Kod i git",
+        "Zadania i trackery",
+        "Potoki",
+        "Skille",
+        "Audyty",
+        "Przeglądarka",
+        "Docker",
+        "Integracje z Claude i Cursorem",
+        "Motywy dzienne i nocne",
+        "CLI i MCP"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/agent/features/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/agent/install/",
+      "title": "Zainstaluj Skribly Agent",
+      "description": "Zainstaluj Skribly Agent na macOS, Windows lub Linux, poradź sobie z ostrzeżeniami przy niepodpisanych kompilacjach i wykonaj pierwsze kroki.",
+      "product": "agent",
+      "lang": "pl",
+      "headings": [
+        "Wybierz plik",
+        "Instalacja",
+        "Zainstaluj agenta",
+        "Pierwsze kroki"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/agent/install/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/agent/settings/",
+      "title": "Ustawienia",
+      "description": "Co kontroluje każda sekcja Ustawień w Skribly Agent: od wyglądu i dostępności po trackery, agentów, sesje, przeglądarkę, Dockera i aktualizacje.",
+      "product": "agent",
+      "lang": "pl",
+      "headings": [
+        "Szczegóły projektów",
+        "Konta trackerów",
+        "Katalog danych"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/agent/settings/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/agent/shortcuts/",
+      "title": "Skróty klawiszowe",
+      "description": "Wszystkie skróty klawiszowe (keyboard shortcuts) Skribly Agent — prefiks paneli Ctrl+B, paleta poleceń, przełączanie widoków i skróty edytora.",
+      "product": "agent",
+      "lang": "pl",
+      "headings": [
+        "Globalne",
+        "Panele: prefiks `Ctrl+B`",
+        "Edytor i git",
+        "Czat i panel agenta",
+        "Przewodnik"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/agent/shortcuts/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/agent/terminals/",
+      "title": "Terminale i sesje",
+      "description": "Uruchamianie sesji agentów w Skribly Agent — tryb terminala i czatu, panel agenta, wznawianie po ponownym uruchomieniu, maszyny SSH, rozsyłanie wiadomości i przekazywanie pracy.",
+      "product": "agent",
+      "lang": "pl",
+      "headings": [
+        "Nowa sesja",
+        "Tryb czatu",
+        "Panel agenta",
+        "Wznawianie po ponownym uruchomieniu",
+        "Maszyny SSH",
+        "Rozsyłanie wiadomości",
+        "Przekazywanie pracy"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/agent/terminals/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/agent/token-saving/",
+      "title": "Oszczędzanie tokenów",
+      "description": "Jak agent-skills ogranicza tekst przechodzący przez model — wczytywanie na żądanie, skrypty do pracy mechanicznej, pytanie przed kosztownymi akcjami, tanie wznawianie i zasady pracy — ze zmierzonymi liczbami.",
+      "product": "agent",
+      "lang": "pl",
+      "headings": [
+        "Wczytywanie na żądanie",
+        "Mechaniczną pracę robią skrypty",
+        "Pytanie przed kosztownymi akcjami",
+        "Sesje, które tanio się wznawia",
+        "Zasady pracy",
+        "Czytaj dalej"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/agent/token-saving/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/agent/troubleshooting/",
+      "title": "Rozwiązywanie problemów",
+      "description": "Rozwiązania najczęstszych problemów Skribly Agent — wykrywanie agentów, terminale, niepodpisane instalatory, sandbox w Linuksie, trackery, worktree, hooki i audyty.",
+      "product": "agent",
+      "lang": "pl",
+      "headings": [
+        "Agent nie jest wykrywany",
+        "Claude Code tylko w rozszerzeniu VS Code",
+        "Terminal się nie otwiera",
+        "`Ctrl+B` nie dociera do programu w terminalu",
+        "Agent pokazuje zły stan",
+        "macOS: „can't be opened” lub „is damaged”",
+        "Windows: SmartScreen",
+        "Linux: AppImage i sandbox",
+        "Port przeglądarki jest zajęty",
+        "Tracker zwraca 401 lub 403",
+        "Git odmawia usunięcia worktree",
+        "Gałąź zadania nie została utworzona",
+        "Hook bez stopek AI nic nie robi",
+        "Przycisk Agent przy commitach jest nieaktywny",
+        "Audyt WCAG lub SEO zgłasza, że strona nie załadowała się w ciągu 30 sekund",
+        "Skille się nie pobierają",
+        "Nadal nie działa"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/agent/troubleshooting/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/agent/updates/",
+      "title": "Aktualizacje",
+      "description": "Jak Skribly Agent aktualizuje się w systemach macOS, Windows i Linux, jak numerowane są wersje, jakie pliki zawiera każde wydanie oraz co stało się z poprzednią nazwą.",
+      "product": "agent",
+      "lang": "pl",
+      "headings": [
+        "Jak działa automatyczna aktualizacja",
+        "Wersje",
+        "Pliki wydania",
+        "Aktualizacja z poprzedniej nazwy"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/agent/updates/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/agent/workspaces/",
+      "title": "Obszary robocze i panele",
+      "description": "Jak jest zorganizowany widok agentów w Skribly Agent — obszary robocze, karty, podziały i panele — oraz jak działają stany agentów i powiadomienia.",
+      "product": "agent",
+      "lang": "pl",
+      "headings": [
+        "Model układu",
+        "Pasek boczny obszarów roboczych",
+        "Nagłówek panelu",
+        "Stany agentów",
+        "Dlaczego taki stan?",
+        "Powiadomienia",
+        "Worktree dla agentów"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/agent/workspaces/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/authors/",
+      "title": "Autorzy",
+      "description": "Skribly tworzą Dawid Olko, Piotr Smoła, Konrad Pluta, Michał Pilecki i Mateusz Olko — pięciu programistów z Rzeszowa w Polsce.",
+      "product": "overview",
+      "lang": "pl",
+      "headings": [
+        "Zespół",
+        "Jak pracujemy",
+        "Kontakt"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/authors/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/changelog/",
+      "title": "Lista zmian",
+      "description": "Co się zmieniło w Skribly Agent, Skribly Tracker, agent-skills i w tej dokumentacji, prostymi słowami, od najnowszych.",
+      "product": "overview",
+      "lang": "pl",
+      "headings": [
+        "Listopad 2026",
+        "Dokumentacja, 14 listopada: strony przeniesione ze skribly.pl",
+        "Dokumentacja, 11 listopada: wyszukiwarka na stronie głównej",
+        "Dokumentacja, 11 listopada: jeden układ strony",
+        "Dokumentacja, 11 listopada: licencje i przełącznik języka",
+        "agent-skills 0.2.13 i 0.2.14, 11 listopada",
+        "Dokumentacja, 11 listopada: aktualne liczby",
+        "Dokumentacja, 11 listopada: wersja polska",
+        "Dokumentacja, 8 listopada: jeden wygląd z pozostałymi witrynami",
+        "Dokumentacja, 8 listopada",
+        "agent-skills 0.2.11, 8 listopada",
+        "agent-skills 0.2.10, 8 listopada",
+        "Skribly Agent 1.0.37, 6 listopada",
+        "Skribly Agent 1.0.32, 6 listopada",
+        "Skribly Tracker 0.1.20, 6 listopada",
+        "Skribly Agent 1.0.30, 4 listopada",
+        "Skribly Tracker 0.1.16, 4 listopada",
+        "agent-skills 0.2.5, 4 listopada",
+        "Październik 2026",
+        "Skribly Agent 1.0.27, 29 października",
+        "Skribly Agent 1.0.26",
+        "Skribly Agent 1.0.23",
+        "Skribly Agent 1.0.19",
+        "Skribly Agent 1.0.15",
+        "Skribly Agent 1.0.7",
+        "Skribly Agent 1.0.4",
+        "Skribly Tracker 0.1.9",
+        "Skribly Tracker 0.1.8",
+        "Skribly Tracker 0.1.7",
+        "Skribly Tracker 0.1.5",
+        "Skribly Tracker 0.1.3",
+        "Skribly Tracker 0.1.2",
+        "agent-skills 0.2.2",
+        "agent-skills 0.2.0",
+        "agent-skills 0.1.0",
+        "Wspólne pakiety",
+        "`@skribly/core` 0.2.0",
+        "`@skribly/core` 0.1.0",
+        "`@skribly/ui`, pierwsza wersja"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/changelog/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/core/",
+      "title": "Pakiety Core",
+      "description": "@skribly/core, wspólny kod aplikacji Skribly: kontrakty i klient API Trackera, tożsamość i zakresy (scopes), envelope zdarzeń, manifesty aplikacji, profil projektu, podpisywanie webhooków, błędy problem+json, konfiguracja środowiska, logi, tłumaczenia i presety.",
+      "product": "core",
+      "lang": "pl",
+      "headings": [
+        "Instalacja",
+        "Punkty wejścia",
+        "Tożsamość i zakresy",
+        "Rejestr",
+        "Profil projektu",
+        "Powiadomienia i dziennik audytu",
+        "Błędy problem+json",
+        "Środowisko",
+        "Logi",
+        "Tłumaczenia",
+        "Presety",
+        "Czytaj dalej"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/core/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/core/connecting/",
+      "title": "Jak łączą się aplikacje",
+      "description": "Która aplikacja Skribly rozmawia z którą, przez co i z jakimi poświadczeniami — oraz jak połączyć własną usługę ze Skribly Tracker.",
+      "product": "core",
+      "lang": "pl",
+      "headings": [
+        "Połączenia",
+        "Zadanie od początku do końca",
+        "Połącz własną usługę",
+        "Planowane"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/core/connecting/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/core/contracts/",
+      "title": "Kontrakty i klient Trackera",
+      "description": "Schematy Zod API Skribly Tracker v1 w @skribly/core, normalizacja i walidacja danych wejściowych oraz typowany klient Trackera z jego typami błędów.",
+      "product": "core",
+      "lang": "pl",
+      "headings": [
+        "Schematy",
+        "Walidacja danych wejściowych na serwerze",
+        "Klient Trackera",
+        "Błędy",
+        "Zgodność z API"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/core/contracts/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/core/events/",
+      "title": "Zdarzenia",
+      "description": "Zdarzenia, które aplikacje Skribly wysyłają dziś jako podpisane webhooki, ich budowanie i weryfikacja przez @skribly/core oraz wspólny envelope CloudEvents, który ten pakiet definiuje.",
+      "product": "core",
+      "lang": "pl",
+      "headings": [
+        "Dziś: dostarczenia webhooków Trackera",
+        "Tworzenie i weryfikowanie dostarczeń",
+        "Wspólny envelope zdarzeń",
+        "Wysyłanie zdarzenia jako webhooka",
+        "Planowane"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/core/events/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/faq/",
+      "title": "FAQ",
+      "description": "Krótkie odpowiedzi na częste pytania o Skribly: czy jest komercyjne, gdzie jest kod, jakich agentów i trackery obsługuje oraz co opuszcza Twój komputer.",
+      "product": "overview",
+      "lang": "pl",
+      "headings": [
+        "Czym jest Skribly?",
+        "Czy to projekt komercyjny?",
+        "Gdzie jest kod źródłowy?",
+        "Czy potrzebuję wszystkich narzędzi?",
+        "Którzy agenci programujący są obsługiwani?",
+        "Jakie trackery są obsługiwane?",
+        "Czy potrzebuję konta?",
+        "Czy cokolwiek opuszcza mój komputer?",
+        "Dlaczego w commitach nigdy nie ma stopek `Co-Authored-By`?",
+        "Dlaczego macOS albo Windows ostrzega mnie przy instalacji Skribly Agent?",
+        "Czy mogę uruchamiać agentów na serwerze?",
+        "Czy Skribly Agent utrzymuje sesje po zamknięciu aplikacji?",
+        "Czy agenci mogą czytać tę dokumentację?",
+        "Jak zgłosić błąd albo problem z bezpieczeństwem?"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/faq/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/getting-started/",
+      "title": "Pierwsze kroki",
+      "description": "Wybierz potrzebne narzędzia Skribly, zainstaluj je i przejdź od zadania w trackerze do pierwszego commita wykonanego z agentem.",
+      "product": "overview",
+      "lang": "pl",
+      "headings": [
+        "Czego potrzebujesz",
+        "Cały cykl",
+        "Bez aplikacji",
+        "Zobacz to w działaniu",
+        "Kolejne kroki"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/getting-started/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/overview/architecture/",
+      "title": "Architektura ekosystemu",
+      "description": "Czym zajmuje się każdy produkt Skribly, jak zadanie przechodzi od trackera do commita oraz które elementy już istnieją, a które są planowane.",
+      "product": "overview",
+      "lang": "pl",
+      "headings": [
+        "Co nas wyróżnia",
+        "Produkty",
+        "Przepływ pracy",
+        "Jak aplikacje są dziś połączone",
+        "Wspólne pakiety",
+        "Planowane elementy",
+        "Otwarte standardy",
+        "Stos technologiczny",
+        "Zasady",
+        "Prywatność i dostępność"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/overview/architecture/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/releases/train-0-3/",
+      "title": "Pociąg wydań 0.3",
+      "description": "Pierwszy pociąg wydań Skribly: @skribly/core 0.3.0 i agent-skills 0.3.0, a @skribly/ui dołącza w późniejszym pociągu, co każdy z nich wnosi i jak zaktualizować.",
+      "product": "overview",
+      "lang": "pl",
+      "headings": [
+        "Dodane",
+        "Core",
+        "agent-skills",
+        "Zmienione",
+        "Poprawione",
+        "Aktualizacja"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/releases/train-0-3/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/security/",
+      "title": "Bezpieczeństwo",
+      "description": "Jak zgłosić problem z bezpieczeństwem w dowolnym narzędziu Skribly oraz jak Skribly Agent, agent-skills i Skribly Tracker obsługują tokeny, dostęp do sieci i Twój kod.",
+      "product": "overview",
+      "lang": "pl",
+      "headings": [
+        "Zgłaszanie luki w zabezpieczeniach",
+        "Skribly Agent",
+        "agent-skills",
+        "Skribly Tracker",
+        "Ta witryna"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/security/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/skills/",
+      "title": "agent-skills",
+      "description": "35 przenośnych skilli, które prowadzą agentów programujących AI od zgłoszenia w trackerze do przejrzanego, przetestowanego commita — oszczędnych w tokenach, domyślnie bezpiecznych, bez stopek współautorstwa AI.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Zasady",
+        "Fakty",
+        "Jak zbudowany jest skill",
+        "Jak oszczędza tokeny",
+        "Czytaj dalej"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/skills/agents/",
+      "title": "Obsługiwani agenci",
+      "description": "Gdzie agent-skills instaluje skille dla Claude Code, Codex CLI, Cursora, Gemini CLI, OpenCode, Windsurfa, GitHub Copilot i Devina oraz jak wywołujesz je w każdym z tych narzędzi. Opisuje też pliki dla poszczególnych agentów, które `agent-skills agent-files` generuje z `AGENTS.md`.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Format domyślny: `--format skills`",
+        "Format klasyczny: `--format rules`",
+        "Znane nakładanie się",
+        "Nie w pełni zweryfikowane",
+        "Pliki instrukcji projektu",
+        "Agenci w Skribly Agent"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/agents/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/skills/catalog/",
+      "title": "Katalog skilli",
+      "description": "Wszystkie 35 skilli agent-skills, pogrupowane według zadań, z opisem działania, zastosowania i sposobu wywołania.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Przepływ pracy",
+        "Jakość i testy",
+        "Wydajność",
+        "Bezpieczeństwo i dostępność",
+        "DevOps",
+        "Dokumentacja i meta",
+        "Pliki, które zostawiają skille"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/catalog/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/skills/commits/",
+      "title": "Commity bez stopek AI",
+      "description": "Trzy niezależne warstwy, dzięki którym commity z agent-skills wyglądają jak Twoje — same skille, ustawienie atrybucji w Claude Code i hook commit-msg dla dowolnego narzędzia.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "1. Skille",
+        "2. Ustawienie Claude Code",
+        "3. Hook gita, dla dowolnego narzędzia",
+        "Sprawdzanie starych commitów"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/commits/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/skills/install/",
+      "title": "Zainstaluj agent-skills",
+      "description": "Zainstaluj agent-skills dla jednego lub wszystkich ośmiu agentów, w zakresie użytkownika lub projektu, aktualizuj je i usuwaj bez śladu.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Wymagania",
+        "Instalacja w minutę",
+        "Zakres użytkownika czy projektu",
+        "Wybór skilli i agentów",
+        "Zalecana konfiguracja",
+        "Połącz tracker",
+        "Aktualizowanie i usuwanie",
+        "Dokumentacja CLI",
+        "Ze Skribly Agent"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/install/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/skills/trackers/",
+      "title": "Trackery",
+      "description": "Połącz agent-skills z Redmine, Jira, GitHub, GitLab, Linear lub Skribly Tracker i używaj poleceń tasks, które uruchamia skill task.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Poświadczenia",
+        "Skribly Tracker",
+        "Redmine",
+        "Jira Cloud",
+        "Jira Server / Data Center",
+        "GitHub",
+        "GitLab",
+        "Linear",
+        "Do którego trackera odnosi się identyfikator?",
+        "Polecenia",
+        "Bezpieczeństwo"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/trackers/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/skills/troubleshooting/",
+      "title": "Rozwiązywanie problemów z agent-skills",
+      "description": "Rozwiązania typowych problemów z agent-skills — agenci, którzy nie widzą skilli, konflikty przy instalacji, linki w Windows, błędy trackerów, hook commitów i narzędzia opcjonalne.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Agent nie widzi skilli",
+        "`agent-skills: command not found`",
+        "„exists and was not installed by agent-skills”",
+        "`sync` lub `uninstall` pomija kopię, którą edytowałem",
+        "Linki w Windows",
+        "WSL i Windows jednocześnie",
+        "Problemy z trackerem",
+        "PageSpeed Insights zwraca HTTP 429",
+        "Brakuje Playwright lub axe-core",
+        "Hook commit-msg się nie uruchomił",
+        "Czy to wysyła mój kod gdziekolwiek?",
+        "Jak używać tego w zespole?"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/troubleshooting/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/tracker/",
+      "title": "Skribly Tracker",
+      "description": "Tracker zgłoszeń w ekosystemie Skribly — przestrzenie, projekty, zgłoszenia, przepływy pracy, role, tablice, komentarze i rejestry czasu, z REST API zaprojektowanym dla agentów programujących.",
+      "product": "tracker",
+      "lang": "pl",
+      "headings": [
+        "Podstawowe pojęcia",
+        "Przepływ pracy",
+        "Role",
+        "Widoki",
+        "Połącz pozostałe narzędzia",
+        "Skribly Agent",
+        "agent-skills",
+        "Z myślą o agentach",
+        "Czytaj dalej"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/tracker/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/tracker/api/",
+      "title": "Dokumentacja API",
+      "description": "Dokumentacja API Skribly Tracker jest dostępna po angielsku.",
+      "product": "tracker",
+      "lang": "pl",
+      "headings": [],
+      "markdownUrl": "https://docs.skribly.pl/pl/tracker/api/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/tracker/configuration/",
+      "title": "Konfiguracja",
+      "description": "Zmienne środowiskowe, które konfigurują Skribly Tracker: aplikację, bazę danych, kolejkę, pocztę i własne limity trackera.",
+      "product": "tracker",
+      "lang": "pl",
+      "headings": [
+        "Tracker",
+        "Aplikacja",
+        "Baza danych",
+        "Kolejka, cache, sesje i logi",
+        "Poczta",
+        "Środowisko deweloperskie",
+        "Klienci"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/tracker/configuration/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/tracker/rest-api/",
+      "title": "Przewodnik po REST API",
+      "description": "Jak używać REST API Skribly Tracker v1 — uwierzytelnianie, konwencje, obiekt zgłoszenia, filtry, przykłady curl dla każdego typowego zadania i mapowanie na klienta trackera w Skribly Agent.",
+      "product": "tracker",
+      "lang": "pl",
+      "headings": [
+        "Uwierzytelnianie",
+        "Konwencje",
+        "Błędy",
+        "Obiekt zgłoszenia",
+        "Endpointy",
+        "Lista i filtrowanie zgłoszeń",
+        "Tworzenie zgłoszenia",
+        "Aktualizacja zgłoszenia",
+        "Zmiana statusu",
+        "Przypisywanie",
+        "Komentarz",
+        "Rejestrowanie czasu",
+        "Załączniki",
+        "Wyszukiwanie",
+        "Projekty i metadane tworzenia",
+        "Mapowanie na Skribly Agent",
+        "OpenAPI"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/tracker/rest-api/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/tracker/self-hosting/",
+      "title": "Własny hosting z Dockerem",
+      "description": "Uruchom Skribly Tracker na własnym komputerze lub serwerze z Docker Compose albo bez Dockera i zachowaj dane między restartami.",
+      "product": "tracker",
+      "lang": "pl",
+      "headings": [
+        "Start z Dockerem",
+        "Usługi",
+        "Codzienne polecenia",
+        "Bez Dockera",
+        "Uruchomienie dla zespołu",
+        "Aktualizacja"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/tracker/self-hosting/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/tracker/tokens/",
+      "title": "Osobiste tokeny dostępu",
+      "description": "Twórz, ograniczaj, używaj i unieważniaj osobiste tokeny dostępu, które uwierzytelniają skrypty, Skribly Agent i agent-skills w API Skribly Tracker.",
+      "product": "tracker",
+      "lang": "pl",
+      "headings": [
+        "Tworzenie tokenu",
+        "Co może zrobić token",
+        "Używanie tokenu",
+        "Bezpieczne przechowywanie tokenów",
+        "Planowane"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/tracker/tokens/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/tracker/webhooks/",
+      "title": "Webhooki i podpisywanie",
+      "description": "Odbieraj zdarzenia Skribly Tracker jako podpisane webhooki JSON — zdarzenia, ładunek (payload), nagłówki, ponawianie prób i weryfikacja podpisu HMAC-SHA256.",
+      "product": "tracker",
+      "lang": "pl",
+      "headings": [
+        "Zdarzenia",
+        "Dodawanie webhooka",
+        "Żądanie",
+        "Dostarczanie i ponawianie prób",
+        "Weryfikacja podpisu",
+        "Node.js, bez zależności",
+        "Z `@skribly/core`",
+        "PHP",
+        "Python",
+        "Planowane"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/tracker/webhooks/index.md",
+      "updated": "2026-11-14"
+    },
+    {
+      "path": "/pl/ui/",
+      "title": "UI",
+      "description": "@skribly/ui, wspólny wygląd Skribly: tokeny projektowe, zwykłe klasy CSS dla dowolnej strony, komponenty React na React Aria i site kit w Astro dla stron Skribly, z motywami jasnym, ciemnym i wysokiego kontrastu. Każdy komponent działa na żywo pod ui.skribly.pl.",
+      "product": "ui",
+      "lang": "pl",
+      "headings": [
+        "Warstwy",
+        "Użycie",
+        "Motywy",
+        "Tokeny",
+        "Zwykłe klasy",
+        "Site kit",
+        "Komponenty",
+        "Planowane"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/ui/index.md",
+      "updated": "2026-11-14"
+    }
+  ]
+}
