@@ -1,0 +1,18 @@
+# Skribly
+
+> Skribly is a non-commercial family of developer tools: Skribly Agent (a desktop app for AI coding agents), agent-skills (portable skills for eight coding agents), Skribly Tracker (an issue tracker with a REST API for agents) and the shared Core and UI packages.
+
+## Documentation Sets
+
+- [Abridged documentation](https://docs.skribly.pl/llms-small.txt): a compact version of the documentation for Skribly, with non-essential content removed
+- [Complete documentation](https://docs.skribly.pl/llms-full.txt): the full documentation for Skribly
+- [Agent](https://docs.skribly.pl/_llms-txt/agent.txt): Skribly Agent, the desktop app for AI coding agents
+- [Skills](https://docs.skribly.pl/_llms-txt/skills.txt): agent-skills, portable skills for eight coding agents
+- [Tracker](https://docs.skribly.pl/_llms-txt/tracker.txt): Skribly Tracker, the issue tracker with a REST API for agents
+- [Core](https://docs.skribly.pl/_llms-txt/core.txt): the shared Core package: contracts, events and connecting
+- [UI](https://docs.skribly.pl/_llms-txt/ui.txt): the shared UI package and the site kit
+
+## Notes
+
+- The complete documentation includes all content from the official documentation
+- The content is automatically generated from the same source as the official documentation
