@@ -1,6 +1,6 @@
 # Zainstaluj agent-skills
 
-> Zainstaluj agent-skills dla jednego lub wszystkich ośmiu agentów, w zakresie użytkownika lub projektu, aktualizuj je i usuwaj bez śladu.
+> Zainstaluj agent-skills dla jednego lub wszystkich siedmiu agentów, w zakresie użytkownika lub projektu, aktualizuj je i usuwaj bez śladu.
 
 ## Wymagania
 

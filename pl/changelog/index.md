@@ -6,6 +6,36 @@ Co się zmieniło w każdym narzędziu, przepisane prostymi słowami z notatek d
 
 ## Listopad 2026
 
+### Dokumentacja, 20 listopada: czytelniejsze strony skilli i siedmiu agentów
+
+- Strony skilli podają osobnym zdaniem, do czego skill nie służy, więc przypadki takie jak „a Playwright spec” nie trafiają już na listę próśb, które go wywołują. Nowe skille `framework-guide` i `upgrade` mają swoje strony, oznaczone jako część następnego wydania.
+- [Wszystkie reguły](/pl/skills/all-rules/) pokazuje identyfikator każdej reguły jako tekst; źródło każdej reguły zachowuje link.
+- Strona główna, FAQ i strona instalacji mówią o siedmiu agentach, tylu, ilu obsługuje wydany agent-skills 0.3.0.
+
+### Dokumentacja, 20 listopada: każda reguła na jednej stronie
+
+- [Wszystkie reguły](/pl/skills/all-rules/) wymienia 98 reguł słownika reguł agent-skills według technologii, z wagą, wersjami, informacją, czy jest sprawdzenie wierszy, i publicznym źródłem każdej. Strona powstaje z plików reguł, więc mówi to samo co one.
+
+### Dokumentacja, 20 listopada: nowe skille przepływu pracy w katalogu
+
+- [Katalog skilli](/pl/skills/catalog/) wymienia jedenaście skilli przepływu pracy, które wejdą do następnego wydania, od `plan` i `verify` po `writing` i `tracker-write`, każdy z linkiem do własnej strony.
+- Strony skilli i tabela [kosztu w tokenach](/pl/skills/token-cost/) odpowiadają najnowszemu brzmieniu skilli.
+
+### Dokumentacja, 20 listopada: słownik reguł i kolejne polecenia agent-skills
+
+- Nowa strona [Słownik reguł](/pl/skills/rules/) opisuje `agent-skills rules` i `rules --check`: reguły każdej technologii z wagą i publicznym źródłem oraz sprawdzenia wierszy, które zgłaszają `plik:wiersz`, regułę i jej źródło.
+- [Narzędzia dla agentów](/pl/skills/tooling/) opisują `init --mcp` (oficjalny serwer MCP każdego frameworka), nocny raport, preset Dependabota i skill `/upgrade` dla nowych wersji głównych. Wszystkie wejdą do następnego wydania.
+- Strona główna i katalog skilli zostają przy wydanych 39 skillach i siedmiu agentach, faktach agent-skills 0.3.0.
+
+### Dokumentacja, 19 listopada: strona zgodności
+
+- Nowa strona [Zgodność](/pl/reference/compatibility/): każdy pociąg wydań, od najnowszego, z wersjami `@skribly/core`, `@skribly/ui` i agent-skills, najstarszymi Skribly Agent i Skribly Tracker, które z nim działają, wersjami Node.js, Astro, React i Next.js, na których go przetestowano, oraz linkiem do opisu pociągu.
+
+### Dokumentacja, 19 listopada: każdy skill na osobnej stronie
+
+- Każdy z 55 skilli agent-skills ma własną stronę w [Wszystkie skille](/pl/skills/skill/): co robi, kiedy go używać, jak go wywołać w każdym agencie, jego skrypty, stosy, do których pasuje, i koszt w tokenach. Strony powstają z pliku `SKILL.md` każdego skilla, więc mówią to samo co on; 16 skilli, które nie są jeszcze wydane, jest oznaczonych jako „następne”.
+- Nowe strony opisują wersję w przygotowaniu: [Jak to działa](/pl/skills/how-it-works/) (potok, bramki, profil projektu i lekcje z zakresem), [Dopasuj skille do projektu](/pl/skills/train/), [Aktualizacje](/pl/skills/updates/), [Narzędzia dla agentów](/pl/skills/tooling/) i [Koszt w tokenach](/pl/skills/token-cost/). Wydaną wersją wciąż jest agent-skills 0.3.0 z 39 skillami.
+
 ### Dokumentacja, 17 listopada: Core 0.3.0 i aktualizacja kitu
 
 - Strony Core (przegląd, zdarzenia i architektura) podają aktualną wersję, 0.3.0.
@@ -17,19 +47,19 @@ Co się zmieniło w każdym narzędziu, przepisane prostymi słowami z notatek d
 - Sekcja Skribly Agent jest teraz pełnym przewodnikiem użytkownika w ośmiu grupach: pierwsze kroki, agenci i przestrzenie robocze, kod i zmiany, plan i zadania, jakość i zużycie, skille i integracje, ustawienia i wygląd oraz opisy pomocnicze. Każda strona ma angielski odpowiednik i, gdzie istnieje ekran, zrzut z tekstem alternatywnym.
 - Nowe strony obejmują instalację i pierwsze uruchomienie, przestrzenie robocze, sesje i terminale, edytor, zmiany, notatki z przeglądu, historię i worktree, zadania, plan, potoki, audyty, zużycie tokenów, zasoby, skille, rozszerzenia, wtyczki, serwery MCP, przeglądarkę, Docker, dokumenty, import i eksport, motywy, dostępność, języki, skróty klawiszowe, dane i sieć, aktualizacje, każdą sekcję Ustawień z wartościami domyślnymi, [polecenie skribly](/pl/agent/cli/), [serwer MCP agenta](/pl/agent/skribly-mcp/), [rozwiązywanie problemów](/pl/agent/troubleshooting/) i [FAQ](/pl/agent/faq/).
 
-### agent-skills 0.3.0, 14 listopada
-
-- Każdy skill trzyma się wspólnego formatu [Agent Skills](https://agentskills.io/specification), z licencją i wymaganiami, a oficjalny walidator sprawdza każdy z nich.
-- Każdy agent widzi każdy skill raz; Windsurf instaluje się jako Devin Desktop.
-- Skille nie uruchamiają programów z folderu projektu, więc są bezpieczniejsze na Windowsie.
-- Wydania powstają tylko z tagów wersji, w tym samym pociągu wydań co Core.
-
 ### Dokumentacja, 14 listopada: strony przeniesione ze skribly.pl
 
 - Przenosiny są zakończone: przewodniki po Skribly Agent, Skribly Tracker i agent-skills są teraz tylko w tej dokumentacji. Strona [Instalacja](/pl/skills/install/) agent-skills dostała kroki połączenia trackera, a [przegląd](/pl/skills/) odsyła do zmierzonych oszczędności tokenów.
 
 - Cztery nowe strony w sekcji Skribly Agent: [Polecenie skribly](/pl/agent/cli/), [Reguły audytów](/pl/agent/audit-rules/), [Oszczędzanie tokenów](/pl/agent/token-saving/) oraz [Dane i sieć](/pl/agent/data-and-network/).
 - [Skróty klawiszowe](/pl/agent/shortcuts/) wymieniają teraz podgląd agentów, przejście do następnego czekającego agenta, przejście do linii, zamknięcie karty i dolny terminal. [Skribly Tracker](/pl/tracker/) i [przewodnik po REST API](/pl/tracker/rest-api/) dostały kroki łączenia pozostałych narzędzi i krótką sekcję o uwierzytelnianiu.
+
+### agent-skills 0.3.0, 14 listopada
+
+- Każdy skill trzyma się wspólnego formatu [Agent Skills](https://agentskills.io/specification), z licencją i wymaganiami, a oficjalny walidator sprawdza każdy z nich.
+- Każdy agent widzi każdy skill raz; Windsurf instaluje się jako Devin Desktop.
+- Skille nie uruchamiają programów z folderu projektu, więc są bezpieczniejsze na Windowsie.
+- Wydania powstają tylko z tagów wersji, w tym samym pociągu wydań co Core.
 
 ### Dokumentacja, 11 listopada: wyszukiwarka na stronie głównej
 
@@ -47,14 +77,6 @@ Co się zmieniło w każdym narzędziu, przepisane prostymi słowami z notatek d
 - Przełącznik języka jest teraz w nagłówku każdej strony, która istnieje w obu językach, a na wąskich ekranach także na liście stron. Zaznacza bieżący język i prowadzi do tej samej strony w drugim.
 - Krótkie nagrania na polskich stronach pokazują teraz polski interfejs i mają polskie napisy.
 
-### agent-skills 0.2.13 i 0.2.14, 11 listopada
-
-- Sześć nowych skilli, razem 35: `adr`, `plan-step`, `run-step`, `release`, `docs-sync` i `design-review`. Zobacz [Katalog skilli](/pl/skills/catalog/).
-- Nowe polecenie `agent-skills agent-files`: generuje z `AGENTS.md` repozytorium pliki `CLAUDE.md`, `GEMINI.md`, regułę Cursora, instrukcje Copilota, foldery skilli projektu i `.mcp.json` tylko do odczytu, nigdy nie zastępuje pliku, którego nie zapisało, chyba że wymusisz, a `--check` kończy się błędem, gdy czegoś brakuje lub jest nieaktualne. `agent-skills doctor` pokazuje teraz, czy każdy agent jest skonfigurowany dla repozytorium. Zobacz [Pliki instrukcji projektu](/pl/skills/agents/#pliki-instrukcji-projektu).
-- Nowy cel `devin`: Devin jest ósmym obsługiwanym agentem. Czyta wspólny folder `.agents/skills` i `AGENTS.md`. Zobacz [Obsługiwani agenci](/pl/skills/agents/).
-- Ukończone zadania znikają z TODO: `run-step` ma sprawdzenie `tidy`, a `docs-sync` sprawdza tę samą regułę.
-- `agent-files` zapisuje, tworzy kopie zapasowe i usuwa tylko wewnątrz repozytorium i obsługuje tylko dowiązania symboliczne, które prowadzą do wnętrza repozytorium.
-
 ### Dokumentacja, 11 listopada: aktualne liczby
 
 - Strony przeglądowe, strony o skillach, strona instalacji i FAQ zgadzają się teraz z wydanymi wersjami: 35 skilli, ośmiu agentów, agent-skills 0.2.14. Katalog opisuje sześć nowych skilli, a strona Obsługiwani agenci opisuje Devina i pliki generowane przez `agent-skills agent-files`.
@@ -64,6 +86,14 @@ Co się zmieniło w każdym narzędziu, przepisane prostymi słowami z notatek d
 ### Dokumentacja, 11 listopada: wersja polska
 
 - Każda strona dokumentacji jest teraz dostępna także po polsku pod adresem `/pl/`. Język wybierasz w nagłówku; nagłówek, stopka, wyszukiwanie i panel dostępności podążają za nim, a każda strona wskazuje swój odpowiednik wyszukiwarkom.
+
+### agent-skills 0.2.13 i 0.2.14, 11 listopada
+
+- Sześć nowych skilli, razem 35: `adr`, `plan-step`, `run-step`, `release`, `docs-sync` i `design-review`. Zobacz [Katalog skilli](/pl/skills/catalog/).
+- Nowe polecenie `agent-skills agent-files`: generuje z `AGENTS.md` repozytorium pliki `CLAUDE.md`, `GEMINI.md`, regułę Cursora, instrukcje Copilota, foldery skilli projektu i `.mcp.json` tylko do odczytu, nigdy nie zastępuje pliku, którego nie zapisało, chyba że wymusisz, a `--check` kończy się błędem, gdy czegoś brakuje lub jest nieaktualne. `agent-skills doctor` pokazuje teraz, czy każdy agent jest skonfigurowany dla repozytorium. Zobacz [Pliki instrukcji projektu](/pl/skills/agents/#pliki-instrukcji-projektu).
+- Nowy cel `devin`: Devin jest ósmym obsługiwanym agentem. Czyta wspólny folder `.agents/skills` i `AGENTS.md`. Zobacz [Obsługiwani agenci](/pl/skills/agents/).
+- Ukończone zadania znikają z TODO: `run-step` ma sprawdzenie `tidy`, a `docs-sync` sprawdza tę samą regułę.
+- `agent-files` zapisuje, tworzy kopie zapasowe i usuwa tylko wewnątrz repozytorium i obsługuje tylko dowiązania symboliczne, które prowadzą do wnętrza repozytorium.
 
 ### Dokumentacja, 8 listopada: jeden wygląd z pozostałymi witrynami
 
@@ -105,12 +135,12 @@ Wersje od 1.0.33 do 1.0.37 wyszły tego samego wieczoru.
 
 - Każda strona dostaje panel dostępności (rozmiar tekstu, kontrast, czcionki i ruch).
 
-### Skribly Agent 1.0.30, 4 listopada
+### Skribly Agent 1.0.30, 5 listopada
 
 - Aplikacja dostaje nazwę Skribly Agent. Istniejące instalacje zachowują ustawienia, tokeny, sesje i logowania.
 - Cały tekst interfejsu jest zaktualizowany po polsku i angielsku.
 
-### Skribly Tracker 0.1.16, 4 listopada
+### Skribly Tracker 0.1.16, 5 listopada
 
 - Interfejs i logo przyjmują nazwę Skribly.
 - Webhooki wysyłają nagłówki `X-Skribly` obok starszych, więc dotychczasowe odbiorniki nadal działają.
@@ -125,32 +155,32 @@ Wersje od 1.0.33 do 1.0.37 wyszły tego samego wieczoru.
 
 - Skribly Tracker staje się domyślnym trackerem.
 
-### Skribly Agent 1.0.26
+### Skribly Agent 1.0.26, 29 października
 
 - Nowe ikony w zasobniku i w oknie, z własnym kolorem akcentu aplikacji.
 
-### Skribly Agent 1.0.23
+### Skribly Agent 1.0.23, 29 października
 
 - Interfejs można przetłumaczyć na dowolny język online i dalej działa offline.
 - Zaloguj się do GitHub, GitLab, Bitbucket, Gitea lub Azure DevOps, aby zobaczyć prawdziwą aktywność commitów.
 - Można zmieniać rozmiar węzłów potoków i je rozwijać.
 - Instalacje pokazują pasek postępu, upływający czas i ostatnią linię wyjścia.
 
-### Skribly Agent 1.0.19
+### Skribly Agent 1.0.19, 29 października
 
 - Monitorowanie Dockera, instalacje jednym kliknięciem, integracje z Cursorem i z pull requestami GitHub oraz wprowadzenie dla nowych użytkowników (onboarding).
 - Można zmieniać rozmiar bocznego panelu Kod.
 
-### Skribly Agent 1.0.15
+### Skribly Agent 1.0.15, 29 października
 
 - Niepodpisane kompilacje macOS aktualizują się na miejscu.
 
-### Skribly Agent 1.0.7
+### Skribly Agent 1.0.7, 29 października
 
 - Spakowana aplikacja uruchamia się poprawnie.
 - Menu Claude Code przy pierwszym uruchomieniu są wykrywane jako czekanie na decyzję.
 
-### Skribly Agent 1.0.4
+### Skribly Agent 1.0.4, 29 października
 
 - Pierwsze wydanie: pulpit, agenci, zadania, kod i git, potoki, skille i audyty.
 - Obszary robocze, karty i podzielone panele, ze stanami agentów odczytywanymi z ekranu.
@@ -159,42 +189,42 @@ Wersje od 1.0.33 do 1.0.37 wyszły tego samego wieczoru.
 - Przeglądarka z osobnym profilem dla każdego agenta, wtyczki Claude i serwery MCP.
 - Własni agenci, maszyny SSH, worktree, ustawienia wyglądu i pomoc.
 
-### Skribly Tracker 0.1.9
+### Skribly Tracker 0.1.9, 29 października
 
 - REST API v1 ma dokumentację z przykładami curl i opis OpenAPI 3.1.
 
-### Skribly Tracker 0.1.8
+### Skribly Tracker 0.1.8, 29 października
 
 - Tracker dostaje logo rodziny i błękitny akcent.
 
-### Skribly Tracker 0.1.7
+### Skribly Tracker 0.1.7, 29 października
 
 - Testy obejmują API, uprawnienia i ścieżki w przeglądarce.
 
-### Skribly Tracker 0.1.5
+### Skribly Tracker 0.1.5, 29 października
 
 - Tracker działa w Dockerze.
 
-### Skribly Tracker 0.1.3
+### Skribly Tracker 0.1.3, 29 października
 
 - Interfejs w przeglądarce: pulpit, tablica Kanban, lista i strony zgłoszeń.
 - Demonstracyjna przestrzeń, z poleceniami do tokenów i danych przykładowych.
 
-### Skribly Tracker 0.1.2
+### Skribly Tracker 0.1.2, 29 października
 
 - Pierwsza wersja.
 
-### agent-skills 0.2.2
+### agent-skills 0.2.2, 29 października
 
 - Skill `task` potrafi czytać Skribly Tracker.
 
-### agent-skills 0.2.0
+### agent-skills 0.2.0, 29 października
 
 - 13 nowych skilli, razem 27: wydajność, backend, API, testy end-to-end i obciążeniowe, migracje, Docker, CI, aktualizacje, refaktoryzacja, tłumaczenia i notatki do wydań.
 - Nowe skrypty skracają wyniki narzędzi dla modelu: Lighthouse, pokrycie zmienionych wierszy, mapy OpenAPI, raporty Playwright, podsumowania testów obciążeniowych, lintery migracji i Dockerfile i inne.
 - Nowe przewodniki: pierwsze kroki, skille, trackery, oszczędzanie tokenów i hook commitów.
 
-### agent-skills 0.1.0
+### agent-skills 0.1.0, 29 października
 
 - Pierwsze wydanie: 14 skilli i instalator w wierszu poleceń dla siedmiu agentów.
 - Obsługa trackerów Redmine, Jira, GitHub, GitLab i Linear, domyślnie tylko do odczytu.

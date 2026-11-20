@@ -1,6 +1,6 @@
 # Katalog skilli
 
-> Wszystkie 35 skilli agent-skills, pogrupowane według zadań, z opisem działania, zastosowania i sposobu wywołania.
+> Skille agent-skills pogrupowane według zadań, z opisem działania, zastosowania i sposobu wywołania; każdy z 39 ma też własną stronę.
 
 Wywołuj skill jako `/name` w Claude Code, Cursorze, Gemini CLI, OpenCode, Windsurfie i Copilot, `$name` w Codexie albo `@skills:name` w prompcie Devina. Możesz też po prostu opisać, czego potrzebujesz: agenci wybierają skille na podstawie ich opisu.
 
@@ -70,6 +70,24 @@ Lista do odczytu maszynowego to plik `skills.json` w repozytorium, sprawdzany w 
 | `docs-sync` | Sprawdza, czy zmiana widoczna dla użytkownika zaktualizowała w tej samej zmianie polskie i angielskie pliki językowe z tymi samymi kluczami, `.docs/` repozytorium, `CHANGELOG.md` i odpowiednią stronę tej witryny. Tylko do odczytu: zgłasza, czego brakuje, a agent to uzupełnia. | `/docs-sync` · „czy zaktualizowałem dokumentację?” |
 | `learn` | Zachowuje potwierdzone lekcje projektu (działające polecenie, konwencję, pułapkę) w `.skribly/lessons.md`, po jednym datowanym wierszu z nazwą skilla, z którego pochodzi, i tylko po Twojej zgodzie. Każdy skill czyta ten plik jako pierwszy. Odrzuca wszystko, co wygląda na sekret. | `/learn` · „zapamiętaj, że testy e2e wymagają bazy z danymi seed” |
 | `token-saver` | Zasady pracy przy małym kontekście: szukaj przed czytaniem, zakresy wierszy, skrócone logi, skrypty zamiast modelu, `/clear` i `STATE.md`. | `/token-saver` · „zbliżam się do limitu” |
+
+## W przygotowaniu: jedenaście skilli przepływu pracy
+
+Te skille są na gałęzi `develop` agent-skills i wejdą do następnego wydania; do tego czasu na swoich stronach mają oznaczenie „next”.
+
+| Skill | Działanie | Przykład |
+| --- | --- | --- |
+| [`plan`](/pl/skills/skill/plan/) | Zamienia dużą lub niejasną inicjatywę w plik `.tasks/plans/<slug>.md`: cel, to, co jest poza zakresem, ryzyka i uporządkowaną listę małych zadań, każde z tym, co dostarcza, i sposobem sprawdzenia. | `/plan` · „rozbij ten epik na zadania” |
+| [`verify`](/pl/skills/skill/verify/) | Dowodzi, że zmiana działa w uruchomionej aplikacji: uruchamia ją własnym poleceniem projektu, przechodzi zmienioną ścieżkę żądaniem albo przeglądarką bez interfejsu, uruchamia lint, typy i powiązane testy. | `/verify` · „czy to naprawdę działa?” |
+| [`improve`](/pl/skills/skill/improve/) | Krótka sesja drobnych poprawek, gdy funkcja już działa: wskazujesz jedną rzecz, agent poprawia ją najmniejszą zmianą, pokazuje wynik i czeka na kolejną. | `/improve` · „drobne poprawki” |
+| [`merge`](/pl/skills/skill/merge/) | Domyka skończoną gałąź do `develop` tak, jak scala projekt, robi push, a gałąź i jej worktree usuwa dopiero po Twojej zgodzie. Nigdy nie dotyka gałęzi wydań i nigdy nie robi force push. | `/merge` · „domknij gałąź” |
+| [`blast-radius`](/pl/skills/skill/blast-radius/) | Szuka tego, co zmiana może zepsuć poza diffem (wywołania, trasy, zadania w tle, migracje, konfiguracja), i sprawdza jej kluczowe założenie uruchomionym kodem. | `/blast-radius` · „co to może zepsuć?” |
+| [`deslop`](/pl/skills/skill/deslop/) | Czyści wiersze dodane przez agenta z maszynowych naleciałości: komentarzy powtarzających kod, niemożliwych zabezpieczeń, połykanych błędów, nieużywanych pomocników, napompowanego tekstu. Tylko na prośbę. | `/deslop` · „niech to wygląda jak nasz kod” |
+| [`correct`](/pl/skills/skill/correct/) | Zamienia błąd, który agenci wciąż popełniają, w zabezpieczenie: typ, regułę lintera, test albo skrypt sprawdzający, dodane po Twojej zgodzie. Tylko na prośbę. | `/correct` · „agenci ciągle robią X” |
+| [`report`](/pl/skills/skill/report/) | Raport z realizacji dla osoby, która o nią prosiła: każde wymaganie powiązane z kodem i sprawdzeniem, które go dowodzi, to, czego nie zrobiono, i pozostałe ryzyka. | `/report` · „co dostarczyliśmy?” |
+| [`record-docs`](/pl/skills/skill/record-docs/) | Pisze stronę o zbudowanej ważnej funkcji lub decyzji: co robi, jak jest zbudowana, jakie decyzje zapadły, jak ją uruchomić i przetestować oraz jakie ma ograniczenia. | `/record-docs` · „opisz tę funkcję” |
+| [`writing`](/pl/skills/skill/writing/) | Jeden prosty styl, po polsku albo po angielsku, dla każdego tekstu, który agent pisze dla ludzi, i przepisanie podanego tekstu na prośbę. | `/writing` · „popraw ten tekst” |
+| [`tracker-write`](/pl/skills/skill/tracker-write/) | Przygotowuje zgłoszenie, komentarz w trackerze, opis pull requesta albo odpowiedź w przeglądzie do Twojego zatwierdzenia; nic nie zostaje wysłane bez Twojej zgody. | `/tracker-write` · „napisz opis PR” |
 
 ## Pliki, które zostawiają skille
 

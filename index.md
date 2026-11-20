@@ -13,7 +13,7 @@ export const tools = [
 		title: 'agent-skills',
 		product: 'skills',
 		href: '/skills/',
-		text: '35 portable skills that take a coding agent from a tracker ticket to a reviewed, tested commit, with one installer for eight agents and no runtime dependencies.',
+		text: '39 portable skills that take a coding agent from a tracker ticket to a reviewed, tested commit, with one installer for seven agents and no runtime dependencies.',
 	},
 	{
 		title: 'Skribly Tracker',

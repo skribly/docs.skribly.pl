@@ -16,7 +16,7 @@ The repositories are private for now and will open step by step. The code is MIT
 
 ## Do I need all the tools?
 
-No. agent-skills works in any repository with any of its eight agents. Skribly Agent works with Jira, Redmine, GitHub, GitLab and Linear as well as Skribly Tracker. Skribly Tracker's API works with any HTTP client.
+No. agent-skills works in any repository with any of its seven agents. Skribly Agent works with Jira, Redmine, GitHub, GitLab and Linear as well as Skribly Tracker. Skribly Tracker's API works with any HTTP client.
 
 ## Which coding agents are supported?
 

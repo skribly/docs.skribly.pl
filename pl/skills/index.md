@@ -1,6 +1,6 @@
 # agent-skills
 
-> 35 przenośnych skilli, które prowadzą agentów programujących AI od zgłoszenia w trackerze do przejrzanego, przetestowanego commita — oszczędnych w tokenach, domyślnie bezpiecznych, bez stopek współautorstwa AI.
+> 39 przenośnych skilli, które prowadzą agentów programujących AI od zgłoszenia w trackerze do przejrzanego, przetestowanego commita — oszczędnych w tokenach, domyślnie bezpiecznych, bez stopek współautorstwa AI.
 
 **agent-skills** to biblioteka krótkich, przetestowanych procedur („skilli”) dla agentów programujących AI oraz instalator bez zależności, który umieszcza je tam, gdzie każdy agent ich szuka. Obsługuje Claude Code, Codex CLI, Cursor, Gemini CLI, OpenCode, Windsurf, GitHub Copilot i Devin.
 
@@ -28,6 +28,10 @@ Skille obejmują cały cykl: pobranie zgłoszenia z Redmine, Jiry, GitHuba, GitL
 | Wymagania | `git` i Node.js 20 lub nowszy |
 | Zależności w czasie działania | Brak |
 | Licencja | MIT |
+
+:::note[W przygotowaniu: 57 skilli]
+Następne wydanie powiększa zestaw do 57 skilli: 39 z wersji 0.3.0 i osiemnaście nowych, wśród nich `plan`, `spec`, `verify`, `e2e-check`, `improve`, `merge`, bramki `gate-convention`, `blast-radius` i `deslop`, `train-skills`, `framework-guide` oraz `upgrade`. Każdy skill ma już własną stronę w [Wszystkie skille](/pl/skills/skill/), oznaczoną jako „następne”, dopóki nie zostanie wydany. Wersję w przygotowaniu opisują strony [Jak to działa](/pl/skills/how-it-works/), [Dopasuj skille do projektu](/pl/skills/train/), [Aktualizacje](/pl/skills/updates/), [Narzędzia dla agentów](/pl/skills/tooling/) i [Koszt w tokenach](/pl/skills/token-cost/).
+:::
 
 ## Jak zbudowany jest skill
 
@@ -66,6 +70,9 @@ Pełne pomiary są na stronie [Oszczędzanie tokenów](/pl/agent/token-saving/).
 
 - [Instalacja](/pl/skills/install/): zakres użytkownika lub projektu, aktualizacje, Windows.
 - [Katalog skilli](/pl/skills/catalog/): każdy skill i kiedy go używać.
+- [Wszystkie skille](/pl/skills/skill/): strona dla każdego skilla, generowana z jego `SKILL.md`.
+- [Jak to działa](/pl/skills/how-it-works/): potok, bramki, profil i lekcje z zakresem.
+- [Dopasuj skille do projektu](/pl/skills/train/): `init`, `train-skills` i przełączniki projektu, krok po kroku.
 - [Obsługiwani agenci](/pl/skills/agents/): skąd każdy agent bierze skille oraz pliki, które `agent-skills agent-files` generuje z `AGENTS.md`.
 - [Trackery](/pl/skills/trackers/): poświadczenia dla każdego trackera.
 - [Commity bez stopek AI](/pl/skills/commits/): trzy warstwy, które sprawiają, że commity pozostają Twoje.

@@ -16,7 +16,7 @@ Repozytoria są na razie prywatne i będą otwierane stopniowo. Kod jest na lice
 
 ## Czy potrzebuję wszystkich narzędzi?
 
-Nie. agent-skills działa w dowolnym repozytorium z każdym z ośmiu agentów, które obsługuje. Skribly Agent współpracuje z Jira, Redmine, GitHub, GitLab i Linear, a także ze Skribly Tracker. API Skribly Tracker działa z dowolnym klientem HTTP.
+Nie. agent-skills działa w dowolnym repozytorium z każdym z siedmiu agentów, które obsługuje. Skribly Agent współpracuje z Jira, Redmine, GitHub, GitLab i Linear, a także ze Skribly Tracker. API Skribly Tracker działa z dowolnym klientem HTTP.
 
 ## Którzy agenci programujący są obsługiwani?
 

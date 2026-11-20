@@ -12,7 +12,7 @@
         "Where to go next"
       ],
       "markdownUrl": "https://docs.skribly.pl/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-20"
     },
     {
       "path": "/accessibility/",
@@ -26,7 +26,7 @@
         "Report a barrier"
       ],
       "markdownUrl": "https://docs.skribly.pl/accessibility/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-11"
     },
     {
       "path": "/agent/",
@@ -49,7 +49,7 @@
         "Reference"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/accessibility/",
@@ -69,7 +69,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/accessibility/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/agents/",
@@ -87,7 +87,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/agents/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/audit-rules/",
@@ -105,7 +105,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/audit-rules/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/audits/",
@@ -122,7 +122,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/audits/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/browser/",
@@ -141,7 +141,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/browser/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/changes/",
@@ -164,7 +164,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/changes/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/cli/",
@@ -187,7 +187,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/cli/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/code/",
@@ -208,7 +208,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/code/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/dashboard/",
@@ -223,7 +223,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/dashboard/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/data-and-network/",
@@ -246,7 +246,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/data-and-network/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/docker/",
@@ -265,7 +265,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/docker/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/documents/",
@@ -285,7 +285,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/documents/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/extensions/",
@@ -309,7 +309,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/extensions/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/faq/",
@@ -346,7 +346,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/faq/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/features/",
@@ -371,7 +371,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/features/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/first-run/",
@@ -389,7 +389,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/first-run/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/first-session/",
@@ -406,7 +406,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/first-session/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/first-workspace/",
@@ -423,7 +423,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/first-workspace/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/history/",
@@ -440,7 +440,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/history/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/import-export/",
@@ -459,7 +459,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/import-export/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/inbox/",
@@ -477,7 +477,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/inbox/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/install/",
@@ -493,7 +493,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/install/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/languages/",
@@ -512,7 +512,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/languages/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/mcp/",
@@ -532,7 +532,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/mcp/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/pipelines/",
@@ -551,7 +551,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/pipelines/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/plan/",
@@ -570,7 +570,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/plan/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/plugins/",
@@ -593,7 +593,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/plugins/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/resources/",
@@ -613,7 +613,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/resources/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/review/",
@@ -631,7 +631,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/review/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/session-history/",
@@ -648,7 +648,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/session-history/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/sessions/",
@@ -671,7 +671,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/sessions/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/settings/",
@@ -700,7 +700,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/settings/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/shortcuts/",
@@ -719,7 +719,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/shortcuts/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/skills/",
@@ -740,7 +740,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/skills/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/skribly-mcp/",
@@ -759,7 +759,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/skribly-mcp/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/tasks/",
@@ -782,7 +782,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/tasks/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/terminals/",
@@ -801,7 +801,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/terminals/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/themes/",
@@ -822,7 +822,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/themes/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/token-saving/",
@@ -839,7 +839,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/token-saving/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/troubleshooting/",
@@ -873,7 +873,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/troubleshooting/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/updates/",
@@ -892,7 +892,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/updates/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/usage/",
@@ -909,7 +909,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/usage/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/workspaces/",
@@ -929,7 +929,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/workspaces/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/agent/worktrees/",
@@ -949,7 +949,7 @@
         "Related pages"
       ],
       "markdownUrl": "https://docs.skribly.pl/agent/worktrees/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/authors/",
@@ -973,16 +973,22 @@
       "lang": "en",
       "headings": [
         "November 2026",
+        "Documentation, 20 November: cleaner skill pages and seven agents",
+        "Documentation, 20 November: every rule on one page",
+        "Documentation, 20 November: the new workflow skills in the catalogue",
+        "Documentation, 20 November: the rule dictionary and more agent-skills commands",
+        "Documentation, 19 November: the compatibility page",
+        "Documentation, 19 November: every skill on its own page",
         "Documentation, 17 November: Core 0.3.0 and a kit update",
         "Documentation, 15 November: the Skribly Agent user guide",
-        "agent-skills 0.3.0, 14 November",
         "Documentation, 14 November: pages moved from skribly.pl",
+        "agent-skills 0.3.0, 14 November",
         "Documentation, 11 November: search on the home page",
         "Documentation, 11 November: one page layout",
         "Documentation, 11 November: licences and language switch",
-        "agent-skills 0.2.13 and 0.2.14, 11 November",
         "Documentation, 11 November: figures brought up to date",
         "Documentation, 11 November: Polish version",
+        "agent-skills 0.2.13 and 0.2.14, 11 November",
         "Documentation, 8 November: one look with the other sites",
         "Documentation, 8 November",
         "agent-skills 0.2.11, 8 November",
@@ -990,33 +996,33 @@
         "Skribly Agent 1.0.37, 6 November",
         "Skribly Agent 1.0.32, 6 November",
         "Skribly Tracker 0.1.20, 6 November",
-        "Skribly Agent 1.0.30, 4 November",
-        "Skribly Tracker 0.1.16, 4 November",
+        "Skribly Agent 1.0.30, 5 November",
+        "Skribly Tracker 0.1.16, 5 November",
         "agent-skills 0.2.5, 4 November",
         "October 2026",
         "Skribly Agent 1.0.27, 29 October",
-        "Skribly Agent 1.0.26",
-        "Skribly Agent 1.0.23",
-        "Skribly Agent 1.0.19",
-        "Skribly Agent 1.0.15",
-        "Skribly Agent 1.0.7",
-        "Skribly Agent 1.0.4",
-        "Skribly Tracker 0.1.9",
-        "Skribly Tracker 0.1.8",
-        "Skribly Tracker 0.1.7",
-        "Skribly Tracker 0.1.5",
-        "Skribly Tracker 0.1.3",
-        "Skribly Tracker 0.1.2",
-        "agent-skills 0.2.2",
-        "agent-skills 0.2.0",
-        "agent-skills 0.1.0",
+        "Skribly Agent 1.0.26, 29 October",
+        "Skribly Agent 1.0.23, 29 October",
+        "Skribly Agent 1.0.19, 29 October",
+        "Skribly Agent 1.0.15, 29 October",
+        "Skribly Agent 1.0.7, 29 October",
+        "Skribly Agent 1.0.4, 29 October",
+        "Skribly Tracker 0.1.9, 29 October",
+        "Skribly Tracker 0.1.8, 29 October",
+        "Skribly Tracker 0.1.7, 29 October",
+        "Skribly Tracker 0.1.5, 29 October",
+        "Skribly Tracker 0.1.3, 29 October",
+        "Skribly Tracker 0.1.2, 29 October",
+        "agent-skills 0.2.2, 29 October",
+        "agent-skills 0.2.0, 29 October",
+        "agent-skills 0.1.0, 29 October",
         "Shared packages",
         "`@skribly/core` 0.2.0",
         "`@skribly/core` 0.1.0",
         "`@skribly/ui`, first version"
       ],
       "markdownUrl": "https://docs.skribly.pl/changelog/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-20"
     },
     {
       "path": "/core/",
@@ -1039,7 +1045,7 @@
         "Read next"
       ],
       "markdownUrl": "https://docs.skribly.pl/core/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-17"
     },
     {
       "path": "/core/connecting/",
@@ -1054,7 +1060,7 @@
         "Planned"
       ],
       "markdownUrl": "https://docs.skribly.pl/core/connecting/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-08"
     },
     {
       "path": "/core/contracts/",
@@ -1070,7 +1076,7 @@
         "Kept in step with the API"
       ],
       "markdownUrl": "https://docs.skribly.pl/core/contracts/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-08"
     },
     {
       "path": "/core/events/",
@@ -1086,7 +1092,7 @@
         "Planned"
       ],
       "markdownUrl": "https://docs.skribly.pl/core/events/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-17"
     },
     {
       "path": "/faq/",
@@ -1111,7 +1117,7 @@
         "How do I report a bug or a security problem?"
       ],
       "markdownUrl": "https://docs.skribly.pl/faq/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-20"
     },
     {
       "path": "/getting-started/",
@@ -1127,7 +1133,7 @@
         "Next steps"
       ],
       "markdownUrl": "https://docs.skribly.pl/getting-started/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-11"
     },
     {
       "path": "/overview/architecture/",
@@ -1151,6 +1157,21 @@
       "updated": "2026-11-18"
     },
     {
+      "path": "/reference/compatibility/",
+      "title": "Compatibility",
+      "description": "Which versions of the Skribly packages belong together: every release train with its core, ui and agent-skills versions, the oldest Skribly Agent and Skribly Tracker that work with it, and what it was tested on.",
+      "product": "overview",
+      "lang": "en",
+      "headings": [
+        "Trains",
+        "How to read the table",
+        "Where the data comes from",
+        "Related pages"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/reference/compatibility/index.md",
+      "updated": "2026-11-20"
+    },
+    {
       "path": "/releases/train-0-3/",
       "title": "Release train 0.3",
       "description": "The first release train of Skribly: @skribly/core 0.3.0 and agent-skills 0.3.0, with @skribly/ui following in a later train, what each brings and how to upgrade.",
@@ -1165,7 +1186,7 @@
         "Upgrading"
       ],
       "markdownUrl": "https://docs.skribly.pl/releases/train-0-3/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-14"
     },
     {
       "path": "/security/",
@@ -1186,7 +1207,7 @@
     {
       "path": "/skills/",
       "title": "agent-skills",
-      "description": "35 portable skills that take AI coding agents from a tracker ticket to a reviewed, tested commit - cheap on tokens, safe by default, with no AI co-author trailers.",
+      "description": "39 portable skills that take AI coding agents from a tracker ticket to a reviewed, tested commit - cheap on tokens, safe by default, with no AI co-author trailers.",
       "product": "skills",
       "lang": "en",
       "headings": [
@@ -1197,7 +1218,7 @@
         "Read next"
       ],
       "markdownUrl": "https://docs.skribly.pl/skills/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-20"
     },
     {
       "path": "/skills/agents/",
@@ -1214,12 +1235,52 @@
         "Agents in Skribly Agent"
       ],
       "markdownUrl": "https://docs.skribly.pl/skills/agents/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-11"
+    },
+    {
+      "path": "/skills/all-rules/",
+      "title": "All rules",
+      "description": "Every rule of the agent-skills rule dictionary, by technology, with its severity, versions, line check and public source.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "Angular",
+        "CI (GitHub Actions)",
+        "Data science",
+        "Databases",
+        "Django",
+        "Docker",
+        "Documentation",
+        ".NET",
+        "Express",
+        "Flutter",
+        "Go",
+        "Infrastructure (Terraform)",
+        "Java",
+        "Kubernetes",
+        "Laravel",
+        "Mobile apps",
+        "Next.js",
+        "Node.js",
+        "PHP",
+        "Pydantic",
+        "Python",
+        "Rails",
+        "React",
+        "Security",
+        "Spring",
+        "SQLAlchemy",
+        "Tailwind CSS",
+        "Testing",
+        "Vue"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/all-rules/index.md",
+      "updated": "2026-11-20"
     },
     {
       "path": "/skills/catalog/",
       "title": "Skills catalog",
-      "description": "All 35 skills of agent-skills, grouped by job, with what each one does, when to use it and how to call it.",
+      "description": "The skills of agent-skills, grouped by job, with what each one does, when to use it and how to call it; each of the 39 also has its own page.",
       "product": "skills",
       "lang": "en",
       "headings": [
@@ -1229,10 +1290,11 @@
         "Security and accessibility",
         "DevOps",
         "Docs and meta",
+        "In development: eleven workflow skills",
         "Files the skills leave behind"
       ],
       "markdownUrl": "https://docs.skribly.pl/skills/catalog/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-20"
     },
     {
       "path": "/skills/commits/",
@@ -1247,12 +1309,30 @@
         "Checking old commits"
       ],
       "markdownUrl": "https://docs.skribly.pl/skills/commits/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-08"
+    },
+    {
+      "path": "/skills/how-it-works/",
+      "title": "How it works",
+      "description": "How the agent-skills skills work together - one pipeline from a plan to a merged branch, read-only guardrails along it, the project profile every skill reads first, and lessons with a scope.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "The pipeline",
+        "The guardrails",
+        "The project profile",
+        "Lessons with scopes",
+        "What feeds every step",
+        "Cheap on tokens",
+        "Read next"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/how-it-works/index.md",
+      "updated": "2026-11-19"
     },
     {
       "path": "/skills/install/",
       "title": "Install agent-skills",
-      "description": "Install agent-skills for one or all eight agents, at user or project scope, keep it updated and remove it cleanly.",
+      "description": "Install agent-skills for one or all seven agents, at user or project scope, keep it updated and remove it cleanly.",
       "product": "skills",
       "lang": "en",
       "headings": [
@@ -1267,7 +1347,1040 @@
         "With Skribly Agent"
       ],
       "markdownUrl": "https://docs.skribly.pl/skills/install/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/rules/",
+      "title": "Rule dictionary",
+      "description": "The rules of agent-skills as data - one sentence, a severity and a public source per rule - listed for the files in hand and checked line by line with agent-skills rules --check.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "List the rules",
+        "Check a project",
+        "Read next"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/rules/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/",
+      "title": "All skills",
+      "description": "Every one of the 57 skills of agent-skills on its own page, generated from its SKILL.md: what it does, when to use it, how to call it, its scripts, the stacks it fits and its token cost.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "Workflow",
+        "Quality and tests",
+        "Audits",
+        "Docs",
+        "Meta"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/adr/",
+      "title": "Architecture decision record",
+      "description": "The adr skill of agent-skills: writes an architecture decision record in MADR 4.0.0 with the four fields Skribly requires (Confidence, Reopen when, Exit plan, Confirmation naming its fitness function), numbers it, keeps the index of the repository's .docs/adr folder, refuses to edit an accepted ADR and supersedes it with a link instead.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/adr/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/api-tests/",
+      "title": "API contract tests",
+      "description": "The api-tests skill of agent-skills: writes and runs contract and integration tests for REST and GraphQL APIs, driven by the OpenAPI spec when there is one (Schemathesis, Dredd, Hurl, Postman with newman) or by the framework's own HTTP test client, covering auth flows, validation and error cases, pagination and idempotency.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/api-tests/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/backend-tests/",
+      "title": "Backend tests",
+      "description": "The backend-tests skill of agent-skills: detects the backend stack and writes or runs tests for the changed code, covering pytest with Django TestCase or DRF APIClient, Laravel PHPUnit or Pest, Node with Vitest or Jest plus supertest, Go test and Gradle or Maven, with an isolated test database, factories, transactional isolation, mocked external HTTP and coverage of the changed lines only.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/backend-tests/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/blast-radius/",
+      "title": "What a change breaks outside the diff",
+      "description": "The blast-radius skill of agent-skills: finds what a change can break outside its own diff before it is committed or merged - every caller, importer, route, job, migration and configuration that depends on what changed, the one assumption the change relies on, and a quick proof of that assumption by running code (a test, a script, a query) instead of reading.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/blast-radius/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/browser-check/",
+      "title": "Headless browser check",
+      "description": "The browser-check skill of agent-skills: verifies a UI change in a real headless browser (Playwright Chromium), loading the page and screenshotting only the changed element at desktop and mobile widths, and reporting console errors and failed requests.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/browser-check/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/ci-setup/",
+      "title": "CI pipeline setup",
+      "description": "The ci-setup skill of agent-skills: creates or fixes CI pipelines (GitHub Actions or GitLab CI) for the detected stack with lint, type check, tests with real service databases, build, dependency caching, a matrix only where it pays, concurrency, timeouts and secrets hygiene, and reviews existing workflows for script injection, pull_request_target misuse and unpinned actions.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/ci-setup/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/commit/",
+      "title": "Commit in project style",
+      "description": "The commit skill of agent-skills: proposes a commit message in the project's own convention (read from .tasks/workflow.md or inferred from git log), shows it with the exact file list and commits only after explicit approval.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/commit/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/correct/",
+      "title": "Guard against a repeated mistake",
+      "description": "The correct skill of agent-skills: turns a mistake that agents keep making in this project into something that stops it for good - a type that makes the wrong call impossible, a lint rule, a test, a check script or a clearer name, instead of one more line of advice.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/correct/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/db-migrations/",
+      "title": "Safe database migrations",
+      "description": "The db-migrations skill of agent-skills: reviews and writes safe database migrations for Django, Laravel, Prisma, Alembic, Flyway and Rails, catching table locks, NOT NULL without defaults, destructive drops and renames, type changes, unvalidated foreign keys, unbatched backfills and missing rollbacks, and rewrites them into zero-downtime expand and contract steps.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/db-migrations/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/debug/",
+      "title": "Root-cause debugging",
+      "description": "The debug skill of agent-skills: finds the root cause of a bug before changing code by reproducing it, narrowing it down with targeted logs, bisecting or a minimal case, confirming the cause with evidence, then applying the smallest fix and proving it with the same reproduction.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/debug/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/deps-update/",
+      "title": "Safe dependency upgrades",
+      "description": "The deps-update skill of agent-skills: upgrades dependencies safely for npm, pnpm, composer, pip, poetry and uv, listing outdated packages grouped by risk, reading changelogs and breaking changes for major bumps, and upgrading one group at a time with tests after each step and a clean commit per group.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/deps-update/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/design-review/",
+      "title": "Design review of a page",
+      "description": "The design-review skill of agent-skills: reviews a site page or component against the plan's fails-review list (design.md section 10.5) and the cross-site checklist (section 12), both read live.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/design-review/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/deslop/",
+      "title": "Clean machine leftovers from a diff",
+      "description": "The deslop skill of agent-skills: cleans the lines a coding agent added in the current diff of the usual machine-written leftovers - comments that repeat the code, defensive checks for things that cannot happen, needless type escapes, try/catch that swallows errors, wordy log messages, unused helpers, a style different from the rest of the file, and inflated prose in docs.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/deslop/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/docker/",
+      "title": "Docker and compose review",
+      "description": "The docker skill of agent-skills: reviews and fixes Dockerfiles and docker compose files, covering multi-stage builds, pinned base images, non-root users, layer caching and small images, healthchecks, secrets kept out of images, and data stores not exposed on all interfaces, using hadolint when installed plus built-in checks.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/docker/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/docs-sync/",
+      "title": "Docs move with the code",
+      "description": "The docs-sync skill of agent-skills: checks that a change a user can see updated, in the same change, the Polish and English language files (same keys), the repository's .docs/, CHANGELOG.md and the matching docs.skribly.pl page, by the rule \"Docs move with the code\" read live from the plan's rules.md.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/docs-sync/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/e2e-check/",
+      "title": "Walk a feature in a headless browser",
+      "description": "The e2e-check skill of agent-skills: walks a finished feature through a headless browser the way a user would - one scenario per acceptance criterion, against the app that already runs, with Playwright when the project has it - and reports each scenario as passed or failed with a screenshot per step.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/e2e-check/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/e2e-tests/",
+      "title": "Playwright end-to-end tests",
+      "description": "The e2e-tests skill of agent-skills: writes and runs Playwright end-to-end tests for the changed user flows, running only the affected specs, keeping traces on failure, condensing the JSON report, and triaging flaky specs to a root cause instead of adding sleeps or retries.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/e2e-tests/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/estimate/",
+      "title": "Task estimation",
+      "description": "The estimate skill of agent-skills: estimates a task or feature without changing code, breaking it into deliverables with optimistic, likely and pessimistic hours, a PERT total and range, plus assumptions, risks and questions ready to send to whoever asked for the work.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/estimate/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/framework-guide/",
+      "title": "Framework code for the installed version",
+      "description": "The framework-guide skill of agent-skills: writes framework code against the version the project has installed, not the one in the model's memory - reads the installed version and its docs (the AGENTS.md docs index, node_modules or vendor), confirms each API in the installed package before using it, and checks the common errors of that major version (Next.js, React, Vue, Angular, Express, Tailwind, Laravel, Django, Pydantic, SQLAlchemy, Rails, Spring Boot, .NET, Flutter, Kubernetes manifests).",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/framework-guide/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/gate-convention/",
+      "title": "Convention gate",
+      "description": "The gate-convention skill of agent-skills: a review gate for the project's own conventions - collects the rules of AGENTS.md (and nested ones above the changed files), CLAUDE.md and the conventions of .skribly/project.json into a numbered checklist, checks the diff against each rule and reports findings first, each with file line, the rule it breaks and its source, and a concrete fix.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/gate-convention/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/guide-tests/",
+      "title": "Test guide",
+      "description": "The guide-tests skill of agent-skills: decides what deserves a test and where it goes - the three levels (unit with mocks at the boundary, integration with the real framework and database, end to end against the running app), one folder per domain under tests/, and the switch that turns each level on - read from the tests the project already has by a script that maps them by level and domain.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/guide-tests/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/handoff/",
+      "title": "Handoff and resume",
+      "description": "The handoff skill of agent-skills: saves or restores working state in a .tasks/ STATE.md file so another agent, or a fresh session after /clear, compaction or a usage limit, can continue without the transcript.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/handoff/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/i18n/",
+      "title": "Translations and i18n",
+      "description": "The i18n skill of agent-skills: keeps translations complete and correct by finding missing, empty and extra keys per locale, placeholder mismatches and keys used in code but absent from the catalog (JSON, YAML, gettext PO and Laravel lang files), then adds translations in the project's format and extracts hard-coded UI strings.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/i18n/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/improve/",
+      "title": "Small improvements, live",
+      "description": "The improve skill of agent-skills: runs a short, interactive session of small improvements after a feature works - the user names what bothers them (spacing, a label, a slow step, an edge case), the agent fixes one item at a time with the smallest change, shows the result and waits for the next note.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/improve/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/learn/",
+      "title": "Project lessons",
+      "description": "The learn skill of agent-skills: records a confirmed lesson about the current project (a command that works, a convention the team follows, a pitfall that cost time) in .skribly/lessons.md under a scope (All, CI or one module) with the date and the skill it came from, only after the user agrees, so every skill starts smarter next time.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/learn/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/load-test/",
+      "title": "Load testing",
+      "description": "The load-test skill of agent-skills: plans, writes and runs load tests with k6 (or autocannon or Locust) from a short smoke run up to load, stress and spike profiles, with explicit thresholds for latency percentiles and error rate, then reads the results through a condensed summary and points to the bottleneck.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/load-test/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/merge/",
+      "title": "Finish a branch into develop",
+      "description": "The merge skill of agent-skills: finishes a branch whose work is done - checks it is clean and green, brings in the latest integration branch, merges it into the integration branch (develop by default) the way the project does it (a merge commit, or a squash where the project squashes), pushes, and removes the branch and its worktree, local and remote, only after the user agrees.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/merge/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/newsletter/",
+      "title": "Newsletter issue",
+      "description": "The newsletter skill of agent-skills: drafts one issue of the Skribly Newsletter (AI news for developers plus what is new in Skribly) in Polish and English.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/newsletter/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/orchestrate/",
+      "title": "Parallel subagents",
+      "description": "The orchestrate skill of agent-skills: splits a large job into independent sub-tasks and runs them in parallel with subagents (Claude Code Agent/Task tool, Codex, Cursor or OpenCode agents, or separate sessions) using self-contained briefs and explicit file ownership so they never edit the same files, then merges and verifies the results.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/orchestrate/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/pagespeed/",
+      "title": "PageSpeed and Web Vitals",
+      "description": "The pagespeed skill of agent-skills: measures and improves Core Web Vitals (LCP, CLS, INP, TBT) with PageSpeed Insights for public URLs or local Lighthouse for localhost, condenses the report to the top opportunities for mobile and desktop, and runs a fix-measure loop with framework-specific fixes for Next.js, Vite, Django and Laravel.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/pagespeed/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/perf-backend/",
+      "title": "Backend performance",
+      "description": "The perf-backend skill of agent-skills: finds and fixes backend performance problems with evidence, covering N+1 queries (Django assertNumQueries or debug toolbar, Laravel query log or preventLazyLoading, ORM query logging), missing or wrong indexes read from EXPLAIN, repeated work that needs caching, and CPU hot spots found with a profiler, then proves the gain with a before and after measurement.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/perf-backend/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/plan-step/",
+      "title": "Plan a work package",
+      "description": "The plan-step skill of agent-skills: writes or expands a plan work package (steps/F5.md style) in the exact shape of the plan's agents.md section 23.6 - the headings in order, tasks with Files, Do and Check, Owner actions, Verification, Done when, Risks and fallbacks - and keeps task ids and section-number references stable so later waves are expanded in one consistent shape.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/plan-step/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/plan/",
+      "title": "Plan a large initiative",
+      "description": "The plan skill of agent-skills: turns a large or vague initiative (an epic, a new module, a migration) into a plan file .tasks/plans/SLUG.md with the goal, what is out of scope, the risks, and an ordered list of small tasks, each with what it delivers and how it is checked, so every task can then run through the task skill on its own.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/plan/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/project-docs/",
+      "title": "Project knowledge docs",
+      "description": "The project-docs skill of agent-skills: generates or refreshes a .docs/ knowledge folder for a repository (overview, architecture, modules, data flow, how to run and test, decisions) plus a short AGENTS.md and CLAUDE.md that point to it, so agents load project knowledge on demand instead of in every session.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/project-docs/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/project/",
+      "title": "Project profile",
+      "description": "The project skill of agent-skills: detects how the current project is built and worked on (stack, languages, frameworks, package manager, install, dev, build, test, lint, typecheck and format commands, commit style and language, base branch, CI and containers) and keeps it in .skribly/project.json, the Skribly project profile every other skill reads first.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/project/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/record-docs/",
+      "title": "Record how a feature is built",
+      "description": "The record-docs skill of agent-skills: writes or updates the as-built documentation of an important feature or decision after it works - what it does, how it is built (the modules, the data, the flow), the decisions and their reasons, how to run and test it, and its limits, in the project documentation folder, so the next person or agent reads one page instead of the code.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/record-docs/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/refactor/",
+      "title": "Behaviour-preserving refactor",
+      "description": "The refactor skill of agent-skills: refactors code without changing behaviour, starting with characterization tests that pin down what the code does today, then moving in small verified steps (extract, rename, move, inline, replace conditionals), with tests, types and a diff review after each step and nothing mixed in from feature work.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/refactor/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/release-notes/",
+      "title": "Release notes",
+      "description": "The release-notes skill of agent-skills: drafts release notes and CHANGELOG entries from git history since the last tag, grouped into breaking changes, features, fixes, performance and other, written for users rather than developers, in the project's existing changelog style, with issue and PR references and never any AI attribution or trailers.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/release-notes/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/release/",
+      "title": "Release checklist",
+      "description": "The release skill of agent-skills: walks the project's release checklist (changelogs, dependency updates, contract versioning, registry, vendor sync, tags and releases, the weekly routine) and runs read-only repository checks before a release - develop clean, package.json and VERSION in step, CHANGELOG entry present, tag free.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/release/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/report/",
+      "title": "Implementation report",
+      "description": "The report skill of agent-skills: writes a report of what was delivered for a task or feature, for the person who asked for it - each requirement of the spec or issue mapped to where it is in the code, how it was checked (the command or test and its result), what is not done and why, and the risks left.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/report/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/review/",
+      "title": "Self-review before commit",
+      "description": "The review skill of agent-skills: reviews your own uncommitted changes or branch diff before committing, looking for bugs, missed edge cases, security slips, dead or debug code, convention breaks and missing tests, and reports findings first, ordered by severity, each with file:line and a concrete fix.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/review/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/run-step/",
+      "title": "Run a work package",
+      "description": "The run-step skill of agent-skills: carries out one plan work package (steps/F5.md style) task by task by the step protocol of the plan's agents.md section 23.3 - read the step, one task at a time in order, a short branch from develop per task, run its check, a Conventional Commit with explicit paths, merge into develop with --no-ff, push, tick the box; main only after the audit.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/run-step/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/security-audit/",
+      "title": "Security audit",
+      "description": "The security-audit skill of agent-skills: audits a codebase or the current diff for security problems, namely leaked secrets, vulnerable dependencies (npm, pnpm, yarn, composer, pip via native audit tools or the OSV database) and dangerous code patterns such as injection, XSS, unsafe deserialization, path traversal, SSRF and missing authorization, and reports each finding with severity, evidence and a concrete fix.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/security-audit/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/seed/",
+      "title": "Module seeds",
+      "description": "The seed skill of agent-skills: writes or extends the deterministic seeds of a module in an app made from the Skribly app template (seed:minimal and seed:demo, fixed ids and a fixed clock, demo rows in Polish and English for the demo organisations, written through the tenant transaction so row-level security holds), by reading the app's own reference seed, its demo identity and the module's schema at run time instead of carrying a copy.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/seed/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/seo-audit/",
+      "title": "Technical SEO audit",
+      "description": "The seo-audit skill of agent-skills: audits pages for technical SEO, covering title and meta description, heading outline, canonical, robots meta and robots.txt, sitemap.xml, hreflang, Open Graph, structured data (JSON-LD), image alt text, links and performance basics such as render-blocking resources and layout-shift risks, and returns prioritized, concrete fixes.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/seo-audit/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/slice/",
+      "title": "Vertical slice",
+      "description": "The slice skill of agent-skills: scaffolds a command or query slice, or a whole new module, in an app made from the Skribly app template by deriving it from the app's own reference module at run time (no copied conventions) - plain (input, deps) functions, the input.ts, handler.ts or query.ts, route.ts split, the handler that authorises first and opens one tenant transaction for the organisation it checked, no slice importing another, the outbox for a command, the MCP tool.ts when asked, the seed, and the swap-a-dependency recipe.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/slice/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/spec/",
+      "title": "Implement-ready spec",
+      "description": "The spec skill of agent-skills: writes an implement-ready spec for one task as .tasks/specs/SPEC-slug.md - goal, scope in and out, the files and contracts it touches, and phases that each leave the project working and end with an exact check - from a plan task, a tracker issue or a request, then waits for approval.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/spec/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/standard/",
+      "title": "Repository standard",
+      "description": "The standard skill of agent-skills: checks a repository against the Skribly standard and guides the repair.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/standard/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/task/",
+      "title": "Task workflow",
+      "description": "The task skill of agent-skills: runs a development task end to end, from a tracker issue (Redmine, Jira, GitHub, GitLab, Linear, Skribly Tracker) or a plain-text request, through analysis, approval, branch, staged implementation and checks to a local commit made only after the user says OK.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/task/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/test-loop/",
+      "title": "Focused test loop",
+      "description": "The test-loop skill of agent-skills: runs only the checks affected by the current change (lint, types, related tests), fixes failures in a capped loop of at most 3 attempts, and reports compact failure summaries instead of full logs.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/test-loop/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/token-saver/",
+      "title": "Token saver",
+      "description": "The token-saver skill of agent-skills: working rules that keep agent context and usage small, such as searching before reading, reading line ranges instead of whole files, condensing logs, delegating mechanical work to scripts, avoiding re-reads, and knowing when to /clear and resume from STATE.md.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/token-saver/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/tracker-write/",
+      "title": "Draft tracker and review texts",
+      "description": "The tracker-write skill of agent-skills: drafts the texts a developer posts to others, for their approval before anything is sent - a new issue, a comment on an issue (progress, a question, an estimate, a hand-off), a pull or merge request description, a review reply.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/tracker-write/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/train-skills/",
+      "title": "Train the skills for a project",
+      "description": "The train-skills skill of agent-skills: fits the skills to a new project in one loop - runs agent-skills init (stack, commands and conventions into .skribly/project.json, only the skills that fit, for every agent), reads the profile, runs the project's checks once, records the lessons it confirmed with a scope and a file-line or commit citation through the learn skill after the person's OK, and proposes small project-specific skills under .agents/skills with the person's OK.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/train-skills/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/upgrade/",
+      "title": "Major upgrade by the migration guide",
+      "description": "The upgrade skill of agent-skills: moves a project to a new major version of its framework or runtime (Next.js, React, Angular, Laravel, Django, Rails, Spring Boot, Node, PHP, Python) with the target version's own migration guide, one area at a time, each with a failing test first and a check with the person before the next area.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/upgrade/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/verify/",
+      "title": "Verify a change in the running app",
+      "description": "The verify skill of agent-skills: proves a change works in the running application, not only in unit tests - starts the project the way it really runs (its own dev or Docker command from the profile), waits until it answers, exercises the changed path with a smoke request or a headless browser, runs lint, types and the related tests, and reports pass or fail per step in a few lines.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/verify/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/wcag-audit/",
+      "title": "WCAG 2.2 AA audit",
+      "description": "The wcag-audit skill of agent-skills: reviews changed UI against WCAG 2.2 level AA, running axe-core through Playwright when available and otherwise a targeted manual checklist, and returns concrete code fixes per issue (element, success criterion, fix).",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/wcag-audit/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/skill/writing/",
+      "title": "Plain writing for people",
+      "description": "The writing skill of agent-skills: gives every text an agent writes for people (commit bodies, pull request descriptions, tracker comments, reports, docs, interface strings, release notes) one plain style in Polish or English - short sentences, the concrete fact before the explanation, the reader's words instead of jargon, no filler, no hype and no machine-sounding phrases.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "What it does",
+        "When to use it",
+        "How to call it",
+        "Scripts",
+        "Where it fits",
+        "Token cost"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/skill/writing/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/token-cost/",
+      "title": "Token cost",
+      "description": "How many tokens each agent-skills skill costs an agent: the listing kept in every session, a run, the budget the check enforces and the references read on demand.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "The columns",
+        "Per skill"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/token-cost/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/skills/tooling/",
+      "title": "Agent tooling",
+      "description": "Commands of the agent-skills CLI that make coding agents safer and cheaper - a delete guard, a status line, read-only permission presets, an MCP smoke test and a coding agent job for CI.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "Delete guard",
+        "Status line",
+        "Permission presets",
+        "MCP smoke test",
+        "A coding agent in CI",
+        "Framework MCP servers",
+        "Nightly report",
+        "Dependabot preset",
+        "Major upgrades",
+        "Read next"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/tooling/index.md",
+      "updated": "2026-11-20"
     },
     {
       "path": "/skills/trackers/",
@@ -1289,7 +2402,25 @@
         "Safety"
       ],
       "markdownUrl": "https://docs.skribly.pl/skills/trackers/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
+    },
+    {
+      "path": "/skills/train/",
+      "title": "Train the skills for your project",
+      "description": "Fit agent-skills to one project step by step - agent-skills init, the train-skills loop, switching skills on and off, lessons with a scope and small project skills of your own.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "1. Preview the setup",
+        "2. Run init",
+        "3. Ask your agent to train the skills",
+        "4. Switch skills on and off",
+        "5. Keep the lessons",
+        "6. Add project skills",
+        "Read next"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/train/index.md",
+      "updated": "2026-11-19"
     },
     {
       "path": "/skills/troubleshooting/",
@@ -1312,7 +2443,22 @@
         "How do I use it in a team?"
       ],
       "markdownUrl": "https://docs.skribly.pl/skills/troubleshooting/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-08"
+    },
+    {
+      "path": "/skills/updates/",
+      "title": "Updates",
+      "description": "How to keep agent-skills current - git pull and sync today, and the planned agent-skills update command and plugin marketplaces of Claude Code, Codex and Gemini CLI.",
+      "product": "skills",
+      "lang": "en",
+      "headings": [
+        "Update today",
+        "Planned: `agent-skills update`",
+        "Planned: plugin marketplaces",
+        "Read next"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/skills/updates/index.md",
+      "updated": "2026-11-19"
     },
     {
       "path": "/tracker/",
@@ -1332,7 +2478,7 @@
         "Read next"
       ],
       "markdownUrl": "https://docs.skribly.pl/tracker/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-14"
     },
     {
       "path": "/tracker/configuration/",
@@ -1350,7 +2496,7 @@
         "Clients"
       ],
       "markdownUrl": "https://docs.skribly.pl/tracker/configuration/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/tracker/rest-api/",
@@ -1378,7 +2524,7 @@
         "OpenAPI"
       ],
       "markdownUrl": "https://docs.skribly.pl/tracker/rest-api/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-14"
     },
     {
       "path": "/tracker/self-hosting/",
@@ -1395,7 +2541,7 @@
         "Upgrading"
       ],
       "markdownUrl": "https://docs.skribly.pl/tracker/self-hosting/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-08"
     },
     {
       "path": "/tracker/tokens/",
@@ -1411,7 +2557,7 @@
         "Planned"
       ],
       "markdownUrl": "https://docs.skribly.pl/tracker/tokens/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-08"
     },
     {
       "path": "/tracker/webhooks/",
@@ -1432,7 +2578,7 @@
         "Planned"
       ],
       "markdownUrl": "https://docs.skribly.pl/tracker/webhooks/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/ui/",
@@ -1451,7 +2597,7 @@
         "Planned"
       ],
       "markdownUrl": "https://docs.skribly.pl/ui/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-08"
     },
     {
       "path": "/pl/",
@@ -1464,7 +2610,7 @@
         "Co dalej"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-20"
     },
     {
       "path": "/pl/accessibility/",
@@ -1478,7 +2624,7 @@
         "Zgłaszanie barier"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/accessibility/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-11"
     },
     {
       "path": "/pl/agent/",
@@ -1501,7 +2647,7 @@
         "Informacje pomocnicze"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/accessibility/",
@@ -1521,7 +2667,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/accessibility/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/agents/",
@@ -1539,7 +2685,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/agents/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/audit-rules/",
@@ -1557,7 +2703,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/audit-rules/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/audits/",
@@ -1574,7 +2720,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/audits/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/browser/",
@@ -1593,7 +2739,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/browser/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/changes/",
@@ -1616,7 +2762,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/changes/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/cli/",
@@ -1639,7 +2785,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/cli/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/code/",
@@ -1660,7 +2806,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/code/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/dashboard/",
@@ -1675,7 +2821,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/dashboard/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/data-and-network/",
@@ -1698,7 +2844,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/data-and-network/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/docker/",
@@ -1717,7 +2863,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/docker/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/documents/",
@@ -1737,7 +2883,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/documents/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/extensions/",
@@ -1761,7 +2907,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/extensions/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/faq/",
@@ -1798,7 +2944,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/faq/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/features/",
@@ -1823,7 +2969,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/features/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/first-run/",
@@ -1841,7 +2987,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/first-run/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/first-session/",
@@ -1858,7 +3004,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/first-session/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/first-workspace/",
@@ -1875,7 +3021,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/first-workspace/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/history/",
@@ -1892,7 +3038,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/history/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/import-export/",
@@ -1911,7 +3057,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/import-export/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/inbox/",
@@ -1929,7 +3075,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/inbox/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/install/",
@@ -1945,7 +3091,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/install/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/languages/",
@@ -1964,7 +3110,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/languages/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/mcp/",
@@ -1984,7 +3130,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/mcp/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/pipelines/",
@@ -2003,7 +3149,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/pipelines/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/plan/",
@@ -2022,7 +3168,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/plan/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/plugins/",
@@ -2045,7 +3191,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/plugins/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/resources/",
@@ -2065,7 +3211,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/resources/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/review/",
@@ -2083,7 +3229,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/review/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/session-history/",
@@ -2100,7 +3246,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/session-history/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/sessions/",
@@ -2123,7 +3269,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/sessions/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/settings/",
@@ -2152,7 +3298,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/settings/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/shortcuts/",
@@ -2171,7 +3317,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/shortcuts/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/skills/",
@@ -2192,7 +3338,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/skills/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/skribly-mcp/",
@@ -2211,7 +3357,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/skribly-mcp/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/tasks/",
@@ -2234,7 +3380,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/tasks/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/terminals/",
@@ -2253,7 +3399,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/terminals/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/themes/",
@@ -2274,7 +3420,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/themes/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/token-saving/",
@@ -2291,7 +3437,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/token-saving/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/troubleshooting/",
@@ -2325,7 +3471,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/troubleshooting/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/updates/",
@@ -2344,7 +3490,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/updates/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/usage/",
@@ -2361,7 +3507,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/usage/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/workspaces/",
@@ -2381,7 +3527,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/workspaces/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/agent/worktrees/",
@@ -2401,7 +3547,7 @@
         "Powiązane strony"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/agent/worktrees/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/authors/",
@@ -2425,16 +3571,22 @@
       "lang": "pl",
       "headings": [
         "Listopad 2026",
+        "Dokumentacja, 20 listopada: czytelniejsze strony skilli i siedmiu agentów",
+        "Dokumentacja, 20 listopada: każda reguła na jednej stronie",
+        "Dokumentacja, 20 listopada: nowe skille przepływu pracy w katalogu",
+        "Dokumentacja, 20 listopada: słownik reguł i kolejne polecenia agent-skills",
+        "Dokumentacja, 19 listopada: strona zgodności",
+        "Dokumentacja, 19 listopada: każdy skill na osobnej stronie",
         "Dokumentacja, 17 listopada: Core 0.3.0 i aktualizacja kitu",
         "Dokumentacja, 15 listopada: przewodnik użytkownika Skribly Agent",
-        "agent-skills 0.3.0, 14 listopada",
         "Dokumentacja, 14 listopada: strony przeniesione ze skribly.pl",
+        "agent-skills 0.3.0, 14 listopada",
         "Dokumentacja, 11 listopada: wyszukiwarka na stronie głównej",
         "Dokumentacja, 11 listopada: jeden układ strony",
         "Dokumentacja, 11 listopada: licencje i przełącznik języka",
-        "agent-skills 0.2.13 i 0.2.14, 11 listopada",
         "Dokumentacja, 11 listopada: aktualne liczby",
         "Dokumentacja, 11 listopada: wersja polska",
+        "agent-skills 0.2.13 i 0.2.14, 11 listopada",
         "Dokumentacja, 8 listopada: jeden wygląd z pozostałymi witrynami",
         "Dokumentacja, 8 listopada",
         "agent-skills 0.2.11, 8 listopada",
@@ -2442,33 +3594,33 @@
         "Skribly Agent 1.0.37, 6 listopada",
         "Skribly Agent 1.0.32, 6 listopada",
         "Skribly Tracker 0.1.20, 6 listopada",
-        "Skribly Agent 1.0.30, 4 listopada",
-        "Skribly Tracker 0.1.16, 4 listopada",
+        "Skribly Agent 1.0.30, 5 listopada",
+        "Skribly Tracker 0.1.16, 5 listopada",
         "agent-skills 0.2.5, 4 listopada",
         "Październik 2026",
         "Skribly Agent 1.0.27, 29 października",
-        "Skribly Agent 1.0.26",
-        "Skribly Agent 1.0.23",
-        "Skribly Agent 1.0.19",
-        "Skribly Agent 1.0.15",
-        "Skribly Agent 1.0.7",
-        "Skribly Agent 1.0.4",
-        "Skribly Tracker 0.1.9",
-        "Skribly Tracker 0.1.8",
-        "Skribly Tracker 0.1.7",
-        "Skribly Tracker 0.1.5",
-        "Skribly Tracker 0.1.3",
-        "Skribly Tracker 0.1.2",
-        "agent-skills 0.2.2",
-        "agent-skills 0.2.0",
-        "agent-skills 0.1.0",
+        "Skribly Agent 1.0.26, 29 października",
+        "Skribly Agent 1.0.23, 29 października",
+        "Skribly Agent 1.0.19, 29 października",
+        "Skribly Agent 1.0.15, 29 października",
+        "Skribly Agent 1.0.7, 29 października",
+        "Skribly Agent 1.0.4, 29 października",
+        "Skribly Tracker 0.1.9, 29 października",
+        "Skribly Tracker 0.1.8, 29 października",
+        "Skribly Tracker 0.1.7, 29 października",
+        "Skribly Tracker 0.1.5, 29 października",
+        "Skribly Tracker 0.1.3, 29 października",
+        "Skribly Tracker 0.1.2, 29 października",
+        "agent-skills 0.2.2, 29 października",
+        "agent-skills 0.2.0, 29 października",
+        "agent-skills 0.1.0, 29 października",
         "Wspólne pakiety",
         "`@skribly/core` 0.2.0",
         "`@skribly/core` 0.1.0",
         "`@skribly/ui`, pierwsza wersja"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/changelog/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-20"
     },
     {
       "path": "/pl/core/",
@@ -2491,7 +3643,7 @@
         "Czytaj dalej"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/core/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-17"
     },
     {
       "path": "/pl/core/connecting/",
@@ -2506,7 +3658,7 @@
         "Planowane"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/core/connecting/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-11"
     },
     {
       "path": "/pl/core/contracts/",
@@ -2522,7 +3674,7 @@
         "Zgodność z API"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/core/contracts/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-11"
     },
     {
       "path": "/pl/core/events/",
@@ -2538,7 +3690,7 @@
         "Planowane"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/core/events/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-17"
     },
     {
       "path": "/pl/faq/",
@@ -2563,7 +3715,7 @@
         "Jak zgłosić błąd albo problem z bezpieczeństwem?"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/faq/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-20"
     },
     {
       "path": "/pl/getting-started/",
@@ -2579,7 +3731,7 @@
         "Kolejne kroki"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/getting-started/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-11"
     },
     {
       "path": "/pl/overview/architecture/",
@@ -2603,6 +3755,21 @@
       "updated": "2026-11-18"
     },
     {
+      "path": "/pl/reference/compatibility/",
+      "title": "Zgodność",
+      "description": "Które wersje pakietów Skribly do siebie pasują: każdy pociąg wydań z wersjami core, ui i agent-skills, najstarsze Skribly Agent i Skribly Tracker, które z nim działają, oraz na czym go przetestowano.",
+      "product": "overview",
+      "lang": "pl",
+      "headings": [
+        "Pociągi",
+        "Jak czytać tabelę",
+        "Skąd są dane",
+        "Powiązane strony"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/reference/compatibility/index.md",
+      "updated": "2026-11-20"
+    },
+    {
       "path": "/pl/releases/train-0-3/",
       "title": "Pociąg wydań 0.3",
       "description": "Pierwszy pociąg wydań Skribly: @skribly/core 0.3.0 i agent-skills 0.3.0, a @skribly/ui dołącza w późniejszym pociągu, co każdy z nich wnosi i jak zaktualizować.",
@@ -2617,7 +3784,7 @@
         "Aktualizacja"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/releases/train-0-3/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-14"
     },
     {
       "path": "/pl/security/",
@@ -2638,7 +3805,7 @@
     {
       "path": "/pl/skills/",
       "title": "agent-skills",
-      "description": "35 przenośnych skilli, które prowadzą agentów programujących AI od zgłoszenia w trackerze do przejrzanego, przetestowanego commita — oszczędnych w tokenach, domyślnie bezpiecznych, bez stopek współautorstwa AI.",
+      "description": "39 przenośnych skilli, które prowadzą agentów programujących AI od zgłoszenia w trackerze do przejrzanego, przetestowanego commita — oszczędnych w tokenach, domyślnie bezpiecznych, bez stopek współautorstwa AI.",
       "product": "skills",
       "lang": "pl",
       "headings": [
@@ -2649,7 +3816,7 @@
         "Czytaj dalej"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/skills/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-20"
     },
     {
       "path": "/pl/skills/agents/",
@@ -2666,12 +3833,52 @@
         "Agenci w Skribly Agent"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/skills/agents/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-11"
+    },
+    {
+      "path": "/pl/skills/all-rules/",
+      "title": "Wszystkie reguły",
+      "description": "Każda reguła słownika reguł agent-skills, według technologii, z wagą, wersjami, sprawdzeniem wierszy i publicznym źródłem.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Angular",
+        "CI (GitHub Actions)",
+        "Analiza danych",
+        "Bazy danych",
+        "Django",
+        "Docker",
+        "Dokumentacja",
+        ".NET",
+        "Express",
+        "Flutter",
+        "Go",
+        "Infrastruktura (Terraform)",
+        "Java",
+        "Kubernetes",
+        "Laravel",
+        "Aplikacje mobilne",
+        "Next.js",
+        "Node.js",
+        "PHP",
+        "Pydantic",
+        "Python",
+        "Rails",
+        "React",
+        "Bezpieczeństwo",
+        "Spring",
+        "SQLAlchemy",
+        "Tailwind CSS",
+        "Testy",
+        "Vue"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/all-rules/index.md",
+      "updated": "2026-11-20"
     },
     {
       "path": "/pl/skills/catalog/",
       "title": "Katalog skilli",
-      "description": "Wszystkie 35 skilli agent-skills, pogrupowane według zadań, z opisem działania, zastosowania i sposobu wywołania.",
+      "description": "Skille agent-skills pogrupowane według zadań, z opisem działania, zastosowania i sposobu wywołania; każdy z 39 ma też własną stronę.",
       "product": "skills",
       "lang": "pl",
       "headings": [
@@ -2681,10 +3888,11 @@
         "Bezpieczeństwo i dostępność",
         "DevOps",
         "Dokumentacja i meta",
+        "W przygotowaniu: jedenaście skilli przepływu pracy",
         "Pliki, które zostawiają skille"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/skills/catalog/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-20"
     },
     {
       "path": "/pl/skills/commits/",
@@ -2699,12 +3907,30 @@
         "Sprawdzanie starych commitów"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/skills/commits/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-11"
+    },
+    {
+      "path": "/pl/skills/how-it-works/",
+      "title": "Jak to działa",
+      "description": "Jak skille agent-skills działają razem - jeden potok od planu do scalonej gałęzi, przeglądy tylko do odczytu po drodze, profil projektu, który każdy skill czyta jako pierwszy, i lekcje z zakresem.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Potok",
+        "Bramki",
+        "Profil projektu",
+        "Lekcje z zakresem",
+        "Co zasila każdy krok",
+        "Oszczędnie z tokenami",
+        "Czytaj dalej"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/how-it-works/index.md",
+      "updated": "2026-11-19"
     },
     {
       "path": "/pl/skills/install/",
       "title": "Zainstaluj agent-skills",
-      "description": "Zainstaluj agent-skills dla jednego lub wszystkich ośmiu agentów, w zakresie użytkownika lub projektu, aktualizuj je i usuwaj bez śladu.",
+      "description": "Zainstaluj agent-skills dla jednego lub wszystkich siedmiu agentów, w zakresie użytkownika lub projektu, aktualizuj je i usuwaj bez śladu.",
       "product": "skills",
       "lang": "pl",
       "headings": [
@@ -2719,7 +3945,1040 @@
         "Ze Skribly Agent"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/skills/install/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/rules/",
+      "title": "Słownik reguł",
+      "description": "Reguły agent-skills jako dane - jedno zdanie, waga i publiczne źródło każdej reguły - wypisywane dla plików, nad którymi pracujesz, i sprawdzane wiersz po wierszu przez agent-skills rules --check.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Wypisz reguły",
+        "Sprawdź projekt",
+        "Czytaj dalej"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/rules/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/",
+      "title": "Wszystkie skille",
+      "description": "Każdy z 57 skilli agent-skills na osobnej stronie, generowanej z jego SKILL.md: co robi, kiedy go używać, jak go wywołać, jego skrypty, stosy, do których pasuje, i koszt w tokenach.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Przepływ pracy",
+        "Jakość i testy",
+        "Audyty",
+        "Dokumentacja",
+        "Meta"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/adr/",
+      "title": "Zapis decyzji architektonicznej",
+      "description": "Skill adr z agent-skills: pisze zapis decyzji architektonicznej w formacie MADR 4.0.0 z czterema polami, których wymaga Skribly (pewność, kiedy wrócić do decyzji, plan wyjścia i potwierdzenie z nazwanym sprawdzeniem), numeruje go i prowadzi indeks folderu .docs/adr.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/adr/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/api-tests/",
+      "title": "Testy kontraktowe API",
+      "description": "Skill api-tests z agent-skills: pisze i uruchamia testy kontraktowe i integracyjne API REST i GraphQL: na podstawie specyfikacji OpenAPI, gdy ją ma projekt (Schemathesis, Dredd, Hurl, Postman z newman), albo klientem HTTP samego frameworka.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/api-tests/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/backend-tests/",
+      "title": "Testy backendu",
+      "description": "Skill backend-tests z agent-skills: wykrywa stos backendu i pisze lub uruchamia testy zmienionego kodu: pytest z Django lub DRF, Laravel z PHPUnit lub Pest, Node z Vitest lub Jest i supertest, Go oraz Gradle lub Maven.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/backend-tests/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/blast-radius/",
+      "title": "Co zmiana psuje poza diffem",
+      "description": "Skill blast-radius z agent-skills: przed commitem lub scaleniem szuka tego, co zmiana może zepsuć poza własnym diffem: każdego wywołania, importu, trasy, zadania w tle, migracji i konfiguracji, które zależą od zmienionego kodu.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/blast-radius/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/browser-check/",
+      "title": "Sprawdzenie w przeglądarce bez interfejsu",
+      "description": "Skill browser-check z agent-skills: sprawdza zmianę interfejsu w prawdziwej przeglądarce bez interfejsu (Chromium z Playwright): ładuje stronę, robi zrzut samego zmienionego elementu w szerokości komputera i telefonu oraz zgłasza błędy konsoli i nieudane żądania.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/browser-check/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/ci-setup/",
+      "title": "Konfiguracja CI",
+      "description": "Skill ci-setup z agent-skills: tworzy lub naprawia potoki CI (GitHub Actions albo GitLab CI) dla wykrytego stosu: lint, sprawdzenie typów, testy z prawdziwymi bazami danych, build, cache zależności, macierz tylko tam, gdzie się opłaca, limity czasu i ostrożne użycie sekretów.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/ci-setup/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/commit/",
+      "title": "Commit w stylu projektu",
+      "description": "Skill commit z agent-skills: proponuje wiadomość commita w konwencji projektu (z .tasks/workflow.md albo wykrytej z historii git), pokazuje ją z dokładną listą plików i robi commit dopiero po Twojej wyraźnej zgodzie.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/commit/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/correct/",
+      "title": "Zabezpieczenie przed powtarzanym błędem",
+      "description": "Skill correct z agent-skills: zamienia błąd, który agenci wciąż popełniają w tym projekcie, w coś, co go trwale blokuje: typ, który nie pozwala na złe wywołanie, regułę lintera, test, skrypt sprawdzający albo czytelniejszą nazwę, zamiast kolejnej rady.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/correct/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/db-migrations/",
+      "title": "Bezpieczne migracje bazy danych",
+      "description": "Skill db-migrations z agent-skills: przegląda i pisze bezpieczne migracje dla Django, Laravel, Prisma, Alembic, Flyway i Rails.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/db-migrations/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/debug/",
+      "title": "Szukanie przyczyny błędu",
+      "description": "Skill debug z agent-skills: szuka prawdziwej przyczyny błędu, zanim zmieni kod: odtwarza go, zawęża celowanymi logami, bisekcją albo minimalnym przykładem, potwierdza przyczynę dowodem, a potem wprowadza najmniejszą poprawkę i sprawdza ją tym samym odtworzeniem.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/debug/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/deps-update/",
+      "title": "Bezpieczne aktualizacje zależności",
+      "description": "Skill deps-update z agent-skills: bezpiecznie aktualizuje zależności npm, pnpm, Composer, pip, Poetry i uv: wypisuje nieaktualne pakiety pogrupowane według ryzyka, czyta listy zmian i zmiany łamiące przy wersjach głównych, a potem aktualizuje po jednej grupie, z testami po każdym kroku i osobnym commitem dla każdej grupy.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/deps-update/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/design-review/",
+      "title": "Przegląd projektu graficznego strony",
+      "description": "Skill design-review z agent-skills: przegląda stronę lub komponent według listy rzeczy, które nie przechodzą przeglądu projektu, i listy kontrolnej wspólnej dla wszystkich witryn, obie czytane na bieżąco z planu.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/design-review/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/deslop/",
+      "title": "Sprzątanie maszynowych naleciałości w diffie",
+      "description": "Skill deslop z agent-skills: czyści wiersze, które agent dodał w bieżącym diffie, z typowych maszynowych naleciałości: komentarzy powtarzających kod, zabezpieczeń przed rzeczami niemożliwymi, zbędnego obchodzenia typów, try/catch, które połyka błędy, rozwlekłych logów, nieużywanych pomocników, stylu innego niż reszta pliku i napompowanego tekstu w dokumentacji.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/deslop/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/docker/",
+      "title": "Przegląd Dockera i compose",
+      "description": "Skill docker z agent-skills: przegląda i poprawia pliki Dockerfile i docker compose: kompilacje wieloetapowe, przypięte obrazy bazowe, użytkownik inny niż root, cache warstw i małe obrazy, healthchecki, sekrety poza obrazem i bazy danych niewystawione na wszystkich interfejsach.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/docker/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/docs-sync/",
+      "title": "Dokumentacja idzie razem z kodem",
+      "description": "Skill docs-sync z agent-skills: sprawdza, czy zmiana widoczna dla użytkownika zaktualizowała w tej samej zmianie polskie i angielskie pliki językowe (te same klucze), .docs/ repozytorium, CHANGELOG.md i odpowiednią stronę docs.skribly.pl, według reguły „dokumentacja idzie razem z kodem” czytanej na bieżąco z planu.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/docs-sync/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/e2e-check/",
+      "title": "Przejście funkcji w przeglądarce bez interfejsu",
+      "description": "Skill e2e-check z agent-skills: przechodzi gotową funkcję w przeglądarce bez interfejsu tak jak użytkownik: jeden scenariusz na każde kryterium akceptacji, na już działającej aplikacji, z Playwright, gdy projekt go ma.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/e2e-check/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/e2e-tests/",
+      "title": "Testy end-to-end w Playwright",
+      "description": "Skill e2e-tests z agent-skills: pisze i uruchamia testy end-to-end w Playwright dla zmienionych ścieżek użytkownika: uruchamia tylko dotknięte specyfikacje, przy błędzie zachowuje ślady, skraca raport JSON, a przy niestabilnym teście szuka przyczyny zamiast dodawać opóźnienia i ponowienia.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/e2e-tests/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/estimate/",
+      "title": "Oszacowanie zadania",
+      "description": "Skill estimate z agent-skills: szacuje zadanie lub funkcję bez zmiany kodu: dzieli je na elementy do dostarczenia z godzinami optymistycznymi, prawdopodobnymi i pesymistycznymi, liczy sumę i przedział PERT oraz wypisuje założenia, ryzyka i pytania gotowe do wysłania osobie, która zleca pracę.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/estimate/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/framework-guide/",
+      "title": "Kod frameworka dla zainstalowanej wersji",
+      "description": "Skill framework-guide z agent-skills: pisze kod frameworka pod wersję zainstalowaną w projekcie, a nie tę z pamięci modelu: odczytuje zainstalowaną wersję i jej dokumentację (indeks dokumentacji w AGENTS.md, node_modules albo vendor), przed użyciem potwierdza każde API w zainstalowanym pakiecie i sprawdza typowe błędy tej wersji głównej (Next.js, React, Vue, Angular, Express, Tailwind, Laravel, Django, Pydantic, SQLAlchemy, Rails, Spring Boot, .NET, Flutter, manifesty Kubernetes).",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/framework-guide/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/gate-convention/",
+      "title": "Bramka konwencji",
+      "description": "Skill gate-convention z agent-skills: bramka przeglądu dla konwencji samego projektu: zbiera reguły z AGENTS.md (także zagnieżdżonych nad zmienionymi plikami), CLAUDE.md i konwencji .skribly/project.json w ponumerowaną listę, sprawdza diff względem każdej reguły i zaczyna raport od znalezisk, każde z wierszem pliku, złamaną regułą, jej źródłem i konkretną poprawką.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/gate-convention/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/guide-tests/",
+      "title": "Przewodnik po testach",
+      "description": "Skill guide-tests z agent-skills: decyduje, co zasługuje na test i gdzie ten test trafia: trzy poziomy (jednostkowe z atrapami na granicy, integracyjne z prawdziwym frameworkiem i bazą danych, end-to-end na działającej aplikacji), jeden folder na dziedzinę w tests/ i przełącznik, który włącza każdy poziom.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/guide-tests/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/handoff/",
+      "title": "Przekazanie pracy i wznowienie",
+      "description": "Skill handoff z agent-skills: zapisuje lub odtwarza stan pracy w pliku STATE.md w .tasks/, aby inny agent albo świeża sesja po /clear, kompresji kontekstu lub limicie użycia mogły kontynuować bez transkryptu.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/handoff/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/i18n/",
+      "title": "Tłumaczenia i i18n",
+      "description": "Skill i18n z agent-skills: pilnuje kompletnych i poprawnych tłumaczeń: szuka brakujących, pustych i nadmiarowych kluczy w każdym języku, niezgodnych placeholderów oraz kluczy użytych w kodzie, których brakuje w katalogu (JSON, YAML, gettext PO i pliki językowe Laravel), potem dodaje tłumaczenia w formacie projektu i wyciąga teksty wpisane na stałe w interfejsie.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/i18n/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/improve/",
+      "title": "Drobne poprawki na żywo",
+      "description": "Skill improve z agent-skills: prowadzi krótką sesję drobnych poprawek, gdy funkcja już działa: mówisz, co Ci przeszkadza (odstęp, etykieta, wolny krok, przypadek brzegowy), a agent poprawia jedną rzecz naraz najmniejszą zmianą, pokazuje wynik i czeka na kolejną uwagę.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/improve/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/learn/",
+      "title": "Lekcje projektu",
+      "description": "Skill learn z agent-skills: zapisuje potwierdzoną lekcję o bieżącym projekcie (działające polecenie, konwencję zespołu, pułapkę, która kosztowała czas) w .skribly/lessons.md w jednym zakresie (All, CI albo jeden moduł), z datą i nazwą skilla, z którego pochodzi, i tylko po Twojej zgodzie, aby każdy skill następnym razem startował mądrzejszy.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/learn/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/load-test/",
+      "title": "Testy obciążeniowe",
+      "description": "Skill load-test z agent-skills: planuje, pisze i uruchamia testy obciążeniowe w k6 (albo autocannon lub Locust), od krótkiego testu smoke po profile load, stress i spike, z jawnymi progami percentyli opóźnień i odsetka błędów.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/load-test/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/merge/",
+      "title": "Domknięcie gałęzi do develop",
+      "description": "Skill merge z agent-skills: domyka gałąź, której praca jest skończona: sprawdza, czy jest czysta i zielona, dociąga najnowszą gałąź integracyjną, scala do niej (domyślnie develop) tak, jak robi to projekt (commit scalający albo squash, gdzie projekt go używa), robi push, a gałąź i jej worktree usuwa lokalnie i zdalnie dopiero po Twojej zgodzie.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/merge/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/newsletter/",
+      "title": "Numer newslettera",
+      "description": "Skill newsletter z agent-skills: przygotowuje szkic jednego numeru Skribly Newsletter (wiadomości o AI dla programistów oraz nowości w Skribly) po polsku i po angielsku.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/newsletter/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/orchestrate/",
+      "title": "Równoległe subagenty",
+      "description": "Skill orchestrate z agent-skills: dzieli dużą pracę na niezależne podzadania i uruchamia je równolegle w subagentach (narzędzie Agent w Claude Code, agenci Codexa, Cursora lub OpenCode albo osobne sesje), z samodzielnymi opisami i jawnym przypisaniem plików, tak aby nigdy nie edytowały tych samych plików, a potem scala i sprawdza wyniki.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/orchestrate/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/pagespeed/",
+      "title": "PageSpeed i Web Vitals",
+      "description": "Skill pagespeed z agent-skills: mierzy i poprawia Core Web Vitals (LCP, CLS, INP, TBT) przez PageSpeed Insights dla publicznych adresów albo lokalny Lighthouse dla localhost, skraca raport do najważniejszych możliwości poprawy na telefonie i komputerze i prowadzi pętlę poprawka i pomiar, z poprawkami dla Next.js, Vite, Django i Laravel.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/pagespeed/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/perf-backend/",
+      "title": "Wydajność backendu",
+      "description": "Skill perf-backend z agent-skills: znajduje i usuwa problemy wydajności backendu na podstawie dowodów: zapytania N+1 (assertNumQueries i debug toolbar w Django, log zapytań i preventLazyLoading w Laravel, logowanie zapytań ORM), brakujące lub złe indeksy odczytane z EXPLAIN, powtarzaną pracę do zapisania w cache i gorące miejsca CPU znalezione profilerem.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/perf-backend/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/plan-step/",
+      "title": "Plan pakietu pracy",
+      "description": "Skill plan-step z agent-skills: pisze lub rozszerza pakiet pracy planu (w stylu steps/F5.md) dokładnie w kształcie, który plan definiuje: nagłówki w kolejności, zadania z plikami, opisem działań i sprawdzeniem, działania właściciela, weryfikacja, kryteria ukończenia, ryzyka i plany awaryjne.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/plan-step/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/plan/",
+      "title": "Plan dużej inicjatywy",
+      "description": "Skill plan z agent-skills: zamienia dużą lub niejasną inicjatywę (epik, nowy moduł, migrację) w plik planu .tasks/plans/<slug>.md z celem, tym, co jest poza zakresem, ryzykami i uporządkowaną listą małych zadań, każde z tym, co dostarcza, i sposobem sprawdzenia, aby każde zadanie dało się potem przeprowadzić skillem task.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/plan/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/project-docs/",
+      "title": "Dokumentacja wiedzy o projekcie",
+      "description": "Skill project-docs z agent-skills: tworzy lub odświeża folder wiedzy .docs/ repozytorium (przegląd, architektura, moduły, przepływ danych, uruchamianie i testy, decyzje) oraz krótkie AGENTS.md i CLAUDE.md, które na niego wskazują, aby agenci wczytywali wiedzę o projekcie dopiero wtedy, gdy jej potrzebują, a nie w każdej sesji.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/project-docs/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/project/",
+      "title": "Profil projektu",
+      "description": "Skill project z agent-skills: wykrywa, jak projekt jest zbudowany i jak się nad nim pracuje (stos, języki, frameworki, menedżer pakietów, polecenia install, dev, build, test, lint, typecheck i format, styl i język commitów, gałąź bazowa, CI i kontenery), i zapisuje to w .skribly/project.json, profilu projektu, który każdy inny skill czyta jako pierwszy.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/project/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/record-docs/",
+      "title": "Opis zbudowanej funkcji",
+      "description": "Skill record-docs z agent-skills: pisze lub aktualizuje dokumentację ważnej funkcji albo decyzji, gdy już działa: co robi, jak jest zbudowana (moduły, dane, przepływ), jakie decyzje zapadły i dlaczego, jak ją uruchomić i przetestować oraz jakie ma ograniczenia, w folderze dokumentacji projektu, aby następna osoba lub agent czytali jedną stronę zamiast kodu.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/record-docs/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/refactor/",
+      "title": "Refaktoryzacja bez zmiany działania",
+      "description": "Skill refactor z agent-skills: refaktoryzuje kod bez zmiany jego działania: zaczyna od testów charakteryzujących, które utrwalają, co kod robi dziś, potem idzie małymi, sprawdzonymi krokami (wydzielenie, zmiana nazwy, przeniesienie, wchłonięcie, zastąpienie warunków), z testami, typami i przeglądem diffu po każdym kroku, bez domieszki pracy nad nowymi funkcjami.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/refactor/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/release-notes/",
+      "title": "Notatki do wydania",
+      "description": "Skill release-notes z agent-skills: przygotowuje notatki do wydania i wpisy w CHANGELOG.md z historii git od ostatniego tagu, pogrupowane na zmiany łamiące, nowe funkcje, poprawki, wydajność i resztę, pisane dla użytkowników, a nie dla programistów, w stylu listy zmian projektu, z odwołaniami do zgłoszeń i pull requestów i nigdy ze stopką AI.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/release-notes/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/release/",
+      "title": "Lista kontrolna wydania",
+      "description": "Skill release z agent-skills: przechodzi listę kontrolną wydania projektu (listy zmian, aktualizacje zależności, wersjonowanie kontraktów, rejestr, synchronizacja kopii, tagi i wydania, cotygodniowa rutyna) i uruchamia sprawdzenia tylko do odczytu przed wydaniem: develop czysty, package.json i VERSION zgodne, wpis w CHANGELOG.md obecny, tag wolny.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/release/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/report/",
+      "title": "Raport z realizacji",
+      "description": "Skill report z agent-skills: pisze raport z tego, co dostarczono w zadaniu lub funkcji, dla osoby, która o nie prosiła: każde wymaganie specyfikacji lub zgłoszenia powiązane z miejscem w kodzie, sposób sprawdzenia (polecenie lub test i jego wynik), to, czego nie zrobiono i dlaczego, oraz pozostałe ryzyka.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/report/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/review/",
+      "title": "Samodzielny przegląd przed commitem",
+      "description": "Skill review z agent-skills: przegląda Twoje niezatwierdzone zmiany albo diff gałęzi przed commitem: szuka błędów, pominiętych przypadków brzegowych, wpadek bezpieczeństwa, martwego kodu i kodu do debugowania, złamanych konwencji i brakujących testów.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/review/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/run-step/",
+      "title": "Wykonanie pakietu pracy",
+      "description": "Skill run-step z agent-skills: wykonuje jeden pakiet pracy planu (w stylu steps/F5.md) zadanie po zadaniu według protokołu etapów planu: przeczytaj etap, jedno zadanie naraz w kolejności, krótka gałąź z develop dla każdego zadania, jego sprawdzenie, Conventional Commit z jawnymi ścieżkami, scalenie do develop z --no-ff, push i odhaczenie; main dopiero po audycie.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/run-step/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/security-audit/",
+      "title": "Audyt bezpieczeństwa",
+      "description": "Skill security-audit z agent-skills: sprawdza kod albo bieżący diff pod kątem bezpieczeństwa: wycieki sekretów, podatne zależności (npm, pnpm, yarn, Composer, pip przez ich własne narzędzia audytu albo bazę OSV) i niebezpieczne wzorce, takie jak wstrzyknięcia, XSS, niebezpieczna deserializacja, przechodzenie ścieżek, SSRF i brak autoryzacji.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/security-audit/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/seed/",
+      "title": "Dane startowe modułu",
+      "description": "Skill seed z agent-skills: pisze lub rozszerza deterministyczne dane startowe (seedy) modułu w aplikacji zbudowanej z szablonu aplikacji Skribly: seed:minimal i seed:demo, stałe identyfikatory i stały zegar, dane demo po polsku i po angielsku dla organizacji demo, zapisywane w transakcji najemcy, aby działało zabezpieczenie na poziomie wierszy.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/seed/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/seo-audit/",
+      "title": "Techniczny audyt SEO",
+      "description": "Skill seo-audit z agent-skills: sprawdza techniczne SEO stron: tytuł i opis meta, układ nagłówków, canonical, meta robots i robots.txt, sitemap.xml, hreflang, Open Graph, dane strukturalne (JSON-LD), teksty alternatywne obrazów, linki i podstawy wydajności, takie jak zasoby blokujące renderowanie i ryzyko przesunięć układu.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/seo-audit/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/slice/",
+      "title": "Pionowy wycinek",
+      "description": "Skill slice z agent-skills: tworzy szkielet wycinka polecenia lub zapytania albo całego nowego modułu w aplikacji zbudowanej z szablonu aplikacji Skribly, wyprowadzając go z modułu referencyjnego samej aplikacji w chwili uruchomienia (bez kopiowanych konwencji): zwykłe funkcje (input, deps), podział na input.ts, handler.ts lub query.ts i route.ts, handler, który najpierw sprawdza uprawnienia i otwiera jedną transakcję najemcy dla sprawdzonej organizacji, żaden wycinek nie importuje innego, outbox dla polecenia, tool.ts dla MCP na życzenie, seed i przepis na podmianę zależności.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/slice/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/spec/",
+      "title": "Specyfikacja gotowa do wdrożenia",
+      "description": "Skill spec z agent-skills: pisze specyfikację jednego zadania gotową do wdrożenia jako .tasks/specs/SPEC-<slug>.md: cel, zakres (co wchodzi, a co nie), pliki i kontrakty, których dotyka, oraz fazy, z których każda zostawia działający projekt i kończy się dokładnym sprawdzeniem.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/spec/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/standard/",
+      "title": "Standard repozytorium",
+      "description": "Skill standard z agent-skills: sprawdza repozytorium względem standardu Skribly i prowadzi przez naprawę.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/standard/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/task/",
+      "title": "Przebieg zadania",
+      "description": "Skill task z agent-skills: prowadzi zadanie od początku do końca, od zgłoszenia w trackerze (Redmine, Jira, GitHub, GitLab, Linear, Skribly Tracker) albo zwykłej prośby, przez analizę, zatwierdzenie, gałąź, implementację etapami i sprawdzenia, do lokalnego commita zrobionego dopiero po Twojej zgodzie.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/task/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/test-loop/",
+      "title": "Skupiona pętla testów",
+      "description": "Skill test-loop z agent-skills: uruchamia tylko sprawdzenia, których dotyczy bieżąca zmiana (lint, typy, powiązane testy), naprawia błędy w pętli ograniczonej do 3 prób i podaje krótkie podsumowania błędów zamiast pełnych logów.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/test-loop/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/token-saver/",
+      "title": "Oszczędzanie tokenów",
+      "description": "Skill token-saver z agent-skills: zasady pracy, które utrzymują mały kontekst i małe zużycie agenta: szukaj przed czytaniem, czytaj zakresy wierszy zamiast całych plików, skracaj logi, oddawaj pracę mechaniczną skryptom, nie czytaj tego samego drugi raz i wiedz, kiedy zrobić /clear i wznowić pracę z STATE.md.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/token-saver/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/tracker-write/",
+      "title": "Szkice tekstów do trackera i przeglądu",
+      "description": "Skill tracker-write z agent-skills: przygotowuje teksty, które programista wysyła innym, do Twojego zatwierdzenia, zanim cokolwiek zostanie wysłane: nowe zgłoszenie, komentarz do zgłoszenia (postęp, pytanie, oszacowanie, przekazanie pracy), opis pull albo merge requesta, odpowiedź w przeglądzie.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/tracker-write/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/train-skills/",
+      "title": "Dopasowanie skilli do projektu",
+      "description": "Skill train-skills z agent-skills: dopasowuje skille do nowego projektu w jednej pętli: uruchamia agent-skills init (stos, polecenia i konwencje do .skribly/project.json, tylko pasujące skille, dla każdego agenta), czyta profil, raz uruchamia sprawdzenia projektu, przez skill learn zapisuje potwierdzone lekcje z zakresem i cytatem file:line albo commitem, po Twojej zgodzie, i proponuje małe skille projektu w .agents/skills, też po Twojej zgodzie.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/train-skills/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/upgrade/",
+      "title": "Aktualizacja do nowej wersji głównej",
+      "description": "Skill upgrade z agent-skills: przenosi projekt na nową wersję główną frameworka lub środowiska uruchomieniowego (Next.js, React, Angular, Laravel, Django, Rails, Spring Boot, Node, PHP, Python) według przewodnika migracji wersji docelowej, jeden obszar naraz: każdy zaczyna się od testu, który nie przechodzi, a przed kolejnym obszarem wynik jest sprawdzany z Tobą.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/upgrade/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/verify/",
+      "title": "Sprawdzenie zmiany w działającej aplikacji",
+      "description": "Skill verify z agent-skills: dowodzi, że zmiana działa w uruchomionej aplikacji, a nie tylko w testach jednostkowych: uruchamia projekt tak, jak naprawdę działa (jego własnym poleceniem dev albo Dockera z profilu), czeka, aż odpowie, przechodzi zmienioną ścieżkę żądaniem smoke albo przeglądarką bez interfejsu, uruchamia lint, typy i powiązane testy i w kilku wierszach podaje wynik każdego kroku.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/verify/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/wcag-audit/",
+      "title": "Audyt WCAG 2.2 AA",
+      "description": "Skill wcag-audit z agent-skills: sprawdza zmieniony interfejs względem WCAG 2.2 na poziomie AA: uruchamia axe-core przez Playwright, gdy jest dostępny, a w przeciwnym razie celowaną listę kontrolną, i dla każdego problemu podaje konkretną poprawkę w kodzie (element, kryterium sukcesu, poprawka).",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/wcag-audit/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/skill/writing/",
+      "title": "Proste pisanie dla ludzi",
+      "description": "Skill writing z agent-skills: daje każdemu tekstowi, który agent pisze dla ludzi (treść commitów, opisy pull requestów, komentarze w trackerze, raporty, dokumentacja, teksty interfejsu, notatki do wydań), jeden prosty styl po polsku albo po angielsku: krótkie zdania, konkret przed wyjaśnieniem, słowa czytelnika zamiast żargonu, bez waty, bez reklamy i bez maszynowych zwrotów.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Co robi",
+        "Kiedy go używać",
+        "Jak go wywołać",
+        "Skrypty",
+        "Gdzie pasuje",
+        "Koszt w tokenach"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/skill/writing/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/token-cost/",
+      "title": "Koszt w tokenach",
+      "description": "Ile tokenów kosztuje agenta każdy skill agent-skills: wpis na liście trzymany w każdej sesji, uruchomienie, budżet pilnowany przez sprawdzenie i opisy czytane na żądanie.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Kolumny",
+        "Dla każdego skilla"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/token-cost/index.md",
+      "updated": "2026-11-20"
+    },
+    {
+      "path": "/pl/skills/tooling/",
+      "title": "Narzędzia dla agentów",
+      "description": "Polecenia CLI agent-skills, które czynią agentów programujących bezpieczniejszymi i tańszymi - blokada usuwania, pasek stanu, presety uprawnień tylko do odczytu, test serwerów MCP i zadanie CI z agentem.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Blokada usuwania",
+        "Pasek stanu",
+        "Presety uprawnień",
+        "Test serwerów MCP",
+        "Agent programujący w CI",
+        "Serwery MCP frameworków",
+        "Nocny raport",
+        "Preset Dependabota",
+        "Nowe wersje główne",
+        "Czytaj dalej"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/tooling/index.md",
+      "updated": "2026-11-20"
     },
     {
       "path": "/pl/skills/trackers/",
@@ -2741,7 +5000,25 @@
         "Bezpieczeństwo"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/skills/trackers/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
+    },
+    {
+      "path": "/pl/skills/train/",
+      "title": "Dopasuj skille do projektu",
+      "description": "Dopasowanie agent-skills do jednego projektu krok po kroku - agent-skills init, pętla train-skills, włączanie i wyłączanie skilli, lekcje z zakresem i małe własne skille projektu.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "1. Podejrzyj konfigurację",
+        "2. Uruchom init",
+        "3. Poproś agenta o dopasowanie skilli",
+        "4. Włączaj i wyłączaj skille",
+        "5. Zapisuj lekcje",
+        "6. Dodaj skille projektu",
+        "Czytaj dalej"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/train/index.md",
+      "updated": "2026-11-19"
     },
     {
       "path": "/pl/skills/troubleshooting/",
@@ -2764,7 +5041,22 @@
         "Jak używać tego w zespole?"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/skills/troubleshooting/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-11"
+    },
+    {
+      "path": "/pl/skills/updates/",
+      "title": "Aktualizacje",
+      "description": "Jak utrzymać agent-skills na bieżąco - dziś git pull i sync, a w planach polecenie agent-skills update i marketplace'y wtyczek Claude Code, Codexa i Gemini CLI.",
+      "product": "skills",
+      "lang": "pl",
+      "headings": [
+        "Aktualizacja dziś",
+        "W planach: `agent-skills update`",
+        "W planach: marketplace'y wtyczek",
+        "Czytaj dalej"
+      ],
+      "markdownUrl": "https://docs.skribly.pl/pl/skills/updates/index.md",
+      "updated": "2026-11-19"
     },
     {
       "path": "/pl/tracker/",
@@ -2784,7 +5076,7 @@
         "Czytaj dalej"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/tracker/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-14"
     },
     {
       "path": "/pl/tracker/api/",
@@ -2794,7 +5086,7 @@
       "lang": "pl",
       "headings": [],
       "markdownUrl": "https://docs.skribly.pl/pl/tracker/api/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-11"
     },
     {
       "path": "/pl/tracker/configuration/",
@@ -2812,7 +5104,7 @@
         "Klienci"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/tracker/configuration/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/tracker/rest-api/",
@@ -2840,7 +5132,7 @@
         "OpenAPI"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/tracker/rest-api/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-14"
     },
     {
       "path": "/pl/tracker/self-hosting/",
@@ -2857,7 +5149,7 @@
         "Aktualizacja"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/tracker/self-hosting/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-11"
     },
     {
       "path": "/pl/tracker/tokens/",
@@ -2873,7 +5165,7 @@
         "Planowane"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/tracker/tokens/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-11"
     },
     {
       "path": "/pl/tracker/webhooks/",
@@ -2894,7 +5186,7 @@
         "Planowane"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/tracker/webhooks/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-16"
     },
     {
       "path": "/pl/ui/",
@@ -2913,7 +5205,7 @@
         "Planowane"
       ],
       "markdownUrl": "https://docs.skribly.pl/pl/ui/index.md",
-      "updated": "2026-11-18"
+      "updated": "2026-11-11"
     }
   ]
 }

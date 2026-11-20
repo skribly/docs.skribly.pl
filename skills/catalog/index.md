@@ -1,6 +1,6 @@
 # Skills catalog
 
-> All 35 skills of agent-skills, grouped by job, with what each one does, when to use it and how to call it.
+> The skills of agent-skills, grouped by job, with what each one does, when to use it and how to call it; each of the 39 also has its own page.
 
 Invoke a skill as `/name` in Claude Code, Cursor, Gemini CLI, OpenCode, Windsurf and Copilot, `$name` in Codex, or `@skills:name` in a Devin prompt. You can also just describe what you want: agents pick skills by their description.
 
@@ -70,6 +70,24 @@ The machine-readable list is `skills.json` in the repository, validated against 
 | `docs-sync` | Checks that a change a user can see updated, in the same change, the Polish and English language files with the same keys, the repository's `.docs/`, `CHANGELOG.md` and the matching page on this site. Read-only: it reports what is missing and the agent adds it. | `/docs-sync` · "did I update the docs?" |
 | `learn` | Keeps confirmed project lessons (a command that works, a convention, a pitfall) in `.skribly/lessons.md`, one dated line each with the skill it came from, written only after you agree. Every skill reads the file first. Refuses anything that looks like a secret. | `/learn` · "remember that the e2e suite needs a seeded database" |
 | `token-saver` | Working rules for a small context: search before reading, line ranges, condensed logs, scripts instead of the model, `/clear` plus `STATE.md`. | `/token-saver` · "I'm close to the limit" |
+
+## In development: eleven workflow skills
+
+These skills are on the `develop` branch of agent-skills and ship in the next release; until then they are marked "next" on their own pages.
+
+| Skill | What it does | Example |
+| --- | --- | --- |
+| [`plan`](/skills/skill/plan/) | Turns a large or vague initiative into `.tasks/plans/<slug>.md`: the goal, what is out of scope, the risks and an ordered list of small tasks, each with what it delivers and how it is checked. | `/plan` · "break this epic down" |
+| [`verify`](/skills/skill/verify/) | Proves a change works in the running application: starts it with the project's own command, exercises the changed path with a request or a headless browser, runs lint, types and the related tests. | `/verify` · "does it actually work?" |
+| [`improve`](/skills/skill/improve/) | A short session of small fixes after a feature works: you name one thing, the agent fixes it with the smallest change, shows it and waits for the next. | `/improve` · "small fixes" |
+| [`merge`](/skills/skill/merge/) | Finishes a done branch into `develop` the way the project merges, pushes, and removes the branch and its worktree only after you agree. Never touches the release branch and never force pushes. | `/merge` · "finish the branch" |
+| [`blast-radius`](/skills/skill/blast-radius/) | Finds what a change can break outside its diff (callers, routes, jobs, migrations, configuration) and proves its one key assumption by running code. | `/blast-radius` · "what could this break?" |
+| [`deslop`](/skills/skill/deslop/) | Cleans machine-written leftovers from the lines an agent added: comments that repeat the code, impossible checks, swallowed errors, unused helpers, inflated prose. Only on request. | `/deslop` · "make this look like our code" |
+| [`correct`](/skills/skill/correct/) | Turns a mistake agents keep making into a guard that stops it: a type, a lint rule, a test or a check script, added after you agree. Only on request. | `/correct` · "agents keep doing X" |
+| [`report`](/skills/skill/report/) | A delivery report for the person who asked: each requirement mapped to the code and to the check that proves it, what is not done and the risks left. | `/report` · "what did we deliver?" |
+| [`record-docs`](/skills/skill/record-docs/) | Writes the as-built page of an important feature or decision: what it does, how it is built, the decisions, how to run and test it, and its limits. | `/record-docs` · "document this feature" |
+| [`writing`](/skills/skill/writing/) | One plain style, in Polish or English, for every text an agent writes for people, and a rewrite of a given text on request. | `/writing` · "rewrite this plainly" |
+| [`tracker-write`](/skills/skill/tracker-write/) | Drafts an issue, a tracker comment, a pull request description or a review reply for your approval; nothing is posted until you say so. | `/tracker-write` · "write the PR description" |
 
 ## Files the skills leave behind
 

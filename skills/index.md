@@ -1,6 +1,6 @@
 # agent-skills
 
-> 35 portable skills that take AI coding agents from a tracker ticket to a reviewed, tested commit - cheap on tokens, safe by default, with no AI co-author trailers.
+> 39 portable skills that take AI coding agents from a tracker ticket to a reviewed, tested commit - cheap on tokens, safe by default, with no AI co-author trailers.
 
 **agent-skills** is a library of short, tested procedures ("skills") for AI coding agents, plus a zero-dependency installer that puts them where each agent looks. It supports Claude Code, Codex CLI, Cursor, Gemini CLI, OpenCode, Windsurf, GitHub Copilot and Devin.
 
@@ -28,6 +28,10 @@ Skills cover the whole loop: pick up a Redmine, Jira, GitHub, GitLab, Linear or 
 | Requirements | `git` and Node.js 20 or newer |
 | Runtime dependencies | None |
 | Licence | MIT |
+
+:::note[In development: 57 skills]
+The next release grows the set to 57 skills: the 39 of 0.3.0 and eighteen new ones, among them `plan`, `spec`, `verify`, `e2e-check`, `improve`, `merge`, the guardrails `gate-convention`, `blast-radius` and `deslop`, `train-skills`, `framework-guide` and `upgrade`. Every skill already has its own page under [All skills](/skills/skill/), marked "next" until it is released. The version in development is described in [How it works](/skills/how-it-works/), [Train the skills for your project](/skills/train/), [Updates](/skills/updates/), [Agent tooling](/skills/tooling/) and [Token cost](/skills/token-cost/).
+:::
 
 ## How a skill is built
 
@@ -66,6 +70,9 @@ The full measurements are on [Token saving](/agent/token-saving/).
 
 - [Install](/skills/install/): user scope or project scope, updates, Windows.
 - [Skills catalog](/skills/catalog/): every skill and when to use it.
+- [All skills](/skills/skill/): a page per skill, generated from its `SKILL.md`.
+- [How it works](/skills/how-it-works/): the pipeline, the guardrails, the profile and lessons with scopes.
+- [Train the skills for your project](/skills/train/): `init`, `train-skills` and the project switches, step by step.
 - [Supported agents](/skills/agents/): where each agent gets the skills, and the files `agent-skills agent-files` generates from `AGENTS.md`.
 - [Trackers](/skills/trackers/): credentials for each tracker.
 - [Commits without AI trailers](/skills/commits/): the three layers that keep commits yours.

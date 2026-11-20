@@ -1,6 +1,6 @@
 # Install agent-skills
 
-> Install agent-skills for one or all eight agents, at user or project scope, keep it updated and remove it cleanly.
+> Install agent-skills for one or all seven agents, at user or project scope, keep it updated and remove it cleanly.
 
 ## Requirements
 

@@ -13,7 +13,7 @@ export const tools = [
 		title: 'agent-skills',
 		product: 'skills',
 		href: '/pl/skills/',
-		text: '35 przenośnych skilli, które prowadzą agenta programującego od zgłoszenia w trackerze do przejrzanego i przetestowanego commita, z jednym instalatorem dla ośmiu agentów i bez zależności w czasie działania.',
+		text: '39 przenośnych skilli, które prowadzą agenta programującego od zgłoszenia w trackerze do przejrzanego i przetestowanego commita, z jednym instalatorem dla siedmiu agentów i bez zależności w czasie działania.',
 	},
 	{
 		title: 'Skribly Tracker',
